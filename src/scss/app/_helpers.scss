@@ -1,0 +1,71 @@
+/* Text meant only for screen readers */
+.screen-reader-text,
+.icon-alt {
+    @extend .visually-hidden;
+    @extend .visually-hidden-focusable;
+}
+
+
+/* Highlight */
+
+mark {
+    display: inline-block;
+    background-color: $mark-bg;
+    color: $primary;
+    padding: 0;
+    padding-left: 1px;
+    padding-right: 1px;
+    margin-left: -1px;
+    margin-right: -1px;
+}
+
+
+::selection { 
+    background: var(--#{$prefix}dark); 
+    color: var(--#{$prefix}light); 
+}
+
+@include color-mode(dark) {
+    ::selection { 
+        background: var(--#{$prefix}light); 
+        color: var(--#{$prefix}dark); 
+    }    
+}
+
+/* List */
+
+.list--inline-tags,
+.post-categories {
+    @include list-tags;
+    margin-bottom: 0;
+    a {
+        @include link-tag;
+    }
+}
+
+
+.text-center{
+    .twitter-tweet{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.text-right{
+    .twitter-tweet{
+        margin-left: auto;
+    }
+}
+
+
+/* Hide UOC Tools */
+body.hide-uoc-tools .uoc_portafolis_tools{
+    display: none !important;
+}
+
+/* PDF EMBED */
+.site .pdfemb-viewer{
+    border: 0;
+    margin-left: auto;
+    margin-right: auto;
+}

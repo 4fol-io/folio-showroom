@@ -1,0 +1,18 @@
+// Verse block.
+
+.wp-block-verse {
+    margin: $block-margin-y 0;
+    font-family: inherit;
+    font-size: inherit;
+    background: transparent;
+    color: inherit;
+    line-height: 1.7;
+    padding: 1rem;
+    
+}
+
+.alignleft, .alignright{
+    + .wp-block-verse:not([class^="align"]){
+        clear: both;
+    }
+}

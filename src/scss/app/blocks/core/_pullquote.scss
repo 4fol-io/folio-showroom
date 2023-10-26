@@ -1,0 +1,100 @@
+// Pullquote block.
+
+
+.wp-block-pullquote {
+	text-align: center;
+	position: relative;
+	margin: $block-margin-y 0;
+    padding: 4rem 3.5rem 1rem;
+
+	border-top: 2px solid var(--#{$prefix}border-color);
+	border-bottom: 2px solid var(--#{$prefix}border-color);
+
+	cite,
+	footer {
+		position: relative;
+		font-size: $font-size-base;
+		color: var(--#{$prefix}secondary);
+		font-style: normal;
+	}
+
+	blockquote{
+		padding: 0;
+		max-width: 80%;
+		margin: 1.5rem auto;
+		position: relative;
+		&::before {
+			padding: 1rem;
+			content: "\201C";
+			color: var(--#{$prefix}primary);
+			line-height: 0.9;
+			font-size: 7.5rem;
+			line-height: .8;
+			position: absolute;
+			top: -4.5rem;
+			left: 50%;
+			opacity: 0.4;
+			margin-left: -36px;
+		}
+
+		p{
+			margin-bottom: $paragraph-margin-bottom;
+			font-size: $h2-font-size;
+		}
+
+		@each $color, $value in $theme-colors {
+			&.has-#{$color}-color {
+				&::before {
+					color: $value;
+				}
+				cite,
+				footer {
+					color: $value;
+					opacity: .75;
+				}
+			}	
+		}
+	}
+
+
+	&.is-style-solid-color{
+		border: none;
+		blockquote {
+			margin-left: auto;
+			margin-right: auto;
+			text-align: inherit;
+			max-width: 80%;
+			p{
+				margin-bottom: $paragraph-margin-bottom;
+				font-size: $h2-font-size;
+			}
+		}
+
+	}
+
+	
+	&.alignright, &.alignleft{
+		margin-top: 0;
+		padding-left: 1.5rem;
+		padding-right: 1.5rem;
+		max-width: 33.333%;
+		blockquote{
+			max-width: 92%;
+			p{
+				font-size: $h4-font-size;
+			}
+		}
+
+		@include media-breakpoint-down(md) {
+			max-width: 47%;
+		}
+
+		@include media-breakpoint-down(sm) {
+			margin-left: 0;
+			margin-right: 0;
+			max-width: 100%;
+		}
+	}
+}
+
+

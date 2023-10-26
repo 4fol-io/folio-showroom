@@ -1,0 +1,1 @@
+{"version":3,"file":"css/admin.css","mappings":"AAEA,iCACE,eAAF,C","sources":["webpack://folio-showroom/./src/scss/admin.scss"],"sourcesContent":["/* Admin Stylesheet */\n\n.folio-showroom-action-btn:focus {\n  box-shadow: none;\n}\n"],"names":[],"sourceRoot":""}

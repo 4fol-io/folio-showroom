@@ -1,0 +1,1102 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: folio-showroom 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-26 16:07+0200\n"
+"PO-Revision-Date: 2023-10-26 16:08+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4\n"
+"X-Domain: folio-showroom\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_n_noop:1,2;_x:1,2c;_nx:4c,1,2;"
+"_nx_noop:4c,1,2;_ex:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;"
+"esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+"X-Poedit-SearchPathExcluded-1: .git\n"
+"X-Poedit-SearchPathExcluded-2: dist\n"
+
+#: 404.php:19
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ui! No es troba la pàgina."
+
+#: 404.php:23
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+"Sembla que no s'ha trobat res en aquest lloc. Potser proveu un dels enllaços "
+"següents o una cerca?"
+
+#: 404.php:32
+msgid "Most Used Categories"
+msgstr "Categories més utilitzades"
+
+#: 404.php:50
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Proveu de buscar-los als arxius mensuals. %1$s"
+
+#: comments.php:42
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "Un comentari a &ldquo;%1$s&rdquo;"
+
+#: comments.php:48
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s comentari a &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s comentaris a &ldquo;%2$s&rdquo;"
+
+#: comments.php:76
+msgid "Comments are closed."
+msgstr "Els comentaris són tancats."
+
+#: footer.php:47
+msgid "Go to top"
+msgstr "Anar a dalt"
+
+#: header.php:125
+msgid "Skip to content"
+msgstr "Saltar al contingut"
+
+#: header.php:214 template-parts/menu-search.php:39
+#: template-parts/searchform.php:9
+msgid "Search"
+msgstr "Cerca"
+
+#: header.php:231
+msgid "Menu"
+msgstr "Menú"
+
+#: inc/customizer.php:67
+msgid "Home Slider"
+msgstr "Slider d’inici"
+
+#: inc/customizer.php:83
+msgid "Home title"
+msgstr "Títol de la llar"
+
+#: inc/customizer.php:84 inc/customizer.php:663
+msgid "Accepted placeholders:"
+msgstr "Marcadors acceptats:"
+
+#: inc/customizer.php:101
+msgid "UOC Settings"
+msgstr "Configuració UOC"
+
+#: inc/customizer.php:112
+msgid "UOC Tools Settings"
+msgstr "Configuració de les eines UOC"
+
+#: inc/customizer.php:125
+msgid "Display UOC Footer"
+msgstr "Mostra el peu de pàgina de la UOC"
+
+#: inc/customizer.php:140
+msgid "Display UOC Tools"
+msgstr "Mostra les eines de la UOC"
+
+#: inc/customizer.php:153
+msgid "Color Settings"
+msgstr "Configuració de color"
+
+#: inc/customizer.php:164
+msgid "Color mode"
+msgstr "Mode de color"
+
+#: inc/customizer.php:168 inc/data.php:60 src/js/editor.js:47
+msgid "Default"
+msgstr "Per defecte"
+
+#: inc/customizer.php:170 inc/data.php:61 src/js/editor.js:48
+msgid "Light"
+msgstr "Clar"
+
+#: inc/customizer.php:173 inc/data.php:62 src/js/editor.js:49
+msgid "Dark"
+msgstr "Fosc"
+
+#: inc/customizer.php:215
+msgid "Light mode"
+msgstr "Mode clar"
+
+#: inc/customizer.php:221 inc/customizer.php:254
+msgid "Primary Color"
+msgstr "Color primari"
+
+#: inc/customizer.php:228 inc/customizer.php:261
+msgid "Secondary Color"
+msgstr "Color secundari"
+
+#: inc/customizer.php:234 inc/customizer.php:267
+msgid "Links Color"
+msgstr "Color d’enllaços"
+
+#: inc/customizer.php:246
+msgid "Dark mode"
+msgstr "Mode fosc"
+
+#: inc/customizer.php:276
+msgid "Header Settings"
+msgstr "Configuració de la capçalera"
+
+#: inc/customizer.php:287
+msgid "Default header style"
+msgstr "Estil de capçalera predeterminat"
+
+#: inc/customizer.php:298 inc/customizer.php:337 inc/meta.php:295
+#: inc/meta.php:332 src/js/editor.js:44
+msgid "Header style"
+msgstr "Estil de capçalera"
+
+#: inc/customizer.php:315 inc/customizer.php:349
+msgid "Header overlapping?"
+msgstr "La capçalera es superposa?"
+
+#: inc/customizer.php:326
+msgid "Home header style (latest posts)"
+msgstr "Estil de la capçalera d’inici (últimes entrades)"
+
+#: inc/customizer.php:361
+msgid "Header global settings"
+msgstr "Configuració global de la capçalera"
+
+#: inc/customizer.php:367
+msgid "Sticky header?"
+msgstr "Capçalera enganxosa?"
+
+#: inc/customizer.php:381
+msgid "Enable color mode Switcher?"
+msgstr "Habilita el commutador de mode de color?"
+
+#: inc/customizer.php:394
+msgid "Display search button?"
+msgstr "Mostra el botó de cerca?"
+
+#: inc/customizer.php:407
+msgid "Use theme WPML Lang Menu?"
+msgstr "Utilitza menú d’idioma WPML del tema?"
+
+#: inc/customizer.php:426
+msgid "Header width"
+msgstr "Amplada de la capçalera"
+
+#: inc/customizer.php:439
+msgid "Header menu font family"
+msgstr "Família de tipus de lletra del menú"
+
+#: inc/customizer.php:453
+msgid "Header menu font size"
+msgstr "Mida de lletra del menú"
+
+#: inc/customizer.php:470
+msgid "Header menu spacing"
+msgstr "Espaiat del menú"
+
+#: inc/customizer.php:488
+msgid "Transparent sticky header blur"
+msgstr "Desenfocament de la capçalera transparent enganxosa"
+
+#: inc/customizer.php:503
+msgid "Posts/Pages Settings"
+msgstr "Configuració de publicacions/pàgines"
+
+#: inc/customizer.php:515
+msgid "Archive width"
+msgstr "Amplada de l’arxiu"
+
+#: inc/customizer.php:530
+msgid "Pagination previous label"
+msgstr "Paginació etiqueta anterior"
+
+#: inc/customizer.php:532
+msgid "Previous post"
+msgstr "Publicació anterior"
+
+#: inc/customizer.php:545
+msgid "Pagination next label"
+msgstr "Paginació següent etiqueta"
+
+#: inc/customizer.php:547 inc/templates.php:42
+msgid "Next post"
+msgstr "Publicació següent"
+
+#: inc/customizer.php:565
+msgid "Display Categories"
+msgstr "Mostrar les categories"
+
+#: inc/customizer.php:577
+msgid "Display Tags"
+msgstr "Mostra les etiquetes"
+
+#: inc/customizer.php:590
+msgid "Display Comments"
+msgstr "Mostra comentaris"
+
+#: inc/customizer.php:603
+msgid "Display Breadcrumbs"
+msgstr "Mostra les ratlles"
+
+#: inc/customizer.php:622
+msgid "Related Posts Title"
+msgstr "Títol de les publicacions relacionades"
+
+#: inc/customizer.php:634
+msgid "Limit of related posts"
+msgstr "Límit de publicacions relacionades"
+
+#: inc/customizer.php:649
+msgid "Footer Settings"
+msgstr "Configuració peu de pàgina"
+
+#: inc/customizer.php:662
+msgid "Footer Text"
+msgstr "Text del peu de pàgina"
+
+#: inc/customizer.php:673
+msgid "Display Go To Top"
+msgstr "Mostra Anar a dalt"
+
+#: inc/data.php:23
+msgid "UOC Sans"
+msgstr "UOC Sans"
+
+#: inc/data.php:24
+msgid "UOC Serif"
+msgstr "UOC Serif"
+
+#: inc/data.php:34 inc/data.php:156
+msgid "&mdash; Select &mdash;"
+msgstr "&mdash; Seleccioneu &mdash;"
+
+#: inc/data.php:35
+msgid "Left"
+msgstr "Esquerra"
+
+#: inc/data.php:36
+msgid "Center"
+msgstr "Centrat"
+
+#: inc/data.php:37
+msgid "Right"
+msgstr "Dreta"
+
+#: inc/data.php:38
+msgid "Justify"
+msgstr "Justificar"
+
+#: inc/data.php:48 inc/setup.php:124
+msgid "Normal"
+msgstr "Normal"
+
+#: inc/data.php:49
+msgid "Wide"
+msgstr "Ample"
+
+#: inc/data.php:50
+msgid "Full width"
+msgstr "Ample total"
+
+#: inc/data.php:63 src/js/editor.js:50
+msgid "Transparent Default"
+msgstr "Transparent per defecte"
+
+#: inc/data.php:64 src/js/editor.js:51
+msgid "Transparent Light"
+msgstr "Transparent clar"
+
+#: inc/data.php:65 src/js/editor.js:52
+msgid "Transparent Dark"
+msgstr "Transparent fosc"
+
+#: inc/data.php:88
+msgid "Discover"
+msgstr "Descobreix"
+
+#: inc/data.php:101
+msgid "<em>More</em> <strong>Folios</strong>"
+msgstr "<em>Més</em> <strong>Folios</strong>"
+
+#: inc/data.php:103
+msgid "Previus Folio"
+msgstr "Anterior Folio"
+
+#: inc/data.php:104
+msgid "Next Folio"
+msgstr "Següent Folio"
+
+#: inc/data.php:113
+msgid ""
+"[copyright] [current_year] - [site_title]<br>Made with ❤️ by <a "
+"href=\"https://tresipunt.com\" target=\"_blank\"><strong>tresipunt</strong></"
+"a>"
+msgstr ""
+"[copyright] [current_year] - [site_title]<br>Fet amb ❤️ per <a href=“https://"
+"tresipunt.com” target=“_blank”><strong>tresipunt</strong></a>"
+
+#: inc/images.php:33 inc/meta.php:174 inc/meta.php:207 inc/setup.php:323
+msgid "Featured"
+msgstr "Destacat"
+
+#: inc/meta.php:198
+msgid "Non Featured"
+msgstr "No destacat"
+
+#: inc/meta.php:286 inc/meta.php:321 inc/meta.php:376 inc/meta.php:383
+msgid "Slider"
+msgstr "Slider"
+
+#: inc/meta.php:292
+msgid "Slider revolution module to display for this term page."
+msgstr "Mòdul Slider Revolution a mostrar a la pàgina del terme."
+
+#: inc/meta.php:301 inc/meta.php:339
+msgid ""
+"Header style for this term page (transparent styles overlay the header over "
+"the content)."
+msgstr ""
+"Estil de capçalera per a la pàgina d’aquest terme (estils transparents "
+"superposen la capçalera sobre el contingut)."
+
+#: inc/meta.php:328
+msgid "Slider revolution module to display for this term."
+msgstr "Mòdul Slider Revolution per mostrar per a aquest terme."
+
+#: inc/nav.php:447
+msgid "Add a menu"
+msgstr "Afegiu un menú"
+
+#: inc/pagination.php:23
+msgid "Page"
+msgstr "Pàgina"
+
+#: inc/pagination.php:121 inc/pagination.php:159
+msgid "Previous"
+msgstr "Anterior"
+
+#: inc/pagination.php:122 inc/pagination.php:160
+msgid "Next"
+msgstr "Següent"
+
+#: inc/pagination.php:123
+msgid "Navigation"
+msgstr "Navegació"
+
+#: inc/pagination.php:161
+msgid "Debate navigation"
+msgstr "Navegació de debat"
+
+#: inc/pagination.php:189
+msgid "Posts navigation"
+msgstr "Navegació d'entrades"
+
+#: inc/pagination.php:193
+msgid "Older posts"
+msgstr "Entrades anteriors"
+
+#: inc/pagination.php:197
+msgid "Newer posts"
+msgstr "Entrades més recents"
+
+#: inc/setup.php:57
+msgid "Primary menu"
+msgstr "Menú principal"
+
+#: inc/setup.php:58
+msgid "Secondary menu"
+msgstr "Menú secundari"
+
+#: inc/setup.php:59
+msgid "Offcanvas menu"
+msgstr "Menú Offcanvas"
+
+#: inc/setup.php:119
+msgid "Small"
+msgstr "Petit"
+
+#: inc/setup.php:129
+msgid "Medium"
+msgstr "Mitjà"
+
+#: inc/setup.php:134
+msgid "Large"
+msgstr "Gran"
+
+#: inc/setup.php:139
+msgid "XLarge"
+msgstr "Molt gran"
+
+#: inc/setup.php:144
+msgid "Huge"
+msgstr "Extra gran"
+
+#: inc/setup.php:186
+msgid "Footer"
+msgstr "Peu de pàgina"
+
+#: inc/setup.php:187
+msgid "Add widgets here to appear in your footer site."
+msgstr "Afegiu widgets aquí per aparèixer al peu de página de l'lloc."
+
+#: inc/setup.php:252
+msgid "(opens in new window)"
+msgstr "(s'obre en una finestra nova)"
+
+#: inc/setup.php:253
+msgid "Close menu"
+msgstr "Tanca menu"
+
+#: inc/setup.php:254
+msgid "Loading"
+msgstr "Carregant"
+
+#: inc/setup.php:255
+msgid "expand / collapse"
+msgstr "expandir / contraure"
+
+#: inc/setup.php:256
+msgid "Load more"
+msgstr "Carregar més"
+
+#: inc/setup.php:324
+msgid "Not featured"
+msgstr "No destacat"
+
+#: inc/templates.php:28
+msgid "Pages:"
+msgstr "Pàgines:"
+
+#: inc/templates.php:41
+msgid "Previus post"
+msgstr "Publicació anterior"
+
+#: inc/templates.php:67
+#, php-format
+msgid "Leave a Comment<span class=\"visually-hidden\"> on %s</span>"
+msgstr "Deixa un comentari<span class=\"visually-hidden\"> a %s</span>"
+
+#: inc/templates.php:92
+#, php-format
+msgid "Edit %s"
+msgstr "Edita %s"
+
+#: inc/templates.php:129 inc/templates.php:155
+msgid "Publication date"
+msgstr "Data de publicació"
+
+#: inc/templates.php:182
+msgid "Authorship"
+msgstr "Autoria"
+
+#: inc/templates.php:213
+msgid "by"
+msgstr "per"
+
+#: inc/templates.php:227
+msgid "Tags"
+msgstr "Etiquetes"
+
+#: inc/templates.php:244 inc/templates.php:261
+msgid "Categories"
+msgstr "Categories"
+
+#: inc/templates.php:368
+msgid "Please enter the message"
+msgstr "Si us plau, introdueix el contingut"
+
+#: inc/templates.php:374
+#, php-format
+msgid "Logged in as %s. Edit your profile."
+msgstr "Connectat com %s. Edita perfil."
+
+#: inc/templates.php:377
+msgid "Log out?"
+msgstr "Tancar sessió?"
+
+#: inc/templates.php:382
+msgid "Your comment"
+msgstr "El teu comentari"
+
+#: inc/templates.php:383
+msgid "Your message"
+msgstr "El teu missatge"
+
+#: inc/templates.php:386
+msgid "Send comment"
+msgstr "Enviar comentari"
+
+#: inc/templates.php:387
+msgid "Leave a comment"
+msgstr "Deixa un comentari"
+
+#: inc/templates.php:388
+msgid "Cancel Reply"
+msgstr "Cancel·la la resposta"
+
+#: inc/templates.php:414
+msgid "Please enter the name"
+msgstr "Si us plau, introdueix el nom"
+
+#: inc/templates.php:415
+msgid "Please enter a valid email"
+msgstr "Si us plau, introdueix una adreça electrònica vàlida"
+
+#: inc/templates.php:418 inc/templates.php:419
+msgid "Name"
+msgstr "Nom"
+
+#: inc/templates.php:423 inc/templates.php:424
+msgid "Your email"
+msgstr "El teu email"
+
+#: inc/templates.php:428 inc/templates.php:429
+msgid "Website"
+msgstr "Lloc web"
+
+#: inc/templates.php:437
+msgid ""
+"Save my name, email, and website in this browser for the next time I comment."
+msgstr ""
+"Deseu el meu nom, correu electrònic i lloc web en aquest navegador per a la "
+"propera vegada que comenteu."
+
+#: inc/utils.php:245 inc/utils.php:293
+msgid "Home"
+msgstr "Inici"
+
+#: inc/utils.php:256 inc/utils.php:258 inc/utils.php:260 inc/utils.php:262
+#: inc/utils.php:264
+#, php-format
+msgid "<li class=\"breadcrumb-item\">%s</li>"
+msgstr "<li class=\"breadcrumb-item\">%s</li>"
+
+#: inc/utils.php:258
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: inc/utils.php:260
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: inc/utils.php:267
+#, php-format
+msgid "<li class=\"breadcrumb-item\">Search: %s</li>"
+msgstr "<li class=\"breadcrumb-item\">Cerca: %s</li>"
+
+#: inc/utils.php:305
+msgid "Open menu"
+msgstr "Obre el menú"
+
+#: inc/utils.php:433
+msgctxt "Added to posts and pages that are missing titles"
+msgid "Untitled"
+msgstr "Sense títol"
+
+#: inc/utils.php:525
+msgid "Cancel"
+msgstr "Cancel·la"
+
+#: inc/utils.php:624
+#, php-format
+msgctxt "%s = human-readable time difference"
+msgid "%s ago"
+msgstr "fa %s"
+
+#: search.php:35
+msgid "Search Results for:"
+msgstr "Resultats de la cerca per a:"
+
+#: src/js/editor.js:35
+msgid "Showroom Settings"
+msgstr "Configuració Showroom"
+
+#: src/js/editor.js:38
+msgid "Featured?"
+msgstr "Destacat?"
+
+#: src/js/editor.js:40
+msgid "Featured posts are displayed in the home slider."
+msgstr "Les publicacions destacades es mostren al slider d’inici."
+
+#: src/js/editor.js:57
+msgid "Header overlay?"
+msgstr "Superposició de capçalera?"
+
+#: src/js/editor.js:59
+msgid "Removes header margin for fullwidth sliders, covers, etc."
+msgstr ""
+"Elimina el marge de la capçalera per sliders d’amplada completa, cobertes, "
+"etc."
+
+#: src/js/editor.js:63
+msgid "Hide title?"
+msgstr "Amagar el títol?"
+
+#: src/js/editor.js:69
+msgid "Hide header info?"
+msgstr "Amagar la informació de la capçalera?"
+
+#: src/js/editor.js:74
+msgid "Hide featured image?"
+msgstr "Amagar la imatge destacada?"
+
+#: src/js/editor.js:81
+msgid "Showroom author"
+msgstr "Showroom Autor"
+
+#: src/js/editor.js:85
+msgid "Author image"
+msgstr "Imatge de l’autor"
+
+#: src/js/editor.js:86
+msgid "Upload image"
+msgstr "Carregar imatge"
+
+#: src/js/editor.js:87
+msgid "Remove image"
+msgstr "Eliminar imatge"
+
+#: src/js/editor.js:91
+msgid "Author name"
+msgstr "Nom de l’autor"
+
+#: src/js/editor.js:95
+msgid "Author url"
+msgstr "Url de l’autor"
+
+#: template-parts/content-none.php:15
+msgid "Nothing Found"
+msgstr "No s’ha trobat res"
+
+#: template-parts/content-none.php:25
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Preparat per a publicar la primera entrada? <a href=\"%1$s\">Comença aquí</"
+"a>."
+
+#: template-parts/content-none.php:38
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Malauradament, no hi ha res que coincideixi amb els termes de cerca. Si us "
+"plau, torna-ho a provar amb algunes paraules clau diferents."
+
+#: template-parts/content-none.php:45
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Sembla que no trobem el que busques. Potser la funció de cerca pot ajudar."
+
+#: template-parts/content-single.php:58
+#, php-format
+msgid "Continue reading<span class=\"visually-hidden\"> \"%s\"</span>"
+msgstr "Seguir llegint<span class=\"visually-hidden\"> \"%s\"</span>"
+
+#: template-parts/menu-offcanvas.php:50 template-parts/menu-search.php:46
+msgid "Close"
+msgstr "Tanca"
+
+#: template-parts/menu-search.php:24 template-parts/searchform.php:2
+#, php-format
+msgid "Search in %s..."
+msgstr "Cerca a %s…"
+
+#: template-parts/menu-search.php:35 template-parts/searchform.php:5
+msgid "Search for:"
+msgstr "Cerca per:"
+
+#~ msgid "Hide Page Heading"
+#~ msgstr "Amaga l'encapçalament de la pàgina"
+
+#~ msgid "Gray"
+#~ msgstr "Gris"
+
+#~ msgid "Green"
+#~ msgstr "Verd"
+
+#~ msgid "Orange"
+#~ msgstr "Taronja"
+
+#~ msgid "Red"
+#~ msgstr "Vermell"
+
+#~ msgid "List"
+#~ msgstr "Llista"
+
+#~ msgid "Grid"
+#~ msgstr "Grilla"
+
+#~ msgid "Masonry"
+#~ msgstr "Masonry"
+
+#~ msgid "Full content"
+#~ msgstr "Contingut complet"
+
+#~ msgid "Summary"
+#~ msgstr "Resum"
+
+#~ msgid "General Settings"
+#~ msgstr "Configuració general"
+
+#~ msgid "Content Align"
+#~ msgstr "Alineació del contingut"
+
+#~ msgid "Archive content"
+#~ msgstr "Arxiu contingut"
+
+#~ msgid "Display Featured Image in Archive"
+#~ msgstr "Mostra la imatge destacada a l′arxiu"
+
+#~ msgid "CTA Button Type"
+#~ msgstr "Tipus de botó d’acció"
+
+#~ msgid "Button outline style"
+#~ msgstr "Estil de contorn de botons"
+
+#~ msgid "CTA Title"
+#~ msgstr "Titol de botó d'acció"
+
+#~ msgid "CTA Link"
+#~ msgstr "Enllaç de botó d'acció"
+
+#~ msgid "Opens in new window"
+#~ msgstr "S′obre en una finestra nova"
+
+#~ msgid "Footer Text Align"
+#~ msgstr "Alineació de text del peu de pàgina"
+
+#~ msgid "Comments navigation"
+#~ msgstr "Navegació de comentaris"
+
+#~ msgid "Welcome to Folio!"
+#~ msgstr "Benvinguda a Folio!"
+
+#~ msgctxt "Block pattern description"
+#~ msgid "Folio welcome section with big title, description and illustration"
+#~ msgstr ""
+#~ "Secció de benvinguda folio amb títol gran, descripció i il·lustració"
+
+#~ msgid "Hi!"
+#~ msgstr "Hola!"
+
+#~ msgid ""
+#~ "Folio can be your personal space to connect with colleagues, society and "
+#~ "the working market."
+#~ msgstr ""
+#~ "Folio pot ser el teu espai personal per connectar amb companys i "
+#~ "companyes, la societat i el món laboral."
+
+#~ msgid "What is Folio?"
+#~ msgstr "Què és Folio?"
+
+#~ msgctxt "Block pattern description"
+#~ msgid ""
+#~ "Folio what is section with title and three columns of blocks with icons"
+#~ msgstr "Què és Folio secció amb títol i tres columnes de blocs amb icones"
+
+#~ msgid "Personal space"
+#~ msgstr "Espai Personal"
+
+#~ msgid ""
+#~ "Use it <strong>throughout your studies and beyond</strong>. You can "
+#~ "publish your own content, classroom activities, evaluable work..."
+#~ msgstr ""
+#~ "Fes-lo servir <strong>al llarg dels teus estudis i més enllà</strong>. "
+#~ "Pots publicar-hi continguts propis, activitats d’aules, treballs "
+#~ "avaluables…"
+
+#~ msgid "Community"
+#~ msgstr "Comunitat"
+
+#~ msgid ""
+#~ "Publish and share your content and check out other people's posts. A "
+#~ "<strong>socialization</strong> space that will help you<strong> learn "
+#~ "among equals</strong>"
+#~ msgstr ""
+#~ "Publica i comparteix els teus continguts i visualitza les publicacions "
+#~ "d’altres persones. Un espai de <strong>socialització</strong> que "
+#~ "t’ajudarà a <strong>aprendre entre iguals</strong>"
+
+#~ msgid "Get professional"
+#~ msgstr "Professionalitza’t"
+
+#~ msgid ""
+#~ "Folio uses <strong>WordPress</strong>, the most widely used open source "
+#~ "content management system in the world. You will learn to work with the "
+#~ "<strong>portfolio tool preferred by professionals</strong>."
+#~ msgstr ""
+#~ "Folio fa servir <strong>WordPress</strong>, el gestor de continguts de "
+#~ "codi obert més usat al món. Aprendràs a treballar amb l’eina de "
+#~ "<strong>portafolis preferida pels professionals</strong>."
+
+#~ msgid "What can you do with Folio?"
+#~ msgstr "Què pots fer amb Folio?"
+
+#~ msgctxt "Block pattern description"
+#~ msgid ""
+#~ "Folio what can you do section with title, description and two columns for "
+#~ "accordion and illustration"
+#~ msgstr ""
+#~ "Secció què pots fer amb Folio amb títol, descripció i dues columnes per "
+#~ "acordió i il·lustració"
+
+#~ msgid ""
+#~ "By being able to connect WordPress with your virtual campus, it allows "
+#~ "you to:"
+#~ msgstr ""
+#~ "Com que és capaç de conectar WordPress amb el teu campus virtual, et "
+#~ "permet:"
+
+#~ msgid "Show your work"
+#~ msgstr "Ensenyar la feina"
+
+#~ msgid ""
+#~ "Choose which content is private or public. If you make it public, "
+#~ "<strong>choose who can see it</strong>: teachers, classroom students, "
+#~ "members of your educational community, or everyone."
+#~ msgstr ""
+#~ "Tria quin contingut és privat o públic. Si el fas públic, <strong>escull "
+#~ "qui el pot veure</strong>: docents, estudiants de l’aula, membres de la "
+#~ "teva comunitat educativa o tothom."
+
+#~ msgid "Label the contents"
+#~ msgstr "Etiquetar els continguts"
+
+#~ msgid ""
+#~ "The <strong>ActiFolios</strong> allow you to link your contents with the "
+#~ "activities of your classrooms. Use it to <strong>link posts from your "
+#~ "Folio to teaching activities</strong>."
+#~ msgstr ""
+#~ "Les <strong>ActiFolios</strong> et permeten vincular els teus continguts "
+#~ "amb les activitats de les teves aules. Fes-les servir per "
+#~ "<strong>relacionar publicacions del teu Folio amb les activitats docents</"
+#~ "strong>."
+
+#~ msgid "Learn by sharing"
+#~ msgstr "Aprendre compartint"
+
+#~ msgid ""
+#~ "The <strong>Agora</strong> is a space inside the classroom where you can "
+#~ "<strong>interact with the rest of the students</strong>. You will be able "
+#~ "to share, see and comment on everything that has been tagged with a "
+#~ "subject's ActiFolio."
+#~ msgstr ""
+#~ "L’<strong>Àgora</strong> és un espai dins l’aula on podràs "
+#~ "<strong>interactuar amb la resta d’estudiants</strong>. Podràs compartir, "
+#~ "veure i comentar tot allò que s’hagi etiquetat amb ActiFolios de "
+#~ "l’assignatura."
+
+#~ msgid "Submit from your Folio"
+#~ msgstr "Fer lliuraments des del teu Folio"
+
+#~ msgid ""
+#~ "Submit straight from your workspace. The <strong>teaching staff</strong> "
+#~ "will be able to enter to <strong>evaluate them and leave comments</"
+#~ "strong>."
+#~ msgstr ""
+#~ "Fes els lliuraments sense sortir del teu espai de treball. El "
+#~ "<strong>personal docent</strong> podrà entrar a <strong>avaluar-los i "
+#~ "deixar-hi comentaris</strong>."
+
+#~ msgid "Advantages section"
+#~ msgstr "Secció d'avantatges"
+
+#~ msgctxt "Block pattern description"
+#~ msgid ""
+#~ "Section with title, description and two-column blocks with title, text "
+#~ "and illustration"
+#~ msgstr ""
+#~ "Secció amb títol, descripció i blocs de dues columnes amb títol, text i "
+#~ "il·lustració"
+
+#~ msgid "Advantages"
+#~ msgstr "Avantatges"
+
+#~ msgid ""
+#~ "Due to its collaborative and global vocation, the integration of Folio "
+#~ "into the work methodology of educational institutions offers benefits for "
+#~ "the entire community"
+#~ msgstr ""
+#~ "Per la seva vocació col·laborativa i global, l’integració de Folio en la "
+#~ "metodologia de treball de les institucions educatives ofereix beneficis "
+#~ "per tota la comunitat"
+
+#~ msgid "For students"
+#~ msgstr "Per estudiants"
+
+#~ msgid ""
+#~ "Create a <strong>professional portfolio</strong> since the first day of "
+#~ "studies."
+#~ msgstr ""
+#~ "Crear un <strong>portafoli professional</strong> des del primer dia dels "
+#~ "estudis."
+
+#~ msgid ""
+#~ "Personalize an <strong>own space of representation, identification and "
+#~ "empowerment</strong>, with freedom and autonomy."
+#~ msgstr ""
+#~ "Personalitzar un <strong>espai propi de representació, identificació i "
+#~ "empoderament</strong>, amb llibertat i autonomia."
+
+#~ msgid ""
+#~ "<strong>Socialize</strong> in the learning process, being part of a "
+#~ "<strong>global network</strong>."
+#~ msgstr ""
+#~ "<strong>Socialitzar</strong> dins el procés d’aprenentatge, formant part "
+#~ "d’una <strong>xarxa global</strong>."
+
+#~ msgid ""
+#~ "Consolidate a <strong>network</strong> of personal and professional "
+#~ "<strong>contacts</strong> in <strong>knowledge areas</strong> of common "
+#~ "interest."
+#~ msgstr ""
+#~ "Consolidar una <strong>xarxa de contactes</strong> personals i "
+#~ "professionals en les <strong>àrees de coneixement</strong> d’interès comú."
+
+#~ msgid "For teachers"
+#~ msgstr "Per docents"
+
+#~ msgid ""
+#~ "Contextualize the <strong>transversal journey</strong> of students, "
+#~ "beyond a subject."
+#~ msgstr ""
+#~ "Contextualitzar el <strong>recorregut transversal</strong> d’estudiants, "
+#~ "més enllà d’una assignatura."
+
+#~ msgid ""
+#~ "Confirm the <strong>originality of the authorship of the works</strong>."
+#~ msgstr ""
+#~ "Confirmar l’<strong>originalitat de l’autoria dels treballs</strong>."
+
+#~ msgid ""
+#~ "<strong>Energize the classroom</strong> and <strong>encourage peer "
+#~ "learning</strong> & feedback."
+#~ msgstr ""
+#~ "<strong>Dinamitzar l’aula</strong> i <strong>incentivar l’aprenenatge</"
+#~ "strong> i el feedback entre iguals."
+
+#~ msgid ""
+#~ "Connect knowledge and <strong>educational activit</strong>y with society "
+#~ "and the working market."
+#~ msgstr ""
+#~ "Connectar el coneixement i l’<strong>activitat educativa</strong> amb la "
+#~ "societat i el món laboral."
+
+#~ msgid "For institutions"
+#~ msgstr "Per institucions"
+
+#~ msgid ""
+#~ "Strengthen the <strong>students' sense of belonging to the institution</"
+#~ "strong> and promote their autonomy."
+#~ msgstr ""
+#~ "Enfortir el <strong>sentiment de pertinença d’estudiants a la institució</"
+#~ "strong> i fomentar-ne l’autonomia."
+
+#~ msgid ""
+#~ "<strong>Strengthen relationships between members</strong> of the "
+#~ "educational community."
+#~ msgstr ""
+#~ "<strong>Potenciar les relacions entre els integrants</strong> de la "
+#~ "comunitat educativa."
+
+#~ msgid ""
+#~ "Value and <strong>maintain the link with the Alumni community</strong>."
+#~ msgstr ""
+#~ "Posar en valor i <strong>mantenir el vincle amb la comunitat d’Alumni</"
+#~ "strong>."
+
+#~ msgid ""
+#~ "Project to the world <strong>the potential of students, teachers and the "
+#~ "prestige</strong> of the institution itself."
+#~ msgstr ""
+#~ "Projectar al món <strong>el potencial d’estudiants, docents i el "
+#~ "prestigi</strong> de la pròpia institució."
+
+#~ msgid "Shall we start?"
+#~ msgstr "Comencem?"
+
+#~ msgctxt "folio-showroom"
+#~ msgid ""
+#~ "Section shall we start with title and three columns of blocks with icons "
+#~ "and helpful links"
+#~ msgstr ""
+#~ "Secció comencem amb el títol i tres columnes de blocs amb icones i "
+#~ "enllaços útils"
+
+#, php-format
+#~ msgid "Do you need help? %sGet started%s with these first steps"
+#~ msgstr "Vols ajuda? %sComença%s amb aquests primers passos"
+
+#, php-format
+#~ msgid ""
+#~ "Are you a teacher? %sLearn%s how to take advantage of the tool in the "
+#~ "classroom."
+#~ msgstr "Ets docent? %sApren%s com aprofitar l’eina a l’aula."
+
+#, php-format
+#~ msgid "Are you interested in the project? Get in %scontact%s with us"
+#~ msgstr "Us interessa el projecte? Poseu-vos en %scontacte%s amb nosaltres"
+
+#~ msgid "Featured section with four columns"
+#~ msgstr "Secció destacada amb quatre columnes"
+
+#~ msgctxt "Block pattern description"
+#~ msgid ""
+#~ "Featured section with title, description and four columns of alternately "
+#~ "aligned blocks with icons"
+#~ msgstr ""
+#~ "Secció destacada amb títol, descripció i quatre columnes de blocs "
+#~ "alineats alternativament amb icones"
+
+#~ msgid "Featured section with three columns"
+#~ msgstr "Secció destacada amb tres columnes"
+
+#~ msgctxt "Block pattern description"
+#~ msgid ""
+#~ "Featured section with title, description and three columns of blocks with "
+#~ "icons and action buttons"
+#~ msgstr ""
+#~ "Secció destacada amb títol, descripció i tres columnes de blocs amb "
+#~ "icones i botons d’acció"
+
+#~ msgid "Red Light"
+#~ msgstr "Vermell clar"
+
+#~ msgid "White"
+#~ msgstr "Blanc"
+
+#~ msgid "This theme requires you to install the Folio Xarxa Companion Plugin."
+#~ msgstr "Aquest tema requereix que instal·leu el complement de Folio Xarxa."
+
+#, php-format
+#~ msgctxt "post author"
+#~ msgid "by %s"
+#~ msgstr "per %s"
+
+#~ msgid ""
+#~ "Are you interested in the project? Get in <a href=\"mailto:qberga@uoc."
+#~ "edu\" target=\"_blank\" rel=\"noreferrer noopener\"><strong>contact</"
+#~ "strong></a> with us"
+#~ msgstr ""
+#~ "Us interessa el projecte? Poseu-vos en <a href=“mailto:qberga@uoc.edu” "
+#~ "target=“_blank” rel=“noreferrer noopener”><strong>contacte</strong></a> "
+#~ "amb nosaltres"
+
+#~ msgid "Cover section with accordion"
+#~ msgstr "Secció de coberta amb acordió"

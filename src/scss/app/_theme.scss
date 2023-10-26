@@ -1,0 +1,140 @@
+:root {
+  --ease-base: cubic-bezier(0.25, 0, 0.3, 1);
+  --ease-out: cubic-bezier(0, 0, 0, 1);
+  --ease-elastic-1: cubic-bezier(0.5, 1.25, 0.75, 1.25);
+  --ease-elastic-2: cubic-bezier(0.5, 1.5, 0.75, 1.25);
+}
+
+.sun-and-moon {
+  & > :is(.moon, .sun, .sun-beams) {
+    transform-origin: center center;
+  }
+
+  & > :is(.moon, .sun) {
+    fill: var(--icon-fill);
+  }
+
+  & > .sun-beams {
+    stroke: var(--icon-fill);
+    stroke-width: 2px;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .sun-and-moon {
+    & > .sun {
+      transition: transform 0.5s var(--ease-elastic-1);
+    }
+
+    & > .sun-beams {
+      transition: transform 0.5s var(--ease-elastic-2),
+        opacity 0.5s var(--ease-base);
+    }
+
+    & .moon > circle {
+      transition: transform 0.25s var(--ease-out);
+
+      @supports (cx: 1) {
+        transition: cx 0.25s var(--ease-out);
+      }
+    }
+  }
+}
+
+.theme-toggle {
+  --size: 1.5rem;
+  --icon-fill: hsl(210 10% 20%);
+  --icon-fill-hover: hsl(210 10% 15%);
+  background: none;
+  border: none;
+  padding: 0;
+
+  inline-size: var(--size);
+  block-size: var(--size);
+  aspect-ratio: 1;
+  border-radius: 50%;
+
+  cursor: pointer;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+
+  outline-offset: 3px;
+
+  & > svg {
+    inline-size: 90%;
+    block-size: 90%;
+    stroke-linecap: round;
+    position: relative;
+    top: -1px;
+  }
+}
+
+.theme-toggle{
+  &:focus-visible{
+    outline: none;
+    box-shadow: none;
+    border: 0;
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  &:focus{
+    outline: none;
+    box-shadow: none;
+    border: 0;
+  }
+  &:hover{
+    outline: none;
+    background-color: transparent;
+  }
+}
+.theme-toggle:is(:hover, :focus-visible) {
+  
+  .sun-and-moon {
+    & > :is(.moon, .sun) {
+      fill: var(--icon-fill-hover);
+    }
+    & > .sun-beams {
+      stroke: var(--icon-fill-hover);
+    }
+  }
+}
+
+@include color-mode(dark) {
+  .sun-and-moon {
+    & > .sun {
+      transform: scale(1.75);
+    }
+
+    & > .sun-beams {
+      opacity: 0;
+    }
+
+    & > .moon > circle {
+      transform: translateX(-7px);
+
+      @supports (cx: 1) {
+        transform: translateX(0);
+        cx: 17;
+      }
+    }
+
+    & > .sun {
+      transform: scale(1.75);
+      transition-timing-function: var(--ease-base);
+      transition-duration: 0.2s;
+    }
+
+    & > .sun-beams {
+      transform: rotateZ(-25deg);
+      transition-duration: 0.1s;
+    }
+
+    & > .moon > circle {
+      transition-delay: 0.2s;
+      transition-duration: 0.3s;
+    }
+  }
+  .theme-toggle {
+    --icon-fill: hsl(210 10% 80%);
+    --icon-fill-hover: hsl(210 15% 90%);
+  }
+}

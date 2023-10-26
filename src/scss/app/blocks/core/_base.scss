@@ -1,0 +1,18 @@
+/* Custom gaps */
+
+body{
+    --wp--style--block-gap: .5em;
+    .is-layout-flex{
+        gap: var(--wp--style--block-gap);
+    }
+
+    .is-layout-flex.wp-block-columns{
+        --wp--style--block-gap: 2em;
+    }
+
+    .is-layout-flex.wp-block-columns.has-4-columns,
+    .is-layout-flex.wp-block-columns.has-5-columns,
+    .is-layout-flex.wp-block-columns.has-6-columns{
+        --wp--style--block-gap: 1em;
+    }
+}

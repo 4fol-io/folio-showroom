@@ -1,0 +1,8 @@
+// Gallery block
+
+.wp-block-gallery {
+	&.alignwide{
+		margin-left: auto;
+		margin-right: auto;
+	}
+}

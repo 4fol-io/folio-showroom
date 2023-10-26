@@ -1,0 +1,57 @@
+// Widgets generic
+
+
+.widget {
+
+	.widget-title{
+		font-size: $h4-font-size;
+	}
+	
+	margin: 0 0 $block-margin-y;
+  
+	select {
+		max-width: 100%;
+	}
+
+	ul{
+		font-size: inherit;
+		list-style: none;
+		padding: 0;
+		li{
+			margin-bottom: .5rem;
+		}
+	}
+
+}
+
+
+
+.widget_nav_menu{
+	ul{
+		li{
+			margin-bottom: .5rem;
+			ul{
+				margin-top: .5rem;
+				margin-left: .5rem;
+			}
+		}
+	}
+}
+
+
+
+// RSS
+
+.widget_rss{
+	.rss-date{
+		display: block;
+		color: $gray-500;
+	}
+	.rssSummary{
+		margin: .5rem 0 1.5rem;
+	}
+
+	.rss-widget-icon{
+		display: none;
+	}
+}

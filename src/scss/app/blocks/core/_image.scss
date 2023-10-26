@@ -1,0 +1,118 @@
+
+// Image block.
+
+.wp-block-image {
+
+	figure{
+		margin-bottom: 0;
+	}
+
+	figcaption {
+		text-align: center;
+	}
+
+	&.alignleft, &.alignright, &.justifyleft, &.justifyright{
+		float: none;
+		display: block;
+		> image {
+			margin-bottom: $spacer;
+		}
+	}
+
+	&.alignleft > img {
+		float: left;
+		margin-right: $spacer * .5;
+	}
+
+	& .alignright > img {
+		float: right;
+		margin-left: $spacer * .5;
+	}
+
+	&.alignleft > img, 
+	&.alignright > img {
+		max-width: 50%;
+	}
+
+	@include media-breakpoint-up(sm) {
+
+		&.alignleft > img {
+			margin-right: $spacer * 1.5;
+		}
+
+		&.alignright > img {
+			margin-left: $spacer * 1.5;
+		}
+
+	}
+
+
+}
+
+.wp-block-image-wrap {
+
+	.wp-block-image {
+		
+		display: table;
+
+		figcaption{
+			margin-bottom: 0; 
+		}
+
+		&.alignleft {
+			float: left;
+			margin-right: $spacer * .5;
+			max-width: 50%;
+		}
+
+		&.alignright {
+			float: right;
+			margin-left: $spacer * .5;
+			max-width: 50%;
+		}
+
+		&.alignleft > img {
+			margin-right: initial;
+			
+		}
+
+		& .alignright > img {
+			margin-left: initial;
+		}
+
+		@include media-breakpoint-up(xs) {
+
+			&.alignleft {
+				float: left;
+				margin-right: $spacer * 1.5;
+				max-width: 50%;
+				margin-bottom: $spacer;
+			}
+	
+			&.alignright {
+				float: right;
+				margin-left: $spacer * 1.5;
+				margin-bottom: $spacer;
+			}
+	
+
+			&.alignleft > img {
+				float: none;
+				margin-right: initial;
+				margin-bottom: 0;
+			}
+
+			&.alignright > img {
+				float: none;
+				margin-left: initial;
+				margin-bottom: 0;
+			}
+
+			&.alignleft > img, 
+			&.alignright > img {
+				max-width: initial;
+			}
+
+		}
+	}
+}

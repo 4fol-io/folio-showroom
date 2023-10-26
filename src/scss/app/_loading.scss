@@ -1,0 +1,52 @@
+.loading {
+    position: relative;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: normal;
+    text-transform: none;
+    min-height: 22px;
+    min-width: 22px;
+    //padding-left: 30px;
+    line-height: 22px;
+    &:before {
+        content: '';
+        box-sizing: border-box;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 22px;
+        height: 22px;
+        /*margin-top: -16px;
+        margin-left: -16px;*/
+        border-radius: 50%;
+        border: 2px solid $gray-500;
+        border-top-color: $primary;
+        animation: spin .6s linear infinite;
+    }
+
+    &.mid{
+        min-height: 32px;
+        min-width: 32px;
+        line-height: 32px;
+        &:before {
+            width: 32px;
+            height: 32px;
+        }
+    }
+
+    &.big{
+        min-height: 48px;
+        min-width: 48px;
+        line-height: 48px;
+        &:before {
+            width: 48px;
+            height: 48px;
+        }
+    }
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,57 @@
+/** Defaults form inputs */
+
+.form-control {
+    background-clip: initial;
+}
+
+
+input:not([type="submit"]):not(.form-control):not(.form-check-input), textarea:not(.form-control) {
+    @extend .form-control;
+}
+
+select{
+    @extend .form-select;
+}
+
+textarea {
+	width: 100%;
+}
+
+label:not(.form-check-label) {
+    font-weight: $font-weight-bold;
+}
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+
+.search-form{
+  font-size: $font-size-lg;
+  .input-group{
+    border-bottom: 1px solid var(--#{$prefix}border-color);
+    transition: border-color 0.25s;
+    input{
+      padding-left: 0;
+      border: 0;
+      outline: none;
+      box-shadow: none;
+      font-size: inherit;
+      background-color: inherit;
+    }
+    &:focus-within{
+      border-bottom-color: var(--#{$prefix}dark);
+    }
+  }
+}
+
+@include color-mode(dark) {
+    .search-form{
+        .input-group{
+            &:focus-within{
+                border-bottom-color: var(--#{$prefix}light);
+            }
+        }
+    }
+}

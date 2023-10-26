@@ -1,0 +1,41 @@
+/* Custom font for slider revolution */
+
+@font-face {
+    font-family: "uoc-serif";
+    src: local('uoc-serif'), 
+    url("/webfont/UOCSerif-Regular.woff2") format("woff2"),
+    url('/webfont/UOCSerif-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "uoc-serif";
+    src: local('uoc-serif'), 
+    url("/webfont/UOCSerif-Italic.woff2") format("woff2"),
+    url('/webfont/UOCSerif-Italic.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "uoc-serif";
+    src: local('uoc-serif'), 
+    url("/webfont/UOCSerif-Bold.woff2") format("woff2"),
+    url('/webfont/UOCSerif-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "uoc-serif";
+    src: local('uoc-serif'), 
+    url("/webfont/UOCSerif-BoldItalic.woff2") format("woff2"),
+    url('/webfont/UOCSerif-BoldItalic.woff') format('woff');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}

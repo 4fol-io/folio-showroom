@@ -1,0 +1,45 @@
+
+// Button block.
+
+
+div[data-type="core/button"] {
+    display: block;
+}
+
+.wp-block-button{
+	margin-top: 0;
+	margin-bottom: $paragraph-margin-bottom;
+}
+
+.wp-block-buttons{
+	margin-bottom: $paragraph-margin-bottom;
+}
+
+.wp-block-buttons>.wp-block-button{
+	margin-bottom: 0;
+}
+
+
+.is-style-outline {
+	color: inherit;
+}
+
+.is-style-fill {
+	.wp-block-button__link{
+		&:not(.has-background) {
+			@include gradient-bg($dark);
+			border-color: $dark;
+		}
+	}
+}
+  
+.is-style-outline {
+
+	.wp-block-button__link{
+		border: 2px solid;
+		&:not(.has-text-color):not(.has-background){
+			color: $dark;
+			border-color: $dark;
+		}
+	}
+}

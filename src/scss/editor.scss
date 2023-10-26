@@ -1,0 +1,92 @@
+
+/* Editor Blocks */
+// NOTE: Most commented are not yet adapted to GEF
+
+$font-path: "/wp-content/themes/folio-showroom/dist/fonts/";
+$img-path: "/wp-content/themes/folio-showroom/dist/images/";
+
+@import "~bootstrap/scss/functions";
+@import "app/variables";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/variables-dark";
+@import "~bootstrap/scss/maps";
+@import "~bootstrap/scss/mixins";
+@import "~bootstrap/scss/utilities";
+@import "~bootstrap/scss/root";
+@import "app/mixins";
+@import "app/root";
+
+.editor-styles-wrapper{
+
+    
+    @import "~bootstrap/scss/reboot";
+    @import "~bootstrap/scss/type";
+    @import "~bootstrap/scss/forms";
+    @import "~bootstrap/scss/tables";
+    @import "~bootstrap/scss/buttons";
+    @import "~bootstrap/scss/helpers";
+    @import "~bootstrap/scss/utilities/api";
+
+    @import "app/fonts";
+   
+    @import "app/helpers";
+    @import "app/typo";
+    @import "app/colors";
+    @import "app/buttons";
+    @import "app/tables";
+    @import "app/blocks-editor";
+
+    &,
+    * {
+        font-family: $font-family-base;
+    }
+
+    font-size: $font-size-lg;
+	color: $body-color;
+	line-height: $line-height-base;
+
+    a:not(.btn):not(.button):not(.wp-block-button__link):not(.wp-element-button){
+        color: var(--#{$prefix}link-color);
+        text-decoration: underline;
+    }
+    
+}
+
+html .editor-styles-wrapper {
+    padding: 8px 8px 30px;
+}
+
+.showroom-hide-title .editor-styles-wrapper .wp-block-post-title {
+    position: relative;
+    opacity: .3;
+    &:after{
+        position: absolute;
+        right: -.5rem;
+        top: .5rem;
+        font-size: 2.5rem;
+        color: $gray-600; 
+        font-family: 'dashicons';
+        content: "\f530";
+    }
+}
+
+
+.folio-control{
+
+    &.folio-image-control{
+        margin-bottom: 1rem;
+    }
+
+    .components-input-control__label{
+        margin-top: .5rem;
+    }
+    
+}
+
+.folio-author-avatar {
+    img{
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+    }
+}

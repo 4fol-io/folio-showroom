@@ -1,0 +1,72 @@
+
+// Cover (media) block.
+
+.wp-block-cover {
+
+	// margin-bottom: $block-margin-y;
+
+	&.alignleft,
+	&.aligncenter,
+	&.alignright {
+		// margin-bottom: $paragraph-margin-bottom;
+		width: 100%;
+		max-width: 100%;
+	}
+
+	@include media-breakpoint-up(lg) {
+		&.alignleft,
+		&.aligncenter,
+		&.alignright {
+			width: $alignment-width-lg;
+			max-width: $alignment-width-lg;
+		}
+	}
+
+	@include media-breakpoint-up(xl) {
+		&.alignleft,
+		&.aligncenter,
+		&.alignright {
+			width: $alignment-width-xl;
+			max-width: $alignment-width-xl;
+		}
+	}
+
+	.wp-block-cover__inner-container {
+		//@extend .container; 
+	}
+
+	/*&.alignfull{
+		.wp-block-cover__inner-container {
+			@include media-breakpoint-up(md) {
+				padding-left: 2.5rem;
+				padding-right: 2.5rem;
+			}
+			@include media-breakpoint-up(lg) {
+				padding-left: 6rem;
+				padding-right: 6rem;
+			}
+			@include media-breakpoint-up(xl) {
+				padding-left: 7rem;
+				padding-right: 7rem;
+			}
+			.wp-block-cover__inner-container{
+				padding-left: 0;
+				padding-right: 0;
+			}
+		}
+	}*/
+
+
+}
+
+
+.wp-block-cover, 
+.wp-block-cover-image{
+	/*min-height: 300px;*/
+	padding: 2rem 0;
+}
+
+.wp-block-cover-image.is-light .wp-block-cover__inner-container, 
+.wp-block-cover.is-light .wp-block-cover__inner-container{
+	color: $dark;
+}

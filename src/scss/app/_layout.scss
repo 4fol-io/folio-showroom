@@ -1,0 +1,160 @@
+@media screen and (max-width: 600px){
+    #wpadminbar {
+        position: fixed !important;
+    }
+}
+
+
+.admin-bar{
+    .site{
+        min-height:  calc(100vh - 46px) !important;
+    }
+    @media screen and (min-width: 783px){
+        .site{
+            min-height:  calc(100vh - 32px) !important;
+        }
+    }
+}
+
+.site-container{
+    //overflow:hidden;
+    padding-left: $grid-gutter-width * .75;
+    padding-right: $grid-gutter-width * .75;
+    .container{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+
+/*
+@include media-breakpoint-up(xl) {
+    .container-wide {
+        max-width: $wide-container-max-width;
+    }
+}
+*/
+
+
+// Container Wide Breakpoints
+@each $breakpoint, $wide-max-width in $wide-max-widths {
+    @include media-breakpoint-up($breakpoint, $grid-breakpoints) {
+        .container-wide {
+            max-width: calc($wide-max-width + calc($grid-gutter-width * 1.5));
+        }
+        .site-container {
+            .container-wide {
+                max-width: $wide-max-width;
+            }
+        }
+    }
+}
+
+
+.site{
+    .site-content > .widecolumn,
+    .post-thumbnail,
+    .featured-img,
+    .page-header:not(.archive-page-header),
+    .entry-header,
+    .entry-footer,
+    .comments-area,
+    .widget-area,
+    .related-posts,
+    .entry-content .wp-audio-shortcode, 
+    .entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.wp-block-separator):not(.woocommerce):not(.revslider):not(.pdfemb-viewer),
+    .entry-content > :not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.wp-block-separator):not(.woocommerce):not(.pdfemb-viewer),
+    .entry-content .wp-block-separator.is-style-wide:not(.alignwide):not(.alignfull),
+    [class*=inner-container] > *:not(.entry-content):not(.alignwide):not(.alignfull):not(.wp-block-separator):not(.woocommerce):not(.is-layout-constrained) {
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        max-width: 100%;
+
+        // Responsive containers that are 100% wide until a breakpoint
+        @each $breakpoint, $container-max-width in $container-max-widths {
+            @include media-breakpoint-up($breakpoint, $grid-breakpoints) {
+                max-width: $container-max-width;
+            }
+        }
+    }
+}
+
+
+/*
+
+.content-width-wide {
+    .post-thumbnail,
+    .featured-img,
+    .page-header,
+    .entry-header,
+    .entry-footer,
+    .comments-area,
+    .widget-area,
+    .related-posts,
+    .entry-content .wp-audio-shortcode, 
+    .entry-content > *:not(.alignwide):not(.alignfull):not(.wp-block-separator):not(.woocommerce):not(.revslider),
+    .entry-content > :not(.alignwide):not(.alignfull):not(.alingleft):not(.alignright):not(.wp-block-separator):not(.woocommerce),
+    .entry-content .wp-block-separator.is-style-wide:not(.alignwide):not(.alignfull),
+    [class*=inner-container] > *:not(.entry-content):not(.alignwide):not(.alignfull):not(.wp-block-separator):not(.woocommerce):not(.is-layout-constrained) {
+        // Responsive containers that are 100% wide until a breakpoint
+        @each $breakpoint, $wide-max-width in $wide-max-widths {
+            @include media-breakpoint-up($breakpoint, $grid-breakpoints) {
+                max-width: $wide-max-width;
+            }
+        }
+    }
+}
+
+.content-width-full {
+    .post-thumbnail,
+    .featured-img,
+    .page-header,
+    .entry-header,
+    .entry-footer,
+    .comments-area,
+    .widget-area,
+    .related-posts,
+    .entry-content .wp-audio-shortcode, 
+    .entry-content > *:not(.alignwide):not(.alignfull):not(.wp-block-separator):not(.woocommerce):not(.revslider),
+    .entry-content > :not(.alignwide):not(.alignfull):not(.alingleft):not(.alignright):not(.wp-block-separator):not(.woocommerce),
+    [class*=inner-container] > *:not(.entry-content):not(.alignwide):not(.alignfull):not(.wp-block-separator):not(.woocommerce):not(.is-layout-constrained) {
+        // Responsive containers that are 100% wide until a breakpoint
+        @each $breakpoint, $wide-max-width in $wide-max-widths {
+            @include media-breakpoint-up($breakpoint, $grid-breakpoints) {
+                max-width: 100%;
+            }
+        }
+    }
+}
+
+*/
+
+
+/**
+ * Multisites
+ */
+
+.site-content {
+    .widecolumn {
+        margin-bottom: 2.5rem;
+    }
+
+    .widecolumn .mu_register {
+        width: auto;
+        a{
+            text-decoration: underline;
+        }
+    }
+
+    .widecolumn .mu_register .mu_alert {
+        background: white;
+        border: 1px solid $gray-100;
+        color: inherit;
+        margin-bottom: 2.5rem;
+        padding: 2rem;
+        border-radius: $border-radius;
+        box-shadow: 0 4px 40px rgba(43,89,255,.08);
+    }
+
+}

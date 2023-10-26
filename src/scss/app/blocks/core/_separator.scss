@@ -1,0 +1,27 @@
+// Separator block.
+
+.wp-block-separator {
+    
+    &.is-style-default {
+        max-width: 10em;
+    }
+
+    &.is-style-dots::before {
+        content: ' \2022 \2022 \2022'; // &bull;
+        speak: none;
+        padding-left: 2rem;
+        letter-spacing: 2rem;
+        font-size: .8rem;
+        color: inherit;
+    }
+
+    &.has-background {
+        padding: 0;
+        border-color: transparent;
+    }
+
+    &:not(.is-style-dots){
+        @extend hr;
+    }
+
+}

@@ -1,0 +1,418 @@
+/* ----------------------------------------------------------------
+	Offcanvas Panel
+-----------------------------------------------------------------*/
+
+.offcanvas {
+  text-align: center;
+  background-color: var(--#{$prefix}white);
+  color: var(--#{$prefix}primary);
+}
+
+.offcanvas .offcanvas-header {
+  height: $header-height-mobile;
+  min-height: $header-height-mobile;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: $zindex-header;
+  background-color: inherit;
+
+  .offcanvas-close {
+    position: relative;
+  }
+
+  .custom-logo-link {
+    height: $logo-height-mobile;
+    width: auto;
+    margin-right: 1rem;
+    transition: height 250ms ease-out;
+    color: inherit;
+    img,
+    svg {
+      vertical-align: middle;
+      width: auto;
+      height: 100%;
+      color: inherit;
+    }
+  }
+
+  @include media-breakpoint-up(md) {
+    height: $header-height-tablet;
+    min-height: $header-height-tablet;
+    .custom-logo-link {
+      height: $logo-height-tablet;
+    }
+  }
+
+  @include media-breakpoint-up(xl) {
+    height: $header-height;
+    min-height: $header-height;
+    .custom-logo-link {
+      height: $logo-height;
+    }
+  }
+}
+
+.offcanvas .offcanvas-menu {
+  width: 100%;
+}
+
+.offcanvas .offcanvas-wrap {
+  height: 100%;
+  padding-left: $grid-gutter-width * 0.75;
+  padding-right: $grid-gutter-width * 0.75;
+  background-color: inherit;
+}
+
+body.device-touch .offcanvas .offcanvas-wrap {
+  overflow-y: scroll;
+}
+
+.offcanvas.offcanvas-full {
+  --#{$prefix}offcanvas-width: 100vw;
+  --#{$prefix}offcanvas-height: 100vh;
+  --#{$prefix}offcanvas-padding-x: 0;
+  --#{$prefix}offcanvas-padding-y: 0;
+  --#{$prefix}offcanvas-transition: opacity 0.3s ease-out;
+  --#{$prefix}offcanvas-border-width: 0;
+  --#{$prefix}offcanvas-border-color: transparent;
+
+  top: 0;
+  left: 0;
+  opacity: 0;
+  width: var(--#{$prefix}offcanvas-width) !important;
+  height: var(--#{$prefix}offcanvas-height) !important;
+  //transform: translateX(-100%);
+  @include transition(var(--#{$prefix}offcanvas-transition));
+
+  &.showing,
+  &.show:not(.hiding) {
+    opacity: 1;
+  }
+}
+
+.offcanvas-backdrop {
+  @include overlay-backdrop($zindex-offcanvas-backdrop, #fff, 0);
+}
+
+.offcanvas {
+  .offcanvas-lang {
+    position: sticky;
+    bottom: 0;
+    background-color: inherit;
+  }
+
+  .navbar {
+    display: block;
+    padding: 0;
+  }
+
+  .navbar-nav {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    li {
+      padding: 0;
+      margin: 0 auto;
+      &:before {
+        display: none;
+      }
+      &.menu-btn {
+        padding: 0.5rem 0;
+        width: 100%;
+        .nav-link {
+          margin: 0 auto;
+          width: 100%;
+        }
+        @include media-breakpoint-up(sm) {
+          .nav-link {
+            width: auto;
+            min-width: 50%;
+          }
+        }
+        @include media-breakpoint-up(md) {
+          .nav-link {
+            min-width: 33.333%;
+          }
+        }
+      }
+    }
+  }
+
+  .nav-item:not(.menu-btn) {
+    .nav-link {
+      display: inline-block;
+      position: relative;
+      padding: 1rem;
+      font-size: var(--#{$prefix}main-menu-font-size);
+      font-family: var(--#{$prefix}main-menu-font-family);
+      font-weight: $font-weight-bold;
+      text-decoration: none;
+      text-transform: uppercase;
+      color: inherit;
+      &:focus:not(:focus-visible) {
+        outline: none;
+        box-shadow: none;
+        background-color: transparent;
+      }
+
+      &:focus-visible {
+        outline: none;
+        box-shadow: none;
+        background-color: var(--#{$prefix}main-menu-focus-bg);
+      }
+    }
+
+    @include media-breakpoint-up(sm) {
+      .nav-link {
+        padding: 1.5rem;
+      }
+    }
+
+    .btn-group {
+      .nav-link {
+        padding-right: 0.5rem;
+        + .btn-icon {
+          position: relative;
+          left: -1rem;
+          padding-left: 0.5rem;
+          padding-right: 0.5rem;
+        }
+      }
+    }
+  }
+
+  .navbar-lang {
+    .nav-item:not(.menu-btn) {
+      border-left: 1px solid var(--#{$prefix}border-color);
+      &:first-child {
+        border: 0;
+      }
+      .nav-link {
+        padding: 0.25rem 1rem;
+        font-family: $font-family-base;
+        font-size: $font-size-lg;
+        font-weight: $font-weight-normal;
+        &.active {
+          font-weight: $font-weight-bold;
+        }
+      }
+    }
+  }
+
+  .current-menu-item > .nav-link,
+  .nav-link.show,
+  .nav-link.active {
+    color: inherit;
+  }
+
+  .offcanvas-header {
+    .nav-link {
+      border: 0;
+    }
+  }
+
+  ul.submenu {
+    flex-basis: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    li.nav-item:not(.menu-btn) {
+      padding: 0;
+      border: 0;
+      .nav-link {
+        font-weight: $font-weight-normal;
+        padding: 1rem;
+        font-size: calc(var(--#{$prefix}main-menu-font-size) * 0.9);
+      }
+      &.active {
+        .nav-link {
+          font-weight: $font-weight-bold;
+        }
+      }
+    }
+    li:last-child {
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+.offcanvas-trigger {
+  position: relative;
+  width: 36px;
+  height: 36px;
+  display: inline-block;
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+  transition: opacity 0.3s ease, background-color 0.3s ease;
+
+  &:focus:not(:focus-visible) {
+    outline: none;
+    box-shadow: none;
+    background-color: transparent;
+  }
+
+  &:focus-visible {
+    outline: none;
+    box-shadow: none;
+    background-color: var(--#{$prefix}main-menu-focus-bg);
+  }
+
+  span {
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 24px;
+    background: var(--#{$prefix}primary);
+    opacity: 1;
+    transform: rotate(0deg);
+    transition: all 0.25s ease;
+    transform-origin: left center;
+  }
+
+  span:nth-child(1) {
+    transform: rotate(45deg);
+    left: 8px;
+    top: 7px;
+  }
+  span:nth-child(2) {
+    opacity: 0;
+    width: 0;
+    left: 18px;
+    top: 16px;
+  }
+
+  span:nth-child(3) {
+    transform: rotate(-45deg);
+    left: 8px;
+    top: 24px;
+  }
+
+  &.closed {
+    span:nth-child(1) {
+      transform: rotate(0);
+      left: 5px;
+      top: 8px;
+    }
+    span:nth-child(2) {
+      opacity: 1;
+      width: 24px;
+      left: 5px;
+      top: 16px;
+    }
+    span:nth-child(3) {
+      transform: rotate(0);
+      left: 5px;
+      top: 24px;
+    }
+  }
+}
+
+.header-theme-light,
+.header-theme-transparent-light,
+.header-theme-transparent-dark {
+  .offcanvas {
+    background-color: var(--#{$prefix}white);
+    color: var(--#{$prefix}dark);
+    .offcanvas-trigger {
+      span {
+        background: var(--#{$prefix}dark);
+      }
+    }
+  }
+}
+
+.header-theme-dark {
+  .offcanvas {
+    background-color: var(--#{$prefix}dark);
+    color: var(--#{$prefix}white);
+    .offcanvas-trigger {
+      span {
+        background: var(--#{$prefix}white);
+      }
+    }
+  }
+}
+
+.site-header.header-theme-light,
+.site-header.header-theme-transparent-dark {
+  .offcanvas-trigger {
+    span {
+      background: var(--#{$prefix}dark);
+    }
+  }
+}
+
+.site-header.header-theme-transparent-dark.active {
+  .offcanvas-trigger {
+    span {
+      background: var(--#{$prefix}dark);
+    }
+  }
+}
+
+.site-header.header-theme-dark,
+.site-header.header-theme-transparent-light {
+  .offcanvas-trigger {
+    span {
+      background: var(--#{$prefix}white);
+    }
+  }
+}
+
+.site-header.header-theme-transparent-light.active {
+  .offcanvas-trigger {
+    span {
+      background: var(--#{$prefix}dark);
+    }
+  }
+}
+
+@include color-mode(dark) {
+  .offcanvas {
+    background-color: var(--#{$prefix}dark);
+  }
+
+  .header-theme-light {
+    .offcanvas {
+      background-color: var(--#{$prefix}white);
+    }
+  }
+
+  .header-theme-dark {
+    .offcanvas {
+      background-color: var(--#{$prefix}dark);
+    }
+  }
+
+  .header-theme-transparent-light,
+  .header-theme-transparent-dark {
+    .offcanvas {
+      background-color: var(--#{$prefix}dark);
+      color: var(--#{$prefix}white);
+      .offcanvas-trigger {
+        span {
+          background: var(--#{$prefix}white);
+        }
+      }
+    }
+  }
+
+  .site-header.header-theme-transparent-light.active {
+    .offcanvas-trigger {
+      span {
+        background: var(--#{$prefix}light);
+      }
+    }
+  }
+
+  .site-header.header-theme-transparent-dark.active {
+    .offcanvas-trigger {
+      span {
+        background: var(--#{$prefix}light);
+      }
+    }
+  }
+}

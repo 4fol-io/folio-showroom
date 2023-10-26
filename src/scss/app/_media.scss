@@ -1,0 +1,147 @@
+/*  Media Elements */
+
+figure{
+    margin: 0 0 1.5rem;
+}
+
+// Cover image
+
+.img-cover{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center; 
+    vertical-align: middle;
+    transform: translateZ(0);
+ }
+
+
+ .site{
+ 
+    .img-cover-ratio{
+        position: relative;
+        width: 100%;
+        height: 0;
+        padding-bottom: $img-ratio-43; /* 4:3 ratio */
+    }
+
+    .img-cover-ratio-169{
+        padding-bottom: $img-ratio-169; /* 16:9 ratio */
+    }
+
+    .img-cover-ratio{
+        .img-cover{
+            position: absolute;
+            height: 100%;
+            min-width: 100%;
+            max-height: 100%;
+        }
+    }
+
+ }
+
+
+
+// Smiley
+
+.page-content .wp-smiley,
+.entry-content .wp-smiley,
+.comment-content .wp-smiley {
+    border: none;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 0;
+}
+
+
+/* Make sure embeds and iframes fit their containers. */
+embed,
+iframe,
+object {
+    max-width: 100% !important;
+}
+
+/* Make sure logo link wraps around logo image. */
+.custom-logo-link {
+    display: inline-block;
+}
+
+.wp-caption {
+    margin-bottom: 1.5em;
+    max-width: 100%;
+
+    img[class*="wp-image-"] {
+        @include center-block;
+    }
+
+    .wp-caption-text {
+        margin: 0.8075em 0;
+    }
+}
+
+.wp-caption-text {
+    text-align: center;
+}
+
+.gallery {
+    margin-bottom: 1.5em;
+}
+
+.gallery-item {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    //width: 100%;
+}
+
+.gallery-caption {
+    display: block;
+}
+
+
+// GEF Media Object
+
+
+/* 
+.media {
+    display: flex;
+    align-items: flex-start;
+    a{
+        text-decoration: none;
+        display: inline-block;
+    }
+}
+
+.media__left{
+    margin-right: 1rem;
+}
+
+.media__right{
+    margin-left: 1rem;
+}
+
+.media__body {
+    flex: 1;
+    overflow: hidden;
+}
+
+.media__thumb{
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    width: 48px;
+    height: 48px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    float: left;
+}
+
+@include media-up(md){
+    .media__thumb{
+        width: 40px;
+        height: 40px;
+    }
+} 
+*/

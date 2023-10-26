@@ -1,0 +1,47 @@
+// Quote block.
+
+.wp-block-quote {
+
+	border: 0;
+	position: relative;
+    padding: 0 3rem;
+	font-size: $font-size-base;
+	font-weight: inherit;
+	margin-top: $block-margin-y;
+	margin-bottom: $block-margin-y;
+
+
+	&::before {
+		content: "\201C";
+		color: var(--#{$prefix}border-color);
+		line-height: 0.9;
+		font-size: 6rem;
+		line-height: .8;
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+
+	&__citation {
+		text-align: inherit;
+        font-size: $font-size-sm;
+	}
+
+	&.is-style-large {
+
+		padding: 0 3rem;
+
+		p {
+			line-height: inherit;
+			font-size: $font-size-lg;
+			font-style: inherit;
+			margin-bottom: 1rem;
+		}
+
+		.wp-block-quote__citation {
+			font-size: $font-size-base;
+			text-align: inherit;
+		}
+
+	}
+}

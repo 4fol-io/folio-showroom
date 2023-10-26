@@ -1,0 +1,73 @@
+
+// Button block.
+
+.is-style-outline {
+	color: inherit;
+}
+
+.wp-block-buttons>.wp-block-button{
+	margin-bottom: $paragraph-margin-bottom;
+}
+
+.wp-block-button {
+
+	margin-top: 0;
+	margin-bottom: $paragraph-margin-bottom;
+
+	&__link {
+		&:hover {
+			background-color: darken($dark, 7.5%);
+			text-decoration: none;
+		}
+		&:focus {
+			outline: 0;
+			box-shadow: $btn-focus-box-shadow;
+		}
+	}
+}
+
+.is-style-fill {
+	.wp-block-button__link{
+
+		$hover-background: darken($dark, 7.5%);
+
+		&:not(.has-text-color) {
+			&:hover {
+				color: color-yiq($hover-background);
+				border-color: $hover-background;
+			}	
+		}
+
+		&:not(.has-background) {
+			@include gradient-bg($dark);
+			border-color: $dark;
+			&:hover {
+				@include gradient-bg($hover-background);
+			}
+		}
+
+	}
+}
+  
+
+.is-style-outline {
+
+	.wp-block-button__link{
+
+		$hover-background: darken($dark, 7.5%);
+		transition: all .15s ease;
+
+		&:not(.has-text-color):not(.has-background){
+			color: $dark;
+			border-color: $dark;
+			&:hover {
+				color: $white;
+				background-color: $hover-background;
+				border-color: $hover-background;
+			}
+		}
+
+	}
+
+}
+  

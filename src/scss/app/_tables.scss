@@ -1,0 +1,7 @@
+table {
+	@extend .table;
+	caption{
+		color: $table-caption-color; 
+		text-transform: capitalize;
+	}
+}

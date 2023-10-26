@@ -1,0 +1,121 @@
+
+
+
+.dropdown-toggle:after {
+  border: 0;
+  display: inline-block;
+  width: 0.75rem;
+  height: 0.75rem;
+  margin-left: 0.65rem;
+  margin-top: .15rem;
+  vertical-align: middle;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 80% auto;
+  background-image: $icon-svg-chevron-v-dark;
+}
+
+
+.site-menu .dropdown {
+
+  .dropdown-toggle.show{
+    &:focus, &:focus-visible{
+      outline: none !important;
+      background-color: transparent !important;
+      box-shadow: none !important;
+    }
+  }
+
+  > .dropdown-toggle.nav-link{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .dropdown-toggle:after{
+    display: none;
+  }
+
+  .collapse-icon{
+    display: flex;
+    align-items: center;
+    width: 12px;
+    height: auto;
+    svg {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  > .nav-link{
+    &:not(.dropdown-toggle){
+      padding-right: calc( var(--#{$prefix}main-menu-spacing) + 1rem) !important;
+      + .btn-icon{
+        position: relative;
+        left: calc( (var(--#{$prefix}main-menu-spacing) + 1rem) * -1);
+        padding-left: .5rem;
+        padding-right: .5rem;
+      }
+    }
+    span.lbl + .collapse-icon{
+      margin-left: .5rem;
+    }
+  }
+
+  .dropdown-menu{
+    margin-top: -1px;
+  }
+
+
+}
+
+
+.dropdown-menu{
+  border: 0;
+  box-shadow: $dropdown-box-shadow;
+
+  .menu-item{
+    &.active{
+      .dropdown-item{
+        font-weight: $font-weight-bold;
+      }
+    }
+  }
+}
+
+.dropdown-menu {
+  background-color:var(--#{$prefix}white);
+  color: inherit;
+  .dropdown-item{
+    color: inherit;
+  }
+}
+
+@include color-mode(dark) {
+  .dropdown-menu {
+    background-color:var(--#{$prefix}dark);
+  }
+}
+
+/*
+.dropdown > a {
+  transition: all 0.2s ease-in;
+}
+.dropdown-menu .dropdown-menu {
+	left: 100%;
+	margin: 0;
+	right: auto;
+}
+.dropdown-menu-right .dropdown-menu,
+.navbar-right .dropdown-menu .dropdown-menu,
+.pull-right .dropdown-menu .dropdown-menu {
+	left: auto;
+	right: 100%;
+}
+
+.dropdown-menu.dropdown-menu-center {
+  right: auto;
+  left: 50%;
+  transform: translate3d(-50%, 0,0);
+}*/

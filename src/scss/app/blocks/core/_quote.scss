@@ -1,0 +1,24 @@
+// Quote block.
+
+
+.wp-block-quote {
+
+	&.is-style-large {
+
+		margin: $block-margin-y 0;
+		padding: 0 3rem;
+
+		p {
+			line-height: inherit;
+			font-size: $font-size-lg;
+			font-style: inherit;
+			margin-bottom: 1rem;
+		}
+
+		cite {
+			font-size: $font-size-base;
+			text-align: inherit;
+		}
+
+	}
+}

@@ -1,0 +1,24 @@
+// Search block
+
+.wp-block-search {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: $paragraph-margin-bottom;
+
+    .wp-block-search__input{
+        flex: 1;
+    }
+
+    .wp-block-search__button{
+        margin-left: .5rem;
+        @extend .btn;
+        @extend .btn-dark;
+    }
+
+    @include media-breakpoint-up(sm) {
+        .wp-block-search__button{
+            padding-left: 2.5rem;
+            padding-right: 2.5rem;
+        }
+    }
+}

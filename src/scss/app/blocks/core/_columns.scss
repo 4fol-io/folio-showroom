@@ -1,0 +1,40 @@
+
+// Columns block.
+
+.wp-block-columns{
+	&.alignfull{
+		margin-left: $grid-gutter-width;
+		margin-right: $grid-gutter-width;
+	}
+}
+
+@include media-breakpoint-down(sm) {
+	.wp-block-columns {
+		display: block;
+		.wp-block-column {
+			width: 100%;
+			margin-left: 0;
+		}
+	}
+}
+
+
+/* Core Columns Responsive */
+@media screen and (min-width: 782px) and (max-width: 1060px) {
+    .wp-block-columns.has-3-columns,
+    .wp-block-columns.has-4-columns,
+    .wp-block-columns.has-5-columns,
+    .wp-block-columns.has-6-columns {
+        flex-wrap: wrap !important;
+    }
+    .wp-block-columns.has-3-columns .wp-block-column,
+    .wp-block-columns.has-4-columns .wp-block-column,
+    .wp-block-columns.has-5-columns .wp-block-column {
+        flex: 0 0 auto !important;
+        width: calc( 50% - var(--wp--style--block-gap, 2em) * .5 );
+    }
+    .wp-block-columns.has-6-columns .wp-block-column {
+        flex: 0 0 auto !important;
+        width: calc( 33.333% - var(--wp--style--block-gap, 2em) * .66666 );
+    }
+}

@@ -1,0 +1,55 @@
+
+/* Custom gaps */
+
+:root{
+	--wp--style--block-gap: .5em;
+}
+
+.is-layout-flex{
+    gap: var(--wp--style--block-gap);
+}
+
+.is-layout-flex.wp-block-columns{
+    --wp--style--block-gap: 2em;
+}
+
+.is-layout-flex.wp-block-columns.has-4-columns,
+.is-layout-flex.wp-block-columns.has-5-columns,
+.is-layout-flex.wp-block-columns.has-6-columns{
+    --wp--style--block-gap: 1em;
+}
+
+
+.edit-post-visual-editor__post-title-wrapper{
+    margin-bottom: 2.5rem;
+    .wp-block-post-title{
+       @extend .display-2; 
+       color: $primary;
+       font-weight: $font-weight-bold;
+    } 
+}
+
+select{
+    font-size: $font-size-base;
+    border-radius: 0;
+    // padding: 0 24px 0 8px;
+    max-width: 100%;
+    width: 100%;
+    // background-position: right 15px top 55%;
+    border-color: $gray-100;
+    // background: $custom-select-background;
+    // background-color: $gray-100;
+    &:focus{
+        color: $dark;
+        border-color: $dark;
+        box-shadow: 0 0 0 1px $gray-300;
+        outline: 2px solid transparent;
+     }
+}
+
+
+.components-button{
+    &.is-button {
+        height: auto;
+    }
+}

@@ -1,0 +1,76 @@
+
+// Table block.
+
+
+.wp-block-table {
+
+	table{
+
+		thead, tfoot{
+			border-color: var(--#{$prefix}table-border-color);
+		}
+
+		th, td{
+			border-left: 0;
+			border-right: 0;
+			border-color: var(--#{$prefix}table-border-color);
+		}
+
+		@extend .table;
+	}
+
+	&.is-style-stripes{
+		margin: 0;
+		table{
+			@extend .table;
+			@extend .table-striped;
+			td, th{
+				border-color: var(--#{$prefix}table-border-color);
+			}
+		}
+	}
+
+}
+
+
+.wp-block-calendar{
+	table{
+		@extend .table;
+		font-family: inherit;
+
+		caption{
+			caption-side: top;
+			text-transform: capitalize;
+		}
+
+		th{
+			font-weight: $font-weight-bold;
+		}
+
+		th, td{
+			//border-color: $table-border-color;
+			border-color: var(--#{$prefix}table-border-color);
+			border-left: 0;
+			border-right: 0;
+		}
+
+		a{
+			color: var(--#{$prefix}link-color);
+			text-decoration: none;
+			&:hover, &:focus{
+				text-decoration: underline;
+				color: var(--#{$prefix}link-color-hover);
+			}
+		}
+	}
+
+	tfoot {
+		td:first-child{
+			text-align: left;
+		}
+		td:last-child{
+			text-align: right;
+		}
+	}
+	
+}

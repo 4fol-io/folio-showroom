@@ -1,0 +1,57 @@
+// Fonts
+
+@font-face {
+  font-family: "uoc-sans";
+  src: url("#{$font-path}UOCSans-Regular.woff2") format("woff2"),
+    url("#{$font-path}UOCSans-Regular.woff") format("woff"),
+    url("#{$font-path}UOCSans-Regular.ttf") format("truetype"),
+    url("#{$font-path}UOCSans-Regular.svg#UOCSans") format("svg");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "uoc-sans";
+  src: url("#{$font-path}UOCSans-Italic.woff2") format("woff2"),
+    url("#{$font-path}UOCSans-Italic.woff") format("woff"),
+    url("#{$font-path}UOCSans-Italic.ttf") format("truetype"),
+    url("#{$font-path}UOCSans-Italic.svg#UOCSans") format("svg");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "uoc-sans";
+  src: url("#{$font-path}UOCSans-Bold.woff2") format("woff2"),
+    url("#{$font-path}UOCSans-Bold.woff") format("woff"),
+    url("#{$font-path}UOCSans-Bold.ttf") format("truetype"),
+    url("#{$font-path}UOCSans-Bold.svg#UOCSans") format("svg");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "uoc-sans";
+  src: url("#{$font-path}UOCSans-BoldItalic.woff2") format("woff2"),
+    url("#{$font-path}UOCSans-BoldItalic.woff") format("woff"),
+    url("#{$font-path}UOCSans-BoldItalic.ttf") format("truetype"),
+    url("#{$font-path}UOCSans-BoldItalic.svg#UOCSans") format("svg");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "uoc-serif";
+  src: url("#{$font-path}UOCSerif-Regular.woff2") format("woff2"),
+    url("#{$font-path}UOCSerif-Regular.woff") format("woff"),
+    url("#{$font-path}UOCSerif-Regular.ttf") format("truetype"),
+    url("#{$font-path}UOCSerif-Regular.svg#UOCSerif") format("svg");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "uoc-serif";
+  src: url("#{$font-path}UOCSerif-Bold.woff2") format("woff2"),
+    url("#{$font-path}UOCSerif-Bold.woff") format("woff"),
+    url("#{$font-path}UOCSerif-Bold.ttf") format("truetype"),
+    url("#{$font-path}UOCSerif-Bold.svg#UOCSerif") format("svg");
+  font-weight: 600;
+}

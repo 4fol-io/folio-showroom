@@ -1,0 +1,699 @@
+# Copyright (C) 2021 Tres&punt
+# This file is distributed under the GNU General Public License v2 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: folio-showroom 1.0.0\n"
+"POT-Creation-Date: 2023-10-26 16:07+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Raúl Solana <rsolana@tresipunt.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4\n"
+"X-Domain: folio-showroom\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_n_noop:1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+"X-Poedit-SearchPathExcluded-1: .git\n"
+"X-Poedit-SearchPathExcluded-2: dist\n"
+
+#: 404.php:19
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:23
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links below or a "
+"search?"
+msgstr ""
+
+#: 404.php:32
+msgid "Most Used Categories"
+msgstr ""
+
+#: 404.php:50
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: comments.php:42
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#: comments.php:48
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:76
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:47
+msgid "Go to top"
+msgstr ""
+
+#: header.php:125
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:214 template-parts/menu-search.php:39 template-parts/searchform.php:9
+msgid "Search"
+msgstr ""
+
+#: header.php:231
+msgid "Menu"
+msgstr ""
+
+#: inc/customizer.php:67
+msgid "Home Slider"
+msgstr ""
+
+#: inc/customizer.php:83
+msgid "Home title"
+msgstr ""
+
+#: inc/customizer.php:84 inc/customizer.php:663
+msgid "Accepted placeholders:"
+msgstr ""
+
+#: inc/customizer.php:101
+msgid "UOC Settings"
+msgstr ""
+
+#: inc/customizer.php:112
+msgid "UOC Tools Settings"
+msgstr ""
+
+#: inc/customizer.php:125
+msgid "Display UOC Footer"
+msgstr ""
+
+#: inc/customizer.php:140
+msgid "Display UOC Tools"
+msgstr ""
+
+#: inc/customizer.php:153
+msgid "Color Settings"
+msgstr ""
+
+#: inc/customizer.php:164
+msgid "Color mode"
+msgstr ""
+
+#: inc/customizer.php:168 inc/data.php:60 src/js/editor.js:47
+msgid "Default"
+msgstr ""
+
+#: inc/customizer.php:170 inc/data.php:61 src/js/editor.js:48
+msgid "Light"
+msgstr ""
+
+#: inc/customizer.php:173 inc/data.php:62 src/js/editor.js:49
+msgid "Dark"
+msgstr ""
+
+#: inc/customizer.php:215
+msgid "Light mode"
+msgstr ""
+
+#: inc/customizer.php:221 inc/customizer.php:254
+msgid "Primary Color"
+msgstr ""
+
+#: inc/customizer.php:228 inc/customizer.php:261
+msgid "Secondary Color"
+msgstr ""
+
+#: inc/customizer.php:234 inc/customizer.php:267
+msgid "Links Color"
+msgstr ""
+
+#: inc/customizer.php:246
+msgid "Dark mode"
+msgstr ""
+
+#: inc/customizer.php:276
+msgid "Header Settings"
+msgstr ""
+
+#: inc/customizer.php:287
+msgid "Default header style"
+msgstr ""
+
+#: inc/customizer.php:298 inc/customizer.php:337 inc/meta.php:295 inc/meta.php:332
+#: src/js/editor.js:44
+msgid "Header style"
+msgstr ""
+
+#: inc/customizer.php:315 inc/customizer.php:349
+msgid "Header overlapping?"
+msgstr ""
+
+#: inc/customizer.php:326
+msgid "Home header style (latest posts)"
+msgstr ""
+
+#: inc/customizer.php:361
+msgid "Header global settings"
+msgstr ""
+
+#: inc/customizer.php:367
+msgid "Sticky header?"
+msgstr ""
+
+#: inc/customizer.php:381
+msgid "Enable color mode Switcher?"
+msgstr ""
+
+#: inc/customizer.php:394
+msgid "Display search button?"
+msgstr ""
+
+#: inc/customizer.php:407
+msgid "Use theme WPML Lang Menu?"
+msgstr ""
+
+#: inc/customizer.php:426
+msgid "Header width"
+msgstr ""
+
+#: inc/customizer.php:439
+msgid "Header menu font family"
+msgstr ""
+
+#: inc/customizer.php:453
+msgid "Header menu font size"
+msgstr ""
+
+#: inc/customizer.php:470
+msgid "Header menu spacing"
+msgstr ""
+
+#: inc/customizer.php:488
+msgid "Transparent sticky header blur"
+msgstr ""
+
+#: inc/customizer.php:503
+msgid "Posts/Pages Settings"
+msgstr ""
+
+#: inc/customizer.php:515
+msgid "Archive width"
+msgstr ""
+
+#: inc/customizer.php:530
+msgid "Pagination previous label"
+msgstr ""
+
+#: inc/customizer.php:532
+msgid "Previous post"
+msgstr ""
+
+#: inc/customizer.php:545
+msgid "Pagination next label"
+msgstr ""
+
+#: inc/customizer.php:547 inc/templates.php:42
+msgid "Next post"
+msgstr ""
+
+#: inc/customizer.php:565
+msgid "Display Categories"
+msgstr ""
+
+#: inc/customizer.php:577
+msgid "Display Tags"
+msgstr ""
+
+#: inc/customizer.php:590
+msgid "Display Comments"
+msgstr ""
+
+#: inc/customizer.php:603
+msgid "Display Breadcrumbs"
+msgstr ""
+
+#: inc/customizer.php:622
+msgid "Related Posts Title"
+msgstr ""
+
+#: inc/customizer.php:634
+msgid "Limit of related posts"
+msgstr ""
+
+#: inc/customizer.php:649
+msgid "Footer Settings"
+msgstr ""
+
+#: inc/customizer.php:662
+msgid "Footer Text"
+msgstr ""
+
+#: inc/customizer.php:673
+msgid "Display Go To Top"
+msgstr ""
+
+#: inc/data.php:23
+msgid "UOC Sans"
+msgstr ""
+
+#: inc/data.php:24
+msgid "UOC Serif"
+msgstr ""
+
+#: inc/data.php:34 inc/data.php:156
+msgid "&mdash; Select &mdash;"
+msgstr ""
+
+#: inc/data.php:35
+msgid "Left"
+msgstr ""
+
+#: inc/data.php:36
+msgid "Center"
+msgstr ""
+
+#: inc/data.php:37
+msgid "Right"
+msgstr ""
+
+#: inc/data.php:38
+msgid "Justify"
+msgstr ""
+
+#: inc/data.php:48 inc/setup.php:124
+msgid "Normal"
+msgstr ""
+
+#: inc/data.php:49
+msgid "Wide"
+msgstr ""
+
+#: inc/data.php:50
+msgid "Full width"
+msgstr ""
+
+#: inc/data.php:63 src/js/editor.js:50
+msgid "Transparent Default"
+msgstr ""
+
+#: inc/data.php:64 src/js/editor.js:51
+msgid "Transparent Light"
+msgstr ""
+
+#: inc/data.php:65 src/js/editor.js:52
+msgid "Transparent Dark"
+msgstr ""
+
+#: inc/data.php:88
+msgid "Discover"
+msgstr ""
+
+#: inc/data.php:101
+msgid "<em>More</em> <strong>Folios</strong>"
+msgstr ""
+
+#: inc/data.php:103
+msgid "Previus Folio"
+msgstr ""
+
+#: inc/data.php:104
+msgid "Next Folio"
+msgstr ""
+
+#: inc/data.php:113
+msgid ""
+"[copyright] [current_year] - [site_title]<br>Made with ❤️ by <a href=\"https://tresipunt."
+"com\" target=\"_blank\"><strong>tresipunt</strong></a>"
+msgstr ""
+
+#: inc/images.php:33 inc/meta.php:174 inc/meta.php:207 inc/setup.php:323
+msgid "Featured"
+msgstr ""
+
+#: inc/meta.php:198
+msgid "Non Featured"
+msgstr ""
+
+#: inc/meta.php:286 inc/meta.php:321 inc/meta.php:376 inc/meta.php:383
+msgid "Slider"
+msgstr ""
+
+#: inc/meta.php:292
+msgid "Slider revolution module to display for this term page."
+msgstr ""
+
+#: inc/meta.php:301 inc/meta.php:339
+msgid ""
+"Header style for this term page (transparent styles overlay the header over the content)."
+msgstr ""
+
+#: inc/meta.php:328
+msgid "Slider revolution module to display for this term."
+msgstr ""
+
+#: inc/nav.php:447
+msgid "Add a menu"
+msgstr ""
+
+#: inc/pagination.php:23
+msgid "Page"
+msgstr ""
+
+#: inc/pagination.php:121 inc/pagination.php:159
+msgid "Previous"
+msgstr ""
+
+#: inc/pagination.php:122 inc/pagination.php:160
+msgid "Next"
+msgstr ""
+
+#: inc/pagination.php:123
+msgid "Navigation"
+msgstr ""
+
+#: inc/pagination.php:161
+msgid "Debate navigation"
+msgstr ""
+
+#: inc/pagination.php:189
+msgid "Posts navigation"
+msgstr ""
+
+#: inc/pagination.php:193
+msgid "Older posts"
+msgstr ""
+
+#: inc/pagination.php:197
+msgid "Newer posts"
+msgstr ""
+
+#: inc/setup.php:57
+msgid "Primary menu"
+msgstr ""
+
+#: inc/setup.php:58
+msgid "Secondary menu"
+msgstr ""
+
+#: inc/setup.php:59
+msgid "Offcanvas menu"
+msgstr ""
+
+#: inc/setup.php:119
+msgid "Small"
+msgstr ""
+
+#: inc/setup.php:129
+msgid "Medium"
+msgstr ""
+
+#: inc/setup.php:134
+msgid "Large"
+msgstr ""
+
+#: inc/setup.php:139
+msgid "XLarge"
+msgstr ""
+
+#: inc/setup.php:144
+msgid "Huge"
+msgstr ""
+
+#: inc/setup.php:186
+msgid "Footer"
+msgstr ""
+
+#: inc/setup.php:187
+msgid "Add widgets here to appear in your footer site."
+msgstr ""
+
+#: inc/setup.php:252
+msgid "(opens in new window)"
+msgstr ""
+
+#: inc/setup.php:253
+msgid "Close menu"
+msgstr ""
+
+#: inc/setup.php:254
+msgid "Loading"
+msgstr ""
+
+#: inc/setup.php:255
+msgid "expand / collapse"
+msgstr ""
+
+#: inc/setup.php:256
+msgid "Load more"
+msgstr ""
+
+#: inc/setup.php:324
+msgid "Not featured"
+msgstr ""
+
+#: inc/templates.php:28
+msgid "Pages:"
+msgstr ""
+
+#: inc/templates.php:41
+msgid "Previus post"
+msgstr ""
+
+#: inc/templates.php:67
+#, php-format
+msgid "Leave a Comment<span class=\"visually-hidden\"> on %s</span>"
+msgstr ""
+
+#: inc/templates.php:92
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: inc/templates.php:129 inc/templates.php:155
+msgid "Publication date"
+msgstr ""
+
+#: inc/templates.php:182
+msgid "Authorship"
+msgstr ""
+
+#: inc/templates.php:213
+msgid "by"
+msgstr ""
+
+#: inc/templates.php:227
+msgid "Tags"
+msgstr ""
+
+#: inc/templates.php:244 inc/templates.php:261
+msgid "Categories"
+msgstr ""
+
+#: inc/templates.php:368
+msgid "Please enter the message"
+msgstr ""
+
+#: inc/templates.php:374
+#, php-format
+msgid "Logged in as %s. Edit your profile."
+msgstr ""
+
+#: inc/templates.php:377
+msgid "Log out?"
+msgstr ""
+
+#: inc/templates.php:382
+msgid "Your comment"
+msgstr ""
+
+#: inc/templates.php:383
+msgid "Your message"
+msgstr ""
+
+#: inc/templates.php:386
+msgid "Send comment"
+msgstr ""
+
+#: inc/templates.php:387
+msgid "Leave a comment"
+msgstr ""
+
+#: inc/templates.php:388
+msgid "Cancel Reply"
+msgstr ""
+
+#: inc/templates.php:414
+msgid "Please enter the name"
+msgstr ""
+
+#: inc/templates.php:415
+msgid "Please enter a valid email"
+msgstr ""
+
+#: inc/templates.php:418 inc/templates.php:419
+msgid "Name"
+msgstr ""
+
+#: inc/templates.php:423 inc/templates.php:424
+msgid "Your email"
+msgstr ""
+
+#: inc/templates.php:428 inc/templates.php:429
+msgid "Website"
+msgstr ""
+
+#: inc/templates.php:437
+msgid "Save my name, email, and website in this browser for the next time I comment."
+msgstr ""
+
+#: inc/utils.php:245 inc/utils.php:293
+msgid "Home"
+msgstr ""
+
+#: inc/utils.php:256 inc/utils.php:258 inc/utils.php:260 inc/utils.php:262 inc/utils.php:264
+#, php-format
+msgid "<li class=\"breadcrumb-item\">%s</li>"
+msgstr ""
+
+#: inc/utils.php:258
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: inc/utils.php:260
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/utils.php:267
+#, php-format
+msgid "<li class=\"breadcrumb-item\">Search: %s</li>"
+msgstr ""
+
+#: inc/utils.php:305
+msgid "Open menu"
+msgstr ""
+
+#: inc/utils.php:433
+msgctxt "Added to posts and pages that are missing titles"
+msgid "Untitled"
+msgstr ""
+
+#: inc/utils.php:525
+msgid "Cancel"
+msgstr ""
+
+#: inc/utils.php:624
+#, php-format
+msgctxt "%s = human-readable time difference"
+msgid "%s ago"
+msgstr ""
+
+#: search.php:35
+msgid "Search Results for:"
+msgstr ""
+
+#: src/js/editor.js:35
+msgid "Showroom Settings"
+msgstr ""
+
+#: src/js/editor.js:38
+msgid "Featured?"
+msgstr ""
+
+#: src/js/editor.js:40
+msgid "Featured posts are displayed in the home slider."
+msgstr ""
+
+#: src/js/editor.js:57
+msgid "Header overlay?"
+msgstr ""
+
+#: src/js/editor.js:59
+msgid "Removes header margin for fullwidth sliders, covers, etc."
+msgstr ""
+
+#: src/js/editor.js:63
+msgid "Hide title?"
+msgstr ""
+
+#: src/js/editor.js:69
+msgid "Hide header info?"
+msgstr ""
+
+#: src/js/editor.js:74
+msgid "Hide featured image?"
+msgstr ""
+
+#: src/js/editor.js:81
+msgid "Showroom author"
+msgstr ""
+
+#: src/js/editor.js:85
+msgid "Author image"
+msgstr ""
+
+#: src/js/editor.js:86
+msgid "Upload image"
+msgstr ""
+
+#: src/js/editor.js:87
+msgid "Remove image"
+msgstr ""
+
+#: src/js/editor.js:91
+msgid "Author name"
+msgstr ""
+
+#: src/js/editor.js:95
+msgid "Author url"
+msgstr ""
+
+#: template-parts/content-none.php:15
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:25
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:38
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:45
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: template-parts/content-single.php:58
+#, php-format
+msgid "Continue reading<span class=\"visually-hidden\"> \"%s\"</span>"
+msgstr ""
+
+#: template-parts/menu-offcanvas.php:50 template-parts/menu-search.php:46
+msgid "Close"
+msgstr ""
+
+#: template-parts/menu-search.php:24 template-parts/searchform.php:2
+#, php-format
+msgid "Search in %s..."
+msgstr ""
+
+#: template-parts/menu-search.php:35 template-parts/searchform.php:5
+msgid "Search for:"
+msgstr ""

@@ -1,0 +1,1105 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: folio-showroom 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-26 16:32+0200\n"
+"PO-Revision-Date: 2023-10-26 16:32+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4\n"
+"X-Domain: folio-showroom\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_n_noop:1,2;_x:1,2c;_nx:4c,1,2;"
+"_nx_noop:4c,1,2;_ex:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;"
+"esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+"X-Poedit-SearchPathExcluded-1: .git\n"
+"X-Poedit-SearchPathExcluded-2: dist\n"
+
+#: 404.php:19
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "¡Uy! No se encuentra la página."
+
+#: 404.php:23
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+"Parece que no se encontró nada en este lugar. ¿Tal vez intente uno de los "
+"enlaces a continuación o una búsqueda?"
+
+#: 404.php:32
+msgid "Most Used Categories"
+msgstr "Categorías más usadas"
+
+#: 404.php:50
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Prueba a buscar en el archivo mensual. %1$s"
+
+#: comments.php:42
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "Un comentario en &ldquo;%1$s&rdquo;"
+
+#: comments.php:48
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s comentario en &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s comentarios en &ldquo;%2$s&rdquo;"
+
+#: comments.php:76
+msgid "Comments are closed."
+msgstr "Los comentarios están cerrados."
+
+#: footer.php:47
+msgid "Go to top"
+msgstr "Ir arriba"
+
+#: header.php:125
+msgid "Skip to content"
+msgstr "Saltar al contenido"
+
+#: header.php:214 template-parts/menu-search.php:39
+#: template-parts/searchform.php:9
+msgid "Search"
+msgstr "Buscar"
+
+#: header.php:231
+msgid "Menu"
+msgstr "Menú"
+
+#: inc/customizer.php:67
+msgid "Home Slider"
+msgstr "Slider de inicio"
+
+#: inc/customizer.php:83
+msgid "Home title"
+msgstr "Título de inicio"
+
+#: inc/customizer.php:84 inc/customizer.php:663
+msgid "Accepted placeholders:"
+msgstr "Marcadores aceptados:"
+
+#: inc/customizer.php:101
+msgid "UOC Settings"
+msgstr "Ajustes UOC"
+
+#: inc/customizer.php:112
+msgid "UOC Tools Settings"
+msgstr "Configuración herramientas UOC"
+
+#: inc/customizer.php:125
+msgid "Display UOC Footer"
+msgstr "Mostrar pie de página UOC"
+
+#: inc/customizer.php:140
+msgid "Display UOC Tools"
+msgstr "Mostrar herramientas UOC"
+
+#: inc/customizer.php:153
+msgid "Color Settings"
+msgstr "Configuración de color"
+
+#: inc/customizer.php:164
+msgid "Color mode"
+msgstr "Modo de color"
+
+#: inc/customizer.php:168 inc/data.php:60 src/js/editor.js:47
+msgid "Default"
+msgstr "Por defecto"
+
+#: inc/customizer.php:170 inc/data.php:61 src/js/editor.js:48
+msgid "Light"
+msgstr "Claro"
+
+#: inc/customizer.php:173 inc/data.php:62 src/js/editor.js:49
+msgid "Dark"
+msgstr "Oscuro"
+
+#: inc/customizer.php:215
+msgid "Light mode"
+msgstr "Modo claro"
+
+#: inc/customizer.php:221 inc/customizer.php:254
+msgid "Primary Color"
+msgstr "Color primario"
+
+#: inc/customizer.php:228 inc/customizer.php:261
+msgid "Secondary Color"
+msgstr "Color secundario"
+
+#: inc/customizer.php:234 inc/customizer.php:267
+msgid "Links Color"
+msgstr "Color de enlaces"
+
+#: inc/customizer.php:246
+msgid "Dark mode"
+msgstr "Modo oscuro"
+
+#: inc/customizer.php:276
+msgid "Header Settings"
+msgstr "Configuración de cabecera"
+
+#: inc/customizer.php:287
+msgid "Default header style"
+msgstr "Estilo de encabezado predeterminado"
+
+#: inc/customizer.php:298 inc/customizer.php:337 inc/meta.php:295
+#: inc/meta.php:332 src/js/editor.js:44
+msgid "Header style"
+msgstr "Estilo de encabezado"
+
+#: inc/customizer.php:315 inc/customizer.php:349
+msgid "Header overlapping?"
+msgstr "¿Encabezado superpuesto?"
+
+#: inc/customizer.php:326
+msgid "Home header style (latest posts)"
+msgstr "Estilo de encabezado de inicio (últimas publicaciones)"
+
+#: inc/customizer.php:361
+msgid "Header global settings"
+msgstr "Configuración global del encabezado"
+
+#: inc/customizer.php:367
+msgid "Sticky header?"
+msgstr "¿Cabecera pegajosa?"
+
+#: inc/customizer.php:381
+msgid "Enable color mode Switcher?"
+msgstr "¿Habilitar conmutador de modo de color?"
+
+#: inc/customizer.php:394
+msgid "Display search button?"
+msgstr "¿Mostrar botón de búsqueda?"
+
+#: inc/customizer.php:407
+msgid "Use theme WPML Lang Menu?"
+msgstr "¿Usar selector de idioma WPML del tema?"
+
+#: inc/customizer.php:426
+msgid "Header width"
+msgstr "Ancho de cabecera"
+
+#: inc/customizer.php:439
+msgid "Header menu font family"
+msgstr "Familia de fuentes del menú"
+
+#: inc/customizer.php:453
+msgid "Header menu font size"
+msgstr "Tamaño de fuente del menú"
+
+#: inc/customizer.php:470
+msgid "Header menu spacing"
+msgstr "Espaciado del menú"
+
+#: inc/customizer.php:488
+msgid "Transparent sticky header blur"
+msgstr "Desenfoque de encabezado transparente pegajosa"
+
+#: inc/customizer.php:503
+msgid "Posts/Pages Settings"
+msgstr "Configuración de entradas/páginas"
+
+#: inc/customizer.php:515
+msgid "Archive width"
+msgstr "Ancho del archivo"
+
+#: inc/customizer.php:530
+msgid "Pagination previous label"
+msgstr "Etiqueta anterior de paginación"
+
+#: inc/customizer.php:532
+msgid "Previous post"
+msgstr "Publicación anterior"
+
+#: inc/customizer.php:545
+msgid "Pagination next label"
+msgstr "Etiqueta siguiente de paginación"
+
+#: inc/customizer.php:547 inc/templates.php:42
+msgid "Next post"
+msgstr "Siguiente publicación"
+
+#: inc/customizer.php:565
+msgid "Display Categories"
+msgstr "Mostrar categorías"
+
+#: inc/customizer.php:577
+msgid "Display Tags"
+msgstr "Mostrar etiquetas"
+
+#: inc/customizer.php:590
+msgid "Display Comments"
+msgstr "Mostrar comentarios"
+
+#: inc/customizer.php:603
+msgid "Display Breadcrumbs"
+msgstr "Mostrar migas de pan"
+
+#: inc/customizer.php:622
+msgid "Related Posts Title"
+msgstr "Título de publicaciones relacionadas"
+
+#: inc/customizer.php:634
+msgid "Limit of related posts"
+msgstr "Límite de publicaciones relacionadas"
+
+#: inc/customizer.php:649
+msgid "Footer Settings"
+msgstr "Configuración de pié de página"
+
+#: inc/customizer.php:662
+msgid "Footer Text"
+msgstr "Texto de pie de página"
+
+#: inc/customizer.php:673
+msgid "Display Go To Top"
+msgstr "Mostar ir arriba"
+
+#: inc/data.php:23
+msgid "UOC Sans"
+msgstr "UOC Jans"
+
+#: inc/data.php:24
+msgid "UOC Serif"
+msgstr "UOC Serif"
+
+#: inc/data.php:34 inc/data.php:156
+msgid "&mdash; Select &mdash;"
+msgstr "&mdash; Seleccionar &mdash;"
+
+#: inc/data.php:35
+msgid "Left"
+msgstr "Iquierda"
+
+#: inc/data.php:36
+msgid "Center"
+msgstr "Centrado"
+
+#: inc/data.php:37
+msgid "Right"
+msgstr "Derecha"
+
+#: inc/data.php:38
+msgid "Justify"
+msgstr "Justificar"
+
+#: inc/data.php:48 inc/setup.php:124
+msgid "Normal"
+msgstr "Normal"
+
+#: inc/data.php:49
+msgid "Wide"
+msgstr "Amplio"
+
+#: inc/data.php:50
+msgid "Full width"
+msgstr "Ancho completo"
+
+#: inc/data.php:63 src/js/editor.js:50
+msgid "Transparent Default"
+msgstr "Transparente por defecto"
+
+#: inc/data.php:64 src/js/editor.js:51
+msgid "Transparent Light"
+msgstr "Transparente claro"
+
+#: inc/data.php:65 src/js/editor.js:52
+msgid "Transparent Dark"
+msgstr "Transparente oscuro"
+
+#: inc/data.php:88
+msgid "Discover"
+msgstr "Descubre"
+
+#: inc/data.php:101
+msgid "<em>More</em> <strong>Folios</strong>"
+msgstr "<em>Más</em> <strong>Folios</strong>"
+
+#: inc/data.php:103
+msgid "Previus Folio"
+msgstr "Anterior Folio"
+
+#: inc/data.php:104
+msgid "Next Folio"
+msgstr "Siguiente Folio"
+
+#: inc/data.php:113
+msgid ""
+"[copyright] [current_year] - [site_title]<br>Made with ❤️ by <a "
+"href=\"https://tresipunt.com\" target=\"_blank\"><strong>tresipunt</strong></"
+"a>"
+msgstr ""
+"[copyright] [current_year] - [site_title]<br>Hecho con ❤️ por <a "
+"href=“https://tresipunt.com” target=“_blank”><strong>tresipunt</strong></a>"
+
+#: inc/images.php:33 inc/meta.php:174 inc/meta.php:207 inc/setup.php:315
+msgid "Featured"
+msgstr "Destacado"
+
+#: inc/meta.php:198
+msgid "Non Featured"
+msgstr "No destacado"
+
+#: inc/meta.php:286 inc/meta.php:321 inc/meta.php:376 inc/meta.php:383
+msgid "Slider"
+msgstr "Slider"
+
+#: inc/meta.php:292
+msgid "Slider revolution module to display for this term page."
+msgstr "Módulo Slider Revolution que se mostrará en la página de este término."
+
+#: inc/meta.php:301 inc/meta.php:339
+msgid ""
+"Header style for this term page (transparent styles overlay the header over "
+"the content)."
+msgstr ""
+"Estilo de encabezado para la página del término (los estilos transparentes "
+"se superponen al encabezado sobre el contenido)."
+
+#: inc/meta.php:328
+msgid "Slider revolution module to display for this term."
+msgstr "Módulo Slider Revolution que se mostrará para este término."
+
+#: inc/nav.php:447
+msgid "Add a menu"
+msgstr "Añadir un menú"
+
+#: inc/pagination.php:23
+msgid "Page"
+msgstr "Página"
+
+#: inc/pagination.php:121 inc/pagination.php:159
+msgid "Previous"
+msgstr "Anterior"
+
+#: inc/pagination.php:122 inc/pagination.php:160
+msgid "Next"
+msgstr "Siguiente"
+
+#: inc/pagination.php:123
+msgid "Navigation"
+msgstr "Navegación"
+
+#: inc/pagination.php:161
+msgid "Debate navigation"
+msgstr "Navegación de debate"
+
+#: inc/pagination.php:189
+msgid "Posts navigation"
+msgstr "Navegación de entradas"
+
+#: inc/pagination.php:193
+msgid "Older posts"
+msgstr "Entradas antiguas"
+
+#: inc/pagination.php:197
+msgid "Newer posts"
+msgstr "Entradas recientes"
+
+#: inc/setup.php:57
+msgid "Primary menu"
+msgstr "Menú principal"
+
+#: inc/setup.php:58
+msgid "Secondary menu"
+msgstr "Menú secundario"
+
+#: inc/setup.php:59
+msgid "Offcanvas menu"
+msgstr "Menú fuera del lienzo"
+
+#: inc/setup.php:119
+msgid "Small"
+msgstr "Pequeño"
+
+#: inc/setup.php:129
+msgid "Medium"
+msgstr "Mediano"
+
+#: inc/setup.php:134
+msgid "Large"
+msgstr "Grande"
+
+#: inc/setup.php:139
+msgid "XLarge"
+msgstr "Muy grande"
+
+#: inc/setup.php:144
+msgid "Huge"
+msgstr "Extra grande"
+
+#: inc/setup.php:186
+msgid "Footer"
+msgstr "Pié de página"
+
+#: inc/setup.php:187
+msgid "Add widgets here to appear in your footer site."
+msgstr "Añade aquí los widgets que aparecerán en el pie de página de tu sitio."
+
+#: inc/setup.php:252
+msgid "(opens in new window)"
+msgstr "(se abre en nueva ventana)"
+
+#: inc/setup.php:253
+msgid "Close menu"
+msgstr "Cerrar menú"
+
+#: inc/setup.php:254
+msgid "Loading"
+msgstr "Cargando"
+
+#: inc/setup.php:255
+msgid "expand / collapse"
+msgstr "expandir / contraer"
+
+#: inc/setup.php:256
+msgid "Load more"
+msgstr "Cargar más"
+
+#: inc/setup.php:316
+msgid "Not featured"
+msgstr "No destacado"
+
+#: inc/templates.php:28
+msgid "Pages:"
+msgstr "Páginas:"
+
+#: inc/templates.php:41
+msgid "Previus post"
+msgstr "Publicación anterior"
+
+#: inc/templates.php:67
+#, php-format
+msgid "Leave a Comment<span class=\"visually-hidden\"> on %s</span>"
+msgstr "Deja un comentario<span class=\"visually-hidden\"> en %s</span>"
+
+#: inc/templates.php:92
+#, php-format
+msgid "Edit %s"
+msgstr "Editar %s"
+
+#: inc/templates.php:129 inc/templates.php:155
+msgid "Publication date"
+msgstr "Fecha de publicación"
+
+#: inc/templates.php:182
+msgid "Authorship"
+msgstr "Autoría"
+
+#: inc/templates.php:213
+msgid "by"
+msgstr "por"
+
+#: inc/templates.php:227
+msgid "Tags"
+msgstr "Etiquetas"
+
+#: inc/templates.php:244 inc/templates.php:261
+msgid "Categories"
+msgstr "Categorías"
+
+#: inc/templates.php:368
+msgid "Please enter the message"
+msgstr "Por favor, introduce el mensaje"
+
+#: inc/templates.php:374
+#, php-format
+msgid "Logged in as %s. Edit your profile."
+msgstr "Conectado como %s. Edita tu perfil."
+
+#: inc/templates.php:377
+msgid "Log out?"
+msgstr "¿Cerrar sesión?"
+
+#: inc/templates.php:382
+msgid "Your comment"
+msgstr "Tu comentario"
+
+#: inc/templates.php:383
+msgid "Your message"
+msgstr "Tu mensaje"
+
+#: inc/templates.php:386
+msgid "Send comment"
+msgstr "Enviar comentario"
+
+#: inc/templates.php:387
+msgid "Leave a comment"
+msgstr "Deja un comentario"
+
+#: inc/templates.php:388
+msgid "Cancel Reply"
+msgstr "Cancelar respuesta"
+
+#: inc/templates.php:414
+msgid "Please enter the name"
+msgstr "Por favor, introduce el nombre"
+
+#: inc/templates.php:415
+msgid "Please enter a valid email"
+msgstr "Por favor, introduce un correo electrónico válido"
+
+#: inc/templates.php:418 inc/templates.php:419
+msgid "Name"
+msgstr "Nombre"
+
+#: inc/templates.php:423 inc/templates.php:424
+msgid "Your email"
+msgstr "Tu email"
+
+#: inc/templates.php:428 inc/templates.php:429
+msgid "Website"
+msgstr "Sitio web"
+
+#: inc/templates.php:437
+msgid ""
+"Save my name, email, and website in this browser for the next time I comment."
+msgstr ""
+"Guarda mi nombre, correo electrónico y sitio web en este navegador para la "
+"próxima vez que comente."
+
+#: inc/utils.php:245 inc/utils.php:293
+msgid "Home"
+msgstr "Inicio"
+
+#: inc/utils.php:256 inc/utils.php:258 inc/utils.php:260 inc/utils.php:262
+#: inc/utils.php:264
+#, php-format
+msgid "<li class=\"breadcrumb-item\">%s</li>"
+msgstr "<li class=\"breadcrumb-item\">%s</li>"
+
+#: inc/utils.php:258
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: inc/utils.php:260
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: inc/utils.php:267
+#, php-format
+msgid "<li class=\"breadcrumb-item\">Search: %s</li>"
+msgstr "<li class=\"breadcrumb-item\">Buscar: %s</li>"
+
+#: inc/utils.php:305
+msgid "Open menu"
+msgstr "Abrir menú"
+
+#: inc/utils.php:433
+msgctxt "Added to posts and pages that are missing titles"
+msgid "Untitled"
+msgstr "Sin título"
+
+#: inc/utils.php:525
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: inc/utils.php:624
+#, php-format
+msgctxt "%s = human-readable time difference"
+msgid "%s ago"
+msgstr "Hace %s"
+
+#: search.php:35
+msgid "Search Results for:"
+msgstr "Resultados de la búsqueda para:"
+
+#: src/js/editor.js:35
+msgid "Showroom Settings"
+msgstr "Configuración Showroom"
+
+#: src/js/editor.js:38
+msgid "Featured?"
+msgstr "¿Destacado?"
+
+#: src/js/editor.js:40
+msgid "Featured posts are displayed in the home slider."
+msgstr "Las publicaciones destacadas se muestran en el slider de inicio."
+
+#: src/js/editor.js:57
+msgid "Header overlay?"
+msgstr "¿Superposición de encabezado?"
+
+#: src/js/editor.js:59
+msgid "Removes header margin for fullwidth sliders, covers, etc."
+msgstr ""
+"Elimina el margen del encabezado para sliders de ancho completo, portadas, "
+"etc."
+
+#: src/js/editor.js:63
+msgid "Hide title?"
+msgstr "¿Ocultar título?"
+
+#: src/js/editor.js:69
+msgid "Hide header info?"
+msgstr "¿Ocultar información de cabecera?"
+
+#: src/js/editor.js:74
+msgid "Hide featured image?"
+msgstr "¿Ocultar imagen destacada?"
+
+#: src/js/editor.js:81
+msgid "Showroom author"
+msgstr "Autor Showroom"
+
+#: src/js/editor.js:85
+msgid "Author image"
+msgstr "Imagen del autor"
+
+#: src/js/editor.js:86
+msgid "Upload image"
+msgstr "Cargar imagen"
+
+#: src/js/editor.js:87
+msgid "Remove image"
+msgstr "Eliminar imagen"
+
+#: src/js/editor.js:91
+msgid "Author name"
+msgstr "Nombre del autor"
+
+#: src/js/editor.js:95
+msgid "Author url"
+msgstr "Url del autor"
+
+#: template-parts/content-none.php:15
+msgid "Nothing Found"
+msgstr "No se ha encontrado nada"
+
+#: template-parts/content-none.php:25
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"¿Preparado para publicar tu primera entrada? <a href=\"%1$s\">Empieza aquí</"
+"a>."
+
+#: template-parts/content-none.php:38
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Desafortunadamente, no hay nada que coincida con los términos de búsqueda. "
+"Por favor, vuelve a intentarlo con algunas palabras clave diferentes."
+
+#: template-parts/content-none.php:45
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Parece que no podemos encontrar lo que estás buscando. Tal vez la búsqueda "
+"pueda ayudar."
+
+#: template-parts/content-single.php:58
+#, php-format
+msgid "Continue reading<span class=\"visually-hidden\"> \"%s\"</span>"
+msgstr "Seguir leyendo<span class=\"visually-hidden\"> \"%s\"</span>"
+
+#: template-parts/menu-offcanvas.php:50 template-parts/menu-search.php:46
+msgid "Close"
+msgstr "Cerrar"
+
+#: template-parts/menu-search.php:24 template-parts/searchform.php:2
+#, php-format
+msgid "Search in %s..."
+msgstr "Buscar en %s…"
+
+#: template-parts/menu-search.php:35 template-parts/searchform.php:5
+msgid "Search for:"
+msgstr "Búsqueda por:"
+
+#~ msgid "Hide Page Heading"
+#~ msgstr "Ocultar encabezado de página"
+
+#~ msgid "Gray"
+#~ msgstr "Gris"
+
+#~ msgid "Green"
+#~ msgstr "Verde"
+
+#~ msgid "Orange"
+#~ msgstr "Naranja"
+
+#~ msgid "Red"
+#~ msgstr "Rojo"
+
+#~ msgid "List"
+#~ msgstr "Lista"
+
+#~ msgid "Grid"
+#~ msgstr "Grilla"
+
+#~ msgid "Masonry"
+#~ msgstr "Masonry"
+
+#~ msgid "Full content"
+#~ msgstr "Contenido completo"
+
+#~ msgid "Summary"
+#~ msgstr "Resumen"
+
+#~ msgid "General Settings"
+#~ msgstr "Configuración general"
+
+#~ msgid "Content Align"
+#~ msgstr "Alineación del contenido"
+
+#~ msgid "Archive content"
+#~ msgstr "Contenido del archivo"
+
+#~ msgid "Display Featured Image in Archive"
+#~ msgstr "Mostrar imagen destacada en archivo"
+
+#~ msgid "CTA Button Type"
+#~ msgstr "Tipo de botón de acción"
+
+#~ msgid "Button outline style"
+#~ msgstr "Estilo de contorno de los botones"
+
+#~ msgid "CTA Title"
+#~ msgstr "Título del botón de acción"
+
+#~ msgid "CTA Link"
+#~ msgstr "Enlace del botón de acción"
+
+#~ msgid "Opens in new window"
+#~ msgstr "Se abre en nueva ventana"
+
+#~ msgid "Footer Text Align"
+#~ msgstr "Alineación de texto de pie de página"
+
+#~ msgid "Comments navigation"
+#~ msgstr "Navegación de comentarios"
+
+#~ msgid "Welcome to Folio!"
+#~ msgstr "¡Bienvenido/a a Folio!"
+
+#~ msgctxt "Block pattern description"
+#~ msgid "Folio welcome section with big title, description and illustration"
+#~ msgstr ""
+#~ "Sección de bienvenida a Folio con título grande, descripción e ilustración"
+
+#~ msgid "Hi!"
+#~ msgstr "¡Hola!"
+
+#~ msgid ""
+#~ "Folio can be your personal space to connect with colleagues, society and "
+#~ "the working market."
+#~ msgstr ""
+#~ "Folio puede ser tu espacio personal para conectar con compañeros y "
+#~ "compañeras, la sociedad y el mundo laboral."
+
+#~ msgid "What is Folio?"
+#~ msgstr "¿Qué es Folio?"
+
+#~ msgctxt "Block pattern description"
+#~ msgid ""
+#~ "Folio what is section with title and three columns of blocks with icons"
+#~ msgstr ""
+#~ "Sección qué es folio, con título y tres columnas de bloques con iconos"
+
+#~ msgid "Personal space"
+#~ msgstr "Espacio Personal"
+
+#~ msgid ""
+#~ "Use it <strong>throughout your studies and beyond</strong>. You can "
+#~ "publish your own content, classroom activities, evaluable work..."
+#~ msgstr ""
+#~ "Úsalo <strong>a lo largo de tus estudios y más allá</strong>. Puedes "
+#~ "publicar contenidos propios, actividades de aulas, trabajos evaluables…"
+
+#~ msgid "Community"
+#~ msgstr "Comunidad"
+
+#~ msgid ""
+#~ "Publish and share your content and check out other people's posts. A "
+#~ "<strong>socialization</strong> space that will help you<strong> learn "
+#~ "among equals</strong>"
+#~ msgstr ""
+#~ "Publica y comparte tus contenidos y visualiza las publicaciones de otras "
+#~ "personas. Un espacio de <strong>socialización</strong> que te ayudará a "
+#~ "<strong>aprender entre iguales</strong>"
+
+#~ msgid "Get professional"
+#~ msgstr "Profesionalízate"
+
+#~ msgid ""
+#~ "Folio uses <strong>WordPress</strong>, the most widely used open source "
+#~ "content management system in the world. You will learn to work with the "
+#~ "<strong>portfolio tool preferred by professionals</strong>."
+#~ msgstr ""
+#~ "Folio utiliza <strong>WordPress</strong>, el gestor de contenidos de "
+#~ "código abierto más utilizado en el mundo. Aprenderás a trabajar con la "
+#~ "<strong>herramienta de portafolio preferida por los profesionales</"
+#~ "strong>."
+
+#~ msgid "What can you do with Folio?"
+#~ msgstr "¿Qué puedes hacer con Folio?"
+
+#~ msgctxt "Block pattern description"
+#~ msgid ""
+#~ "Folio what can you do section with title, description and two columns for "
+#~ "accordion and illustration"
+#~ msgstr ""
+#~ "Sección qué puedes hacer con Folio, con título, descripción y dos "
+#~ "columnas para acordeón e ilustración"
+
+#~ msgid ""
+#~ "By being able to connect WordPress with your virtual campus, it allows "
+#~ "you to:"
+#~ msgstr ""
+#~ "Al ser capaz de conectar WordPress con tu campus virtual, te permite:"
+
+#~ msgid "Show your work"
+#~ msgstr "Mostrar el trabajo"
+
+#~ msgid ""
+#~ "Choose which content is private or public. If you make it public, "
+#~ "<strong>choose who can see it</strong>: teachers, classroom students, "
+#~ "members of your educational community, or everyone."
+#~ msgstr ""
+#~ "Elige qué contenido es privado o público. Si lo haces público, "
+#~ "<strong>elige quién puede verlo</strong>: docentes, estudiantes del aula, "
+#~ "miembros de tu comunidad educativa o todo el mundo."
+
+#~ msgid "Label the contents"
+#~ msgstr "Etiquetar los contenidos"
+
+#~ msgid ""
+#~ "The <strong>ActiFolios</strong> allow you to link your contents with the "
+#~ "activities of your classrooms. Use it to <strong>link posts from your "
+#~ "Folio to teaching activities</strong>."
+#~ msgstr ""
+#~ "Las <strong>ActiFolios</strong> te permiten vincular tus contenidos con "
+#~ "las actividades de tus aulas. Úsala para <strong>relacionar publicaciones "
+#~ "de tu Folio con las actividades docentes</strong>."
+
+#~ msgid "Learn by sharing"
+#~ msgstr "Aprender compartiendo"
+
+#~ msgid ""
+#~ "The <strong>Agora</strong> is a space inside the classroom where you can "
+#~ "<strong>interact with the rest of the students</strong>. You will be able "
+#~ "to share, see and comment on everything that has been tagged with a "
+#~ "subject's ActiFolio."
+#~ msgstr ""
+#~ "<strong>Ágora</strong> es un espacio dentro del aula donde podrás "
+#~ "<strong>interactuar con el resto de estudiantes</strong>. Podrás "
+#~ "compartir, ver y comentar todo lo que se haya etiquetado con ActiFolios "
+#~ "de la asignatura."
+
+#~ msgid "Submit from your Folio"
+#~ msgstr "Hacer entregas desde tu Folio"
+
+#~ msgid ""
+#~ "Submit straight from your workspace. The <strong>teaching staff</strong> "
+#~ "will be able to enter to <strong>evaluate them and leave comments</"
+#~ "strong>."
+#~ msgstr ""
+#~ "Realiza las entregas sin salir de tu espacio de trabajo. El "
+#~ "<strong>personal docente</strong> podrá entrar a <strong>evaluarlos y "
+#~ "dejar comentarios</strong>."
+
+#~ msgid "Advantages section"
+#~ msgstr "Sección ventajas"
+
+#~ msgctxt "Block pattern description"
+#~ msgid ""
+#~ "Section with title, description and two-column blocks with title, text "
+#~ "and illustration"
+#~ msgstr ""
+#~ "Sección con título, descripción y bloques a dos columnas con título, "
+#~ "texto e ilustración"
+
+#~ msgid "Advantages"
+#~ msgstr "Ventajas"
+
+#~ msgid ""
+#~ "Due to its collaborative and global vocation, the integration of Folio "
+#~ "into the work methodology of educational institutions offers benefits for "
+#~ "the entire community"
+#~ msgstr ""
+#~ "Por su vocación colaborativa y global, la integración de Folio en la "
+#~ "metodología de trabajo de las instituciones educativas ofrece beneficios "
+#~ "para toda la comunidad"
+
+#~ msgid "For students"
+#~ msgstr "Para estudiantes"
+
+#~ msgid ""
+#~ "Create a <strong>professional portfolio</strong> since the first day of "
+#~ "studies."
+#~ msgstr ""
+#~ "Crear un <strong>portafolio profesional</strong> desde el primer día de "
+#~ "los estudios."
+
+#~ msgid ""
+#~ "Personalize an <strong>own space of representation, identification and "
+#~ "empowerment</strong>, with freedom and autonomy."
+#~ msgstr ""
+#~ "Personalizar un <strong>espacio propio de representación, identificación "
+#~ "y empoderamiento</strong>, con libertad y autonomía."
+
+#~ msgid ""
+#~ "<strong>Socialize</strong> in the learning process, being part of a "
+#~ "<strong>global network</strong>."
+#~ msgstr ""
+#~ "<strong>Socializar</strong> en el proceso de aprendizaje, formando parte "
+#~ "de una <strong>red global</strong>."
+
+#~ msgid ""
+#~ "Consolidate a <strong>network</strong> of personal and professional "
+#~ "<strong>contacts</strong> in <strong>knowledge areas</strong> of common "
+#~ "interest."
+#~ msgstr ""
+#~ "Consolidar una <strong>red de contactos</strong> personales y "
+#~ "profesionales en las <strong>áreas de conocimiento</strong> de interés "
+#~ "común."
+
+#~ msgid "For teachers"
+#~ msgstr "Para docentes"
+
+#~ msgid ""
+#~ "Contextualize the <strong>transversal journey</strong> of students, "
+#~ "beyond a subject."
+#~ msgstr ""
+#~ "Contextualizar el <strong>recorrido transversal</strong> de estudiantes, "
+#~ "más allá de una asignatura."
+
+#~ msgid ""
+#~ "Confirm the <strong>originality of the authorship of the works</strong>."
+#~ msgstr ""
+#~ "Confirmar la <strong>originalidad de la autoría de los trabajos</strong>."
+
+#~ msgid ""
+#~ "<strong>Energize the classroom</strong> and <strong>encourage peer "
+#~ "learning</strong> & feedback."
+#~ msgstr ""
+#~ "<strong>Dinamizar el aula</strong> e <strong>incentivar el aprendizaje</"
+#~ "strong> y el feedback entre iguales."
+
+#~ msgid ""
+#~ "Connect knowledge and <strong>educational activit</strong>y with society "
+#~ "and the working market."
+#~ msgstr ""
+#~ "Conectar el conocimiento y la <strong>actividad educativa</strong> con la "
+#~ "sociedad y el mundo laboral."
+
+#~ msgid "For institutions"
+#~ msgstr "Para instituciones"
+
+#~ msgid ""
+#~ "Strengthen the <strong>students' sense of belonging to the institution</"
+#~ "strong> and promote their autonomy."
+#~ msgstr ""
+#~ "Fortalecer el <strong>sentimiento de pertenencia de estudiantes a la "
+#~ "institución</strong> y fomentar su autonomía."
+
+#~ msgid ""
+#~ "<strong>Strengthen relationships between members</strong> of the "
+#~ "educational community."
+#~ msgstr ""
+#~ "<strong>Potenciar las relaciones entre los integrantes</strong> de la "
+#~ "comunidad educativa."
+
+#~ msgid ""
+#~ "Value and <strong>maintain the link with the Alumni community</strong>."
+#~ msgstr ""
+#~ "Poner en valor y <strong>mantener el vínculo con la comunidad de Alumni</"
+#~ "strong>."
+
+#~ msgid ""
+#~ "Project to the world <strong>the potential of students, teachers and the "
+#~ "prestige</strong> of the institution itself."
+#~ msgstr ""
+#~ "Proyectar al mundo <strong>el potencial de estudiantes, docentes y el "
+#~ "prestigio</strong> de la propia institución."
+
+#~ msgid "Shall we start?"
+#~ msgstr "¿Empezamos?"
+
+#~ msgctxt "folio-showroom"
+#~ msgid ""
+#~ "Section shall we start with title and three columns of blocks with icons "
+#~ "and helpful links"
+#~ msgstr ""
+#~ "Sección empezamos, con título, descripción y tres columnas de bloques con "
+#~ "iconos y links útiles"
+
+#, php-format
+#~ msgid "Do you need help? %sGet started%s with these first steps"
+#~ msgstr "¿Quieres ayuda? %sEmpieza%s con estos primeros pasos"
+
+#, php-format
+#~ msgid ""
+#~ "Are you a teacher? %sLearn%s how to take advantage of the tool in the "
+#~ "classroom."
+#~ msgstr ""
+#~ "¿Eres docente? %sAprende%s cómo aprovechar la herramienta en el aula."
+
+#, php-format
+#~ msgid "Are you interested in the project? Get in %scontact%s with us"
+#~ msgstr "¿Te interesa el proyecto? Ponte en %scontacto%s con nosotros"
+
+#~ msgid "Featured section with four columns"
+#~ msgstr "Sección destacados con cuatro columnas"
+
+#~ msgctxt "Block pattern description"
+#~ msgid ""
+#~ "Featured section with title, description and four columns of alternately "
+#~ "aligned blocks with icons"
+#~ msgstr ""
+#~ "Sección destacados con título, descripción y cuatro columnas de bloques "
+#~ "alineados alternativamente con iconos"
+
+#~ msgid "Featured section with three columns"
+#~ msgstr "Sección destacados con tres columnas"
+
+#~ msgctxt "Block pattern description"
+#~ msgid ""
+#~ "Featured section with title, description and three columns of blocks with "
+#~ "icons and action buttons"
+#~ msgstr ""
+#~ "Sección destacados con título, descripción y tres columnas de bloques con "
+#~ "iconos y botones de acción"
+
+#~ msgid "Red Light"
+#~ msgstr "Rojo claro"
+
+#~ msgid "White"
+#~ msgstr "Blanco"
+
+#~ msgid "This theme requires you to install the Folio Xarxa Companion Plugin."
+#~ msgstr ""
+#~ "Este tema requiere que instales el plugin Folio Xarxa de acompañamiento."
+
+#, php-format
+#~ msgctxt "post author"
+#~ msgid "by %s"
+#~ msgstr "por %s"
+
+#~ msgid ""
+#~ "Are you interested in the project? Get in <a href=\"mailto:qberga@uoc."
+#~ "edu\" target=\"_blank\" rel=\"noreferrer noopener\"><strong>contact</"
+#~ "strong></a> with us"
+#~ msgstr ""
+#~ "¿Te interesa el proyecto? Ponte en <a href=“mailto:qberga@uoc.edu” "
+#~ "target=“_blank” rel=“noreferrer noopener”><strong>contacto</strong></a>  "
+#~ "con nosotros"
+
+#~ msgid "Cover section with accordion"
+#~ msgstr "Sección de cubierta con acordeón"

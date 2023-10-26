@@ -1,0 +1,18 @@
+// Block imports.
+// Styles for individual blocks in the block editor. All of the core WP blocks
+// are under the `/core` subfolder. Block styles for plugins should be in their
+// own subfolders.
+// -----------------------------------------------------------------------------
+
+// Import editor blocks.
+@import "blocks/editor/base";
+@import "blocks/editor/button";
+@import "blocks/editor/cover";
+@import "blocks/editor/file";
+@import "blocks/editor/pullquote";
+@import "blocks/editor/quote";
+@import "blocks/editor/search";
+@import "blocks/editor/separator";
+@import "blocks/editor/tables";
+@import "blocks/editor/verse";
+

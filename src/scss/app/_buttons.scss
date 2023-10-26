@@ -1,0 +1,287 @@
+// Buttons variants
+
+.btn {
+  --#{$prefix}btn-disabled-color: #{$white};
+  --#{$prefix}btn-disabled-bg: #{$gray-400};
+  --#{$prefix}btn-disabled-border-color: #{$gray-400};
+}
+
+//.btn,
+.btn-default,
+.btn-dark {
+  color: var(--#{$prefix}white);
+  background-color: var(--#{$prefix}dark);
+  border-color: var(--#{$prefix}dark);
+}
+
+.btn-outline-default,
+.btn-outline-dark {
+  color: var(--#{$prefix}dark);
+  background-color: transparent;
+  border-color: var(--#{$prefix}dark);
+}
+
+//.btn:hover, .btn:focus, .btn.focus,
+.btn-default:hover,
+.btn-default:focus,
+.btn-default.focus,
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark.focus,
+.btn-outline-default:hover,
+.btn-outline-default:focus,
+.btn-outline-default.focus,
+.btn-outline-dark:hover,
+.btn-outline-dark:focus,
+.btn-outline-dark.focus {
+  color: var(--#{$prefix}white);
+  background-color: var(--#{$prefix}default-darkest);
+  border-color: var(--#{$prefix}default-darkest);
+}
+
+.btn-light {
+  color: var(--#{$prefix}dark);
+  background-color: var(--#{$prefix}white);
+  border-color: var(--#{$prefix}white);
+}
+
+.btn-outline-light {
+  color: var(--#{$prefix}white);
+  background-color: transparent;
+  border-color: var(--#{$prefix}white);
+}
+
+.btn-light:hover,
+.btn-light:focus,
+.btn-light.focus,
+.btn-outline-light:hover,
+.btn-outline-light:focus,
+.btn-outline-light.focus {
+  color: var(--#{$prefix}dark);
+  background-color: var(--#{$prefix}white);
+  border-color: var(--#{$prefix}white);
+}
+
+.btn-primary {
+  color: var(--#{$prefix}white);
+  background-color: var(--#{$prefix}primary);
+  border-color: var(--#{$prefix}primary);
+}
+
+.btn-outline-primary {
+  color: var(--#{$prefix}primary);
+  background-color: transparent;
+  border-color: var(--#{$prefix}primary);
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus,
+.btn-outline-primary:hover,
+.btn-outline-primary:focus,
+.btn-outline-primary.focus {
+  color: var(--#{$prefix}white);
+  background-color: var(--#{$prefix}primary-darkest);
+  border-color: var(--#{$prefix}primary-darkest);
+}
+
+.btn-secondary {
+  color: var(--#{$prefix}white);
+  background-color: var(--#{$prefix}secondary);
+  border-color: var(--#{$prefix}secondary);
+}
+
+.btn-outline-secondary {
+  color: var(--#{$prefix}secondary);
+  background-color: transparent;
+  border-color: var(--#{$prefix}secondary);
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary.focus,
+.btn-outline-secondary:hover,
+.btn-outline-secondary:focus,
+.btn-outline-secondary.focus {
+  color: var(--#{$prefix}white);
+  background-color: var(--#{$prefix}secondary-darkest);
+  border-color: var(--#{$prefix}secondary-darkest);
+}
+
+/*
+.btn-info,
+.btn-success,
+.btn-warning,
+.btn-danger{
+    color: var(--#{$prefix}white);
+}
+*/
+
+// Search btn
+
+.btn-icon {
+  position: relative;
+  top: -1px;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+  outline: none;
+  color: inherit;
+  svg {
+    width: 22px;
+    height: auto;
+  }
+  &:focus:not(:focus-visible) {
+    outline: none;
+    box-shadow: none;
+    background-color: transparent;
+  }
+  &:focus-visible {
+    outline: none;
+    box-shadow: none;
+    background-color: var(--#{$prefix}main-menu-active-bg);
+  }
+}
+
+@include color-mode(dark) {
+  .btn-default {
+    @extend .btn-light;
+  }
+
+  .btn-outline-default {
+    @extend .btn-outline-light;
+  }
+
+  .btn-primary,
+  .btn-secondary {
+    color: var(--#{$prefix}dark);
+  }
+
+  .btn-outline-primary:hover,
+  .btn-outline-primary:focus,
+  .btn-outline-primary.focus,
+  .btn-outline-secondary:hover,
+  .btn-outline-secondary:focus,
+  .btn-outline-secondary.focus,
+  .btn-outline-dark:hover,
+  .btn-outline-dark:focus,
+  .btn-outline-dark.focus {
+    color: var(--#{$prefix}dark);
+  }
+}
+
+.menu-btn {
+  display: flex;
+  align-items: center;
+  > .nav-link {
+    text-transform: none;
+    @extend .btn;
+    @extend .px-3;
+    @extend .py-2;
+  }
+
+  &:not([class*="menu-btn-"]) {
+    > .nav-link {
+      @extend .btn-primary;
+    }
+  }
+
+  &.menu-btn-primary {
+    > .nav-link {
+      @extend .btn-primary;
+    }
+  }
+
+  &.menu-btn-default {
+    > .nav-link {
+      @extend .btn-default;
+    }
+  }
+
+  &.menu-btn-dark {
+    > .nav-link {
+      @extend .btn-dark;
+    }
+  }
+
+  &.menu-btn-light {
+    > .nav-link {
+      @extend .btn-light;
+    }
+  }
+
+  &.menu-btn-success {
+    > .nav-link {
+      @extend .btn-success;
+    }
+  }
+
+  &.menu-btn-danger {
+    > .nav-link {
+      @extend .btn-danger;
+    }
+  }
+
+  &.menu-btn-warning {
+    > .nav-link {
+      @extend .btn-warning;
+    }
+  }
+
+  &.menu-btn-info {
+    > .nav-link {
+      @extend .btn-info;
+    }
+  }
+
+  &.menu-btn-outline-default {
+    > .nav-link {
+      @extend .btn-outline-default;
+    }
+  }
+
+  &.menu-btn-outline-primary {
+    > .nav-link {
+      @extend .btn-outline-primary;
+    }
+  }
+
+  &.menu-btn-outline-light {
+    > .nav-link {
+      @extend .btn-outline-light;
+    }
+  }
+
+  &.menu-btn-outline-dark {
+    > .nav-link {
+      @extend .btn-outline-dark;
+    }
+  }
+
+  &.menu-btn-outline-success {
+    > .nav-link {
+      @extend .btn-outline-success;
+    }
+  }
+
+  &.menu-btn-outline-danger {
+    > .nav-link {
+      @extend .btn-outline-danger;
+    }
+  }
+
+  &.menu-btn-outline-warning {
+    > .nav-link {
+      @extend .btn-outline-warning;
+    }
+  }
+
+  &.menu-btn-outline-info {
+    > .nav-link {
+      @extend .btn-outline-info;
+    }
+  }
+}

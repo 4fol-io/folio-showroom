@@ -1,0 +1,43 @@
+// Icons
+
+.collapse-toggle {
+  &:hover,
+  &:focus {
+    box-shadow: none;
+  }
+  .collapse-icon {
+    border: 0;
+    display: inline-block;
+    width: 0.75rem;
+    height: 0.75rem;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-image: $icon-svg-chevron-v-dark;
+    background-position: center center;
+    transition: transform 0.25s ease;
+    transform: rotate(180deg);
+  }
+
+  &.collapsed {
+    .collapse-icon {
+      transform: rotate(0deg);
+    }
+  }
+}
+
+.offcanvas-menu {
+  .nav-item:not(.menu-btn) {
+    .collapse-toggle {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .collapse-icon {
+        margin-left: 0.75rem;
+        display: flex;
+        align-items: center;
+        background-image: initial;
+      }
+    }
+  }
+}
