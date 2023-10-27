@@ -64,7 +64,7 @@ if (is_home() && is_front_page()) { // Is home and latest posts config
 			}
 		}
 	}
-} else { // Post/page overrrides
+} else if ( is_single() || is_page() ) { // Post/page overrrides
 
 	if ($page_id) {
 		$post_header_theme = get_post_meta($page_id, '_folio_showroom_header_theme', true);
@@ -167,7 +167,7 @@ $body_classes = $header_theme . ' ' . $header_overlay;
 				<?php $nav_class = ($lang_menu_show) ? '' : 'navbar-right';
 				?>
 
-				<nav id="site-navigation" class="site-menu navbar navbar-expand flex-fill py-0 me-n1">
+				<nav id="site-navigation" class="site-menu navbar navbar-expand flex-fill py-0">
 
 					<div class="d-none d-xl-flex flex-xl-fill">
 
@@ -207,7 +207,9 @@ $body_classes = $header_theme . ' ' . $header_overlay;
 
 					</div>
 
-					<div class="header-actions d-flex flex-nowrap ms-auto ms-xl-2 me-2 me-xl-0">
+					<?php $actions_class = $header_search_show || $color_mode_switcher ? 'ms-xl-2 me-2 me-xl-0' : ''; ?>
+
+					<div class="header-actions d-flex flex-nowrap ms-auto <?php echo $actions_class ?>">
 
 						<?php if ($header_search_show) : ?>
 

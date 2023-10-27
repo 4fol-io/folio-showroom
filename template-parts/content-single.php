@@ -28,7 +28,7 @@ $header_class .= $hide_title && $hide_meta ? '' : ' my-5';
 
 		<?php 
 		if ( $hide_title != '1' ) {
- 			the_title('<h1 class="entry-title display-2 fw-semibold mb-3">', '</h1>');
+ 			the_title('<h1 class="entry-title display-2 text-uppercase fw-bold mb-3">', '</h1>');
 		}
 		?>
 

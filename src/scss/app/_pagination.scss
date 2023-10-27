@@ -123,60 +123,18 @@
   }
 }
 
-/*@include media-breakpoint-down(md) {
-    .pagination__item:not(:last-child):not(:first-child) {
-        //width: $pagination-item-width;
-        width: 14.28571%;
-    }
-
-    .pagination__item:last-child {
-        position: relative;
-        border-left: 0 transparent;
-        margin-top: 0;
-        clear: left;
-    }
-
-    .pagination__item:first-child {
-        position: absolute;
-        border-left: 0 transparent;
-        margin-top: 60px;
-    }
-
-    .pagination__item:nth-last-child(2){
-        padding-right: 0;
-    }
-}*/
 
 // Pagination buttons
 .pagination__item--prev {
-  //float: left;
   padding-left: 0;
-
   span {
     line-height: 1.55;
   }
 }
 
 .pagination__item--next {
-  //float: right;
   padding-right: 0;
-
   span {
     line-height: 1.55;
   }
 }
-
-/*
-body.single {
-  .pagination-nav {
-    margin-left: 1rem;
-    margin-right: 1rem;
-    .pagination__item {
-      background: transparent;
-    }
-  }
-  .active > .pagination__link {
-    background: transparent;
-  }
-}
-*/

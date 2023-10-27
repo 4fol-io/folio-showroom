@@ -263,8 +263,8 @@ $icon-svg-chevron-v-light: escape-svg(
 //
 // Quickly modify global styling by enabling or disabling optional features.
 
-$enable-caret: true !default;
-$enable-rounded: true !default;
+$enable-caret: false;
+$enable-rounded: false;
 $enable-shadows: false !default;
 $enable-gradients: false !default;
 $enable-transitions: true !default;
@@ -276,7 +276,7 @@ $enable-cssgrid: false !default;
 $enable-button-pointers: true !default;
 $enable-rfs: true !default;
 $enable-validation-icons: true !default;
-$enable-negative-margins: true;
+$enable-negative-margins: false !default;
 $enable-deprecation-messages: true !default;
 $enable-important-utilities: true !default;
 
@@ -307,7 +307,7 @@ $spacers: (
   5: (
     $spacer * 3,
   ),
-) !default;
+);
 
 // Position
 //
@@ -354,8 +354,8 @@ $grid-breakpoints: (
   md: 768px,
   lg: 992px,
   xl: 1200px,
-  xxl: 1400px,
-) !default;
+  xxl: 1400px
+);
 
 @include _assert-ascending($grid-breakpoints, "$grid-breakpoints");
 @include _assert-starts-at-zero($grid-breakpoints, "$grid-breakpoints");

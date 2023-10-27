@@ -558,23 +558,31 @@ function archive_title($title)
 {
   $prefix = '';
   if (is_category()) {
+    $cats_prefix = Data\get_theme_option('archive_cats_prefix');
+    $prefix = $cats_prefix ? '<em class="fw-light">'. $cats_prefix .'</em> ' : '';
     $title = single_cat_title('', false);
   } elseif (is_tag()) {
-    $title = '<em>' . single_tag_title('#', false) . '</em>';
+    $tags_prefix = Data\get_theme_option('archive_tags_prefix');
+    $prefix = $tags_prefix ? '<em class="fw-light">'. $tags_prefix .'</em> ' : '';
+    $title = single_tag_title('', false);
   } elseif (is_author()) {
+    $prefix = '<em class="fw-light">'. __('by', 'folio-showroom') .'</em> ';
     $title = '<span class="vcard">' . get_the_author() . '</span>';
   } elseif (is_post_type_archive()) {
     $title = post_type_archive_title('', false);
   } elseif (is_tax()) {
     $title = single_term_title('', false);
   } elseif (is_year()) {
+    $prefix = '<em class="fw-light">'. __('Year') .'</em> ';
     $title = get_the_date('Y');
   } elseif (is_month()) {
+    $prefix = '<em class="fw-light">'. __('Month') .'</em> ';
     $title = ucwords(get_the_date('F Y'));
   } elseif (is_day()) {
+    $prefix = '<em class="fw-light">'. __('Date') .'</em> ';
     $title = ucwords(get_the_date('j F, Y'));
   }
-  return '<strong>' . $title . '</strong>';
+  return $prefix . $title;
 }
 add_action('get_the_archive_title',  __NAMESPACE__ . '\\archive_title');
 

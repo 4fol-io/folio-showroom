@@ -97,25 +97,3 @@
     background-color:var(--#{$prefix}dark);
   }
 }
-
-/*
-.dropdown > a {
-  transition: all 0.2s ease-in;
-}
-.dropdown-menu .dropdown-menu {
-	left: 100%;
-	margin: 0;
-	right: auto;
-}
-.dropdown-menu-right .dropdown-menu,
-.navbar-right .dropdown-menu .dropdown-menu,
-.pull-right .dropdown-menu .dropdown-menu {
-	left: auto;
-	right: 100%;
-}
-
-.dropdown-menu.dropdown-menu-center {
-  right: auto;
-  left: 50%;
-  transform: translate3d(-50%, 0,0);
-}*/

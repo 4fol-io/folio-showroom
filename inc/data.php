@@ -98,6 +98,8 @@ function get_default_settings()
         'home_header_theme'      => '',
         'home_header_overlay'    => false,
         'archive_width'          => 'wide',
+        'archive_cats_prefix'    => __('Discover', 'folio-showroom'),
+        'archive_tags_prefix'    => __('Discover', 'folio-showroom'),
         'related_posts_title'    => __('<em>More</em> <strong>Folios</strong>', 'folio-showroom'),
         'related_posts_limit'    => 4,
         'nav_prev_text'          => __('Previus Folio', 'folio-showroom'),

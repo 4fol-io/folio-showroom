@@ -52,8 +52,8 @@ switch ($archive_width) {
 
 			if ($home_title) :
 			?>
-				<header>
-					<h1 class="page-title display-1 text-end my-5"><?php echo $home_title; ?></h1>
+				<header class="my-5 my-xxl-5 pt-xxl-5 pb-xxl-2">
+					<h1 class="page-title display-1 text-uppercase text-end"><?php echo $home_title; ?></h1>
 				</header>
 			<?php
 			endif;

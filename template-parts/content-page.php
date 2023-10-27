@@ -20,7 +20,7 @@ $hide_featured_img = get_post_meta( get_the_ID(), '_folio_showroom_hide_featured
 
 	<?php if ($hide_title != '1') : ?>
 		<header class="entry-header my-5">
-			<?php the_title('<h1 class="entry-title display-2 fw-semibold mb-3">', '</h1>'); ?>
+			<?php the_title('<h1 class="entry-title display-2 text-uppercase fw-bold mb-3">', '</h1>'); ?>
 			<?php Utils\the_breadcrumb(); ?>
 		</header><!-- .entry-header -->
 	<?php endif; ?>

@@ -497,14 +497,13 @@ function customize_register($wp_customize)
 	)));
 
 
-	/* ARCHIVE & PAGES/POSTS */
+	/* ARCHIVE */
 
-	$wp_customize->add_section('folio-showroom-posts', array(
-		'title' 		=> __('Posts/Pages Settings', 'folio-showroom'),
+	$wp_customize->add_section('folio-showroom-archive', array(
+		'title' 		=> __('Archive Settings', 'folio-showroom'),
 		'capability' 	=> 'edit_theme_options',
 		'priority'		=> 1
 	));
-
 
 	$wp_customize->add_setting('folio_showroom_archive_width', array(
 		'default' 		=>  Data\get_default_option('archive_width'),
@@ -513,47 +512,41 @@ function customize_register($wp_customize)
 
 	$wp_customize->add_control('folio_showroom_archive_width', array(
 		'label' => __('Archive width', 'folio-showroom'),
-		'section' => 'folio-showroom-posts',
+		'section' => 'folio-showroom-archive',
 		'type' => 'select',
 		'choices' => Data\get_layout_width_choices()
 	));
 
-
-	$wp_customize->add_setting('folio_showroom_nav_prev_text', array(
-		'default' 			=> Data\get_default_option('nav_prev_text'),
+	$wp_customize->add_setting('folio_showroom_archive_cats_prefix', array(
+		'default' 			=> Data\get_default_option('archive_cats_prefix'),
 		'sanitize_callback' => 'wp_kses',
 	));
 
-	$wp_customize->add_control('folio_showroom_nav_prev_text', array(
+	$wp_customize->add_control('folio_showroom_archive_cats_prefix', array(
 		'type' 			=> 'text',
-		'section' 		=> 'folio-showroom-posts',
-		'label' 		=> __('Pagination previous label', 'folio-showroom'),
-		'input_attrs' => array(
-			'placeholder' =>  __('Previous post', 'folio-showroom')
-		)
+		'section' 		=> 'folio-showroom-archive',
+		'label' 		=> __('Categories title prefix', 'folio-showroom'),
 	));
 
-
-	$wp_customize->add_setting('folio_showroom_nav_next_text', array(
-		'default' 			=> Data\get_default_option('nav_next_text'),
+	$wp_customize->add_setting('folio_showroom_archive_tags_prefix', array(
+		'default' 			=> Data\get_default_option('archive_tags_prefix'),
 		'sanitize_callback' => 'wp_kses',
 	));
 
-	$wp_customize->add_control('folio_showroom_nav_next_text', array(
+	$wp_customize->add_control('folio_showroom_archive_tags_prefix', array(
 		'type' 			=> 'text',
-		'section' 		=> 'folio-showroom-posts',
-		'label' 		=> __('Pagination next label', 'folio-showroom'),
-		'input_attrs' => array(
-			'placeholder' =>  __('Next post', 'folio-showroom')
-		)
+		'section' 		=> 'folio-showroom-archive',
+		'label' 		=> __('Tags title prefix', 'folio-showroom'),
 	));
 
-	$wp_customize->add_setting('folio_showroom_separator_posts_1');
-	$wp_customize->add_control(new Separator_Custom_control($wp_customize, 'folio_showroom_separator_posts_1', array(
-		'type'		=> 'separator',
-		'section' => 'folio-showroom-posts',
-	)));
 
+	/* PAGES/POSTS */
+
+	$wp_customize->add_section('folio-showroom-posts', array(
+		'title' 		=> __('Posts/Pages Settings', 'folio-showroom'),
+		'capability' 	=> 'edit_theme_options',
+		'priority'		=> 1
+	));
 
 	$wp_customize->add_setting('folio_showroom_cats_show', array(
 		'default' 		=> Data\get_default_option('cats_show'),
@@ -604,6 +597,44 @@ function customize_register($wp_customize)
 		'section'     => 'folio-showroom-posts',
 		'type'        => 'toggle',
 	)));
+
+	
+	$wp_customize->add_setting('folio_showroom_separator_posts_1');
+	$wp_customize->add_control(new Separator_Custom_control($wp_customize, 'folio_showroom_separator_posts_1', array(
+		'type'		=> 'separator',
+		'section' => 'folio-showroom-posts',
+	)));
+
+
+	$wp_customize->add_setting('folio_showroom_nav_prev_text', array(
+		'default' 			=> Data\get_default_option('nav_prev_text'),
+		'sanitize_callback' => 'wp_kses',
+	));
+
+	$wp_customize->add_control('folio_showroom_nav_prev_text', array(
+		'type' 			=> 'text',
+		'section' 		=> 'folio-showroom-posts',
+		'label' 		=> __('Pagination previous label', 'folio-showroom'),
+		'input_attrs' => array(
+			'placeholder' =>  __('Previous post', 'folio-showroom')
+		)
+	));
+
+
+	$wp_customize->add_setting('folio_showroom_nav_next_text', array(
+		'default' 			=> Data\get_default_option('nav_next_text'),
+		'sanitize_callback' => 'wp_kses',
+	));
+
+	$wp_customize->add_control('folio_showroom_nav_next_text', array(
+		'type' 			=> 'text',
+		'section' 		=> 'folio-showroom-posts',
+		'label' 		=> __('Pagination next label', 'folio-showroom'),
+		'input_attrs' => array(
+			'placeholder' =>  __('Next post', 'folio-showroom')
+		)
+	));
+
 
 	$wp_customize->add_setting('folio_showroom_separator_posts_2');
 	$wp_customize->add_control(new Separator_Custom_control($wp_customize, 'folio_showroom_separator_posts_2', array(

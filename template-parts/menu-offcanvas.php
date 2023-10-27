@@ -47,7 +47,7 @@ switch ($header_width) {
 
       </div>
 
-      <button type="button" title="<?php esc_attr_e('Close', 'folio-showroom'); ?>" aria-label="<?php esc_attr_e('Close', 'folio-xarsa'); ?>" data-bs-dismiss="offcanvas" class="btn offcanvas-trigger offcanvas-menu-trigger offcanvas-close me-n1">
+      <button type="button" title="<?php esc_attr_e('Close', 'folio-showroom'); ?>" aria-label="<?php esc_attr_e('Close', 'folio-xarsa'); ?>" data-bs-dismiss="offcanvas" class="btn offcanvas-trigger offcanvas-menu-trigger offcanvas-close">
         <span></span>
         <span></span>
         <span></span>

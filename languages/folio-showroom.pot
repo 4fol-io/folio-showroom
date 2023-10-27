@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: folio-showroom 1.0.0\n"
-"POT-Creation-Date: 2023-10-26 16:07+0200\n"
+"POT-Creation-Date: 2023-10-27 17:35+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Raúl Solana <rsolana@tresipunt.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -67,11 +67,11 @@ msgstr ""
 msgid "Skip to content"
 msgstr ""
 
-#: header.php:214 template-parts/menu-search.php:39 template-parts/searchform.php:9
+#: header.php:216 template-parts/menu-search.php:39 template-parts/searchform.php:9
 msgid "Search"
 msgstr ""
 
-#: header.php:231
+#: header.php:233
 msgid "Menu"
 msgstr ""
 
@@ -83,7 +83,7 @@ msgstr ""
 msgid "Home title"
 msgstr ""
 
-#: inc/customizer.php:84 inc/customizer.php:663
+#: inc/customizer.php:84 inc/customizer.php:694
 msgid "Accepted placeholders:"
 msgstr ""
 
@@ -205,62 +205,74 @@ msgid "Transparent sticky header blur"
 msgstr ""
 
 #: inc/customizer.php:503
-msgid "Posts/Pages Settings"
+msgid "Archive Settings"
 msgstr ""
 
-#: inc/customizer.php:515
+#: inc/customizer.php:514
 msgid "Archive width"
 msgstr ""
 
-#: inc/customizer.php:530
-msgid "Pagination previous label"
+#: inc/customizer.php:528
+msgid "Categories title prefix"
 msgstr ""
 
-#: inc/customizer.php:532
-msgid "Previous post"
+#: inc/customizer.php:539
+msgid "Tags title prefix"
 msgstr ""
 
-#: inc/customizer.php:545
-msgid "Pagination next label"
+#: inc/customizer.php:546
+msgid "Posts/Pages Settings"
 msgstr ""
 
-#: inc/customizer.php:547 inc/templates.php:42
-msgid "Next post"
-msgstr ""
-
-#: inc/customizer.php:565
+#: inc/customizer.php:558
 msgid "Display Categories"
 msgstr ""
 
-#: inc/customizer.php:577
+#: inc/customizer.php:570
 msgid "Display Tags"
 msgstr ""
 
-#: inc/customizer.php:590
+#: inc/customizer.php:583
 msgid "Display Comments"
 msgstr ""
 
-#: inc/customizer.php:603
+#: inc/customizer.php:596
 msgid "Display Breadcrumbs"
 msgstr ""
 
-#: inc/customizer.php:622
+#: inc/customizer.php:617
+msgid "Pagination previous label"
+msgstr ""
+
+#: inc/customizer.php:619
+msgid "Previous post"
+msgstr ""
+
+#: inc/customizer.php:632
+msgid "Pagination next label"
+msgstr ""
+
+#: inc/customizer.php:634 inc/templates.php:42
+msgid "Next post"
+msgstr ""
+
+#: inc/customizer.php:653
 msgid "Related Posts Title"
 msgstr ""
 
-#: inc/customizer.php:634
+#: inc/customizer.php:665
 msgid "Limit of related posts"
 msgstr ""
 
-#: inc/customizer.php:649
+#: inc/customizer.php:680
 msgid "Footer Settings"
 msgstr ""
 
-#: inc/customizer.php:662
+#: inc/customizer.php:693
 msgid "Footer Text"
 msgstr ""
 
-#: inc/customizer.php:673
+#: inc/customizer.php:704
 msgid "Display Go To Top"
 msgstr ""
 
@@ -272,7 +284,7 @@ msgstr ""
 msgid "UOC Serif"
 msgstr ""
 
-#: inc/data.php:34 inc/data.php:156
+#: inc/data.php:34 inc/data.php:158
 msgid "&mdash; Select &mdash;"
 msgstr ""
 
@@ -316,29 +328,29 @@ msgstr ""
 msgid "Transparent Dark"
 msgstr ""
 
-#: inc/data.php:88
+#: inc/data.php:88 inc/data.php:101 inc/data.php:102
 msgid "Discover"
 msgstr ""
 
-#: inc/data.php:101
+#: inc/data.php:103
 msgid "<em>More</em> <strong>Folios</strong>"
 msgstr ""
 
-#: inc/data.php:103
+#: inc/data.php:105
 msgid "Previus Folio"
 msgstr ""
 
-#: inc/data.php:104
+#: inc/data.php:106
 msgid "Next Folio"
 msgstr ""
 
-#: inc/data.php:113
+#: inc/data.php:115
 msgid ""
 "[copyright] [current_year] - [site_title]<br>Made with ❤️ by <a href=\"https://tresipunt."
 "com\" target=\"_blank\"><strong>tresipunt</strong></a>"
 msgstr ""
 
-#: inc/images.php:33 inc/meta.php:174 inc/meta.php:207 inc/setup.php:323
+#: inc/images.php:33 inc/meta.php:174 inc/meta.php:207 inc/setup.php:315
 msgid "Featured"
 msgstr ""
 
@@ -459,7 +471,7 @@ msgstr ""
 msgid "Load more"
 msgstr ""
 
-#: inc/setup.php:324
+#: inc/setup.php:316
 msgid "Not featured"
 msgstr ""
 
@@ -489,7 +501,7 @@ msgstr ""
 msgid "Authorship"
 msgstr ""
 
-#: inc/templates.php:213
+#: inc/templates.php:213 inc/utils.php:569
 msgid "by"
 msgstr ""
 
@@ -595,7 +607,19 @@ msgstr ""
 msgid "Cancel"
 msgstr ""
 
-#: inc/utils.php:624
+#: inc/utils.php:576
+msgid "Year"
+msgstr ""
+
+#: inc/utils.php:579
+msgid "Month"
+msgstr ""
+
+#: inc/utils.php:582
+msgid "Date"
+msgstr ""
+
+#: inc/utils.php:632
 #, php-format
 msgctxt "%s = human-readable time difference"
 msgid "%s ago"

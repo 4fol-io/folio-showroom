@@ -45,8 +45,8 @@ if ((is_category() || is_tag()) && class_exists('RevSlider')) {
 
 		<header class="page-header archive-page-header my-5">
 			<?php
-			the_archive_title('<h1 class="page-title display-2 text-end mb-2">', '</h1>');
-			the_archive_description('<div class="archive-description display-5 fst-italic text-end">', '</div>');
+			the_archive_title('<h1 class="page-title text-uppercase fw-bold display-1 text-end mb-2">', '</h1>');
+			the_archive_description('<div class="archive-description display-3  pb-2 fst-italic text-end">', '</div>');
 			?>
 		</header><!-- .page-header -->
 

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: folio-showroom 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-26 16:07+0200\n"
-"PO-Revision-Date: 2023-10-26 16:08+0200\n"
+"POT-Creation-Date: 2023-10-27 17:35+0200\n"
+"PO-Revision-Date: 2023-10-27 17:37+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ca\n"
@@ -69,12 +69,12 @@ msgstr "Anar a dalt"
 msgid "Skip to content"
 msgstr "Saltar al contingut"
 
-#: header.php:214 template-parts/menu-search.php:39
+#: header.php:216 template-parts/menu-search.php:39
 #: template-parts/searchform.php:9
 msgid "Search"
 msgstr "Cerca"
 
-#: header.php:231
+#: header.php:233
 msgid "Menu"
 msgstr "Menú"
 
@@ -86,7 +86,7 @@ msgstr "Slider d’inici"
 msgid "Home title"
 msgstr "Títol de la llar"
 
-#: inc/customizer.php:84 inc/customizer.php:663
+#: inc/customizer.php:84 inc/customizer.php:694
 msgid "Accepted placeholders:"
 msgstr "Marcadors acceptats:"
 
@@ -208,62 +208,74 @@ msgid "Transparent sticky header blur"
 msgstr "Desenfocament de la capçalera transparent enganxosa"
 
 #: inc/customizer.php:503
-msgid "Posts/Pages Settings"
-msgstr "Configuració de publicacions/pàgines"
+msgid "Archive Settings"
+msgstr "Configuració de arxiu"
 
-#: inc/customizer.php:515
+#: inc/customizer.php:514
 msgid "Archive width"
 msgstr "Amplada de l’arxiu"
 
-#: inc/customizer.php:530
-msgid "Pagination previous label"
-msgstr "Paginació etiqueta anterior"
+#: inc/customizer.php:528
+msgid "Categories title prefix"
+msgstr "Prefix de títol de categories"
 
-#: inc/customizer.php:532
-msgid "Previous post"
-msgstr "Publicació anterior"
+#: inc/customizer.php:539
+msgid "Tags title prefix"
+msgstr "Prefix del títol de les etiquetes"
 
-#: inc/customizer.php:545
-msgid "Pagination next label"
-msgstr "Paginació següent etiqueta"
+#: inc/customizer.php:546
+msgid "Posts/Pages Settings"
+msgstr "Configuració de publicacions/pàgines"
 
-#: inc/customizer.php:547 inc/templates.php:42
-msgid "Next post"
-msgstr "Publicació següent"
-
-#: inc/customizer.php:565
+#: inc/customizer.php:558
 msgid "Display Categories"
 msgstr "Mostrar les categories"
 
-#: inc/customizer.php:577
+#: inc/customizer.php:570
 msgid "Display Tags"
 msgstr "Mostra les etiquetes"
 
-#: inc/customizer.php:590
+#: inc/customizer.php:583
 msgid "Display Comments"
 msgstr "Mostra comentaris"
 
-#: inc/customizer.php:603
+#: inc/customizer.php:596
 msgid "Display Breadcrumbs"
 msgstr "Mostra les ratlles"
 
-#: inc/customizer.php:622
+#: inc/customizer.php:617
+msgid "Pagination previous label"
+msgstr "Paginació etiqueta anterior"
+
+#: inc/customizer.php:619
+msgid "Previous post"
+msgstr "Publicació anterior"
+
+#: inc/customizer.php:632
+msgid "Pagination next label"
+msgstr "Paginació següent etiqueta"
+
+#: inc/customizer.php:634 inc/templates.php:42
+msgid "Next post"
+msgstr "Publicació següent"
+
+#: inc/customizer.php:653
 msgid "Related Posts Title"
 msgstr "Títol de les publicacions relacionades"
 
-#: inc/customizer.php:634
+#: inc/customizer.php:665
 msgid "Limit of related posts"
 msgstr "Límit de publicacions relacionades"
 
-#: inc/customizer.php:649
+#: inc/customizer.php:680
 msgid "Footer Settings"
 msgstr "Configuració peu de pàgina"
 
-#: inc/customizer.php:662
+#: inc/customizer.php:693
 msgid "Footer Text"
 msgstr "Text del peu de pàgina"
 
-#: inc/customizer.php:673
+#: inc/customizer.php:704
 msgid "Display Go To Top"
 msgstr "Mostra Anar a dalt"
 
@@ -275,7 +287,7 @@ msgstr "UOC Sans"
 msgid "UOC Serif"
 msgstr "UOC Serif"
 
-#: inc/data.php:34 inc/data.php:156
+#: inc/data.php:34 inc/data.php:158
 msgid "&mdash; Select &mdash;"
 msgstr "&mdash; Seleccioneu &mdash;"
 
@@ -319,23 +331,23 @@ msgstr "Transparent clar"
 msgid "Transparent Dark"
 msgstr "Transparent fosc"
 
-#: inc/data.php:88
+#: inc/data.php:88 inc/data.php:101 inc/data.php:102
 msgid "Discover"
 msgstr "Descobreix"
 
-#: inc/data.php:101
+#: inc/data.php:103
 msgid "<em>More</em> <strong>Folios</strong>"
 msgstr "<em>Més</em> <strong>Folios</strong>"
 
-#: inc/data.php:103
+#: inc/data.php:105
 msgid "Previus Folio"
 msgstr "Anterior Folio"
 
-#: inc/data.php:104
+#: inc/data.php:106
 msgid "Next Folio"
 msgstr "Següent Folio"
 
-#: inc/data.php:113
+#: inc/data.php:115
 msgid ""
 "[copyright] [current_year] - [site_title]<br>Made with ❤️ by <a "
 "href=\"https://tresipunt.com\" target=\"_blank\"><strong>tresipunt</strong></"
@@ -344,7 +356,7 @@ msgstr ""
 "[copyright] [current_year] - [site_title]<br>Fet amb ❤️ per <a href=“https://"
 "tresipunt.com” target=“_blank”><strong>tresipunt</strong></a>"
 
-#: inc/images.php:33 inc/meta.php:174 inc/meta.php:207 inc/setup.php:323
+#: inc/images.php:33 inc/meta.php:174 inc/meta.php:207 inc/setup.php:315
 msgid "Featured"
 msgstr "Destacat"
 
@@ -468,7 +480,7 @@ msgstr "expandir / contraure"
 msgid "Load more"
 msgstr "Carregar més"
 
-#: inc/setup.php:324
+#: inc/setup.php:316
 msgid "Not featured"
 msgstr "No destacat"
 
@@ -498,7 +510,7 @@ msgstr "Data de publicació"
 msgid "Authorship"
 msgstr "Autoria"
 
-#: inc/templates.php:213
+#: inc/templates.php:213 inc/utils.php:569
 msgid "by"
 msgstr "per"
 
@@ -608,7 +620,19 @@ msgstr "Sense títol"
 msgid "Cancel"
 msgstr "Cancel·la"
 
-#: inc/utils.php:624
+#: inc/utils.php:576
+msgid "Year"
+msgstr "Any"
+
+#: inc/utils.php:579
+msgid "Month"
+msgstr "Mes"
+
+#: inc/utils.php:582
+msgid "Date"
+msgstr "Data"
+
+#: inc/utils.php:632
 #, php-format
 msgctxt "%s = human-readable time difference"
 msgid "%s ago"
