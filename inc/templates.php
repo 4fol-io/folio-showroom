@@ -220,13 +220,15 @@ function posted_by_archive()
  */
 function tags_list()
 {
-	$tags_list = get_the_tag_list('<ul class="list-unstyled list-inline" role="list"><li class="list-inline-item">', '</li><li class="list-inline-item">', '</li></ul>');
-	if ($tags_list) {
-		printf(
-			'<div class="entry-tags"><span class="visually-hidden">%1$s </span>%2$s</div>',
-			__('Tags', 'folio-showroom'),
-			$tags_list
-		);
+	if (Data\get_theme_option('tags_show')) {
+		$tags_list = get_the_tag_list('<ul class="list-unstyled list-inline" role="list"><li class="list-inline-item">', '</li><li class="list-inline-item">', '</li></ul>');
+		if ($tags_list) {
+			printf(
+				'<div class="entry-tags"><span class="visually-hidden">%1$s </span>%2$s</div>',
+				__('Tags', 'folio-showroom'),
+				$tags_list
+			);
+		}
 	}
 }
 
@@ -271,11 +273,7 @@ function cats_list_single()
  */
 function entry_footer()
 {
-
-	if (Data\get_theme_option('tags_show')) {
-		tags_list();
-	}
-
+	tags_list();
 	edit_link();
 }
 
@@ -485,9 +483,10 @@ function related_posts()
 	$col_classes .= $limit >= 9 ? ' col-lg-4' : '';
 
 	if ($related_posts->have_posts()) :
+		$related_posts_title = Data\replace_placeholders(Data\get_theme_option('related_posts_title'));
 	?>
 		<section class="related-posts layout-grid">
-			<h2 class="display-3 my-5"><em>MÉS</em> <strong>FOLIOS</strong></h2>
+			<h2 class="display-3 my-5"><?php echo $related_posts_title ?></h2>
 			<ul class="list-unstyled row grid-row">
 				<?php
 				while ($related_posts->have_posts()) : $related_posts->the_post(); ?>

@@ -43,7 +43,7 @@ $search_placeholder = sprintf(__('Search in %s...', 'folio-showroom'), get_blogi
         </div>
       </form>
 
-      <button type="button" title="<?php esc_attr_e('Close', 'folio-showroom'); ?>" aria-label="<?php esc_attr_e('Close', 'folio-xarsa'); ?>" class="btn offcanvas-trigger offcanvas-search-trigger offcanvas-close" data-bs-dismiss="offcanvas">
+      <button type="button" title="<?php esc_attr_e('Close', 'folio-showroom'); ?>" aria-label="<?php esc_attr_e('Close', 'folio-showroom'); ?>" class="btn offcanvas-trigger offcanvas-search-trigger offcanvas-close" data-bs-dismiss="offcanvas">
         <span></span>
         <span></span>
         <span></span>
