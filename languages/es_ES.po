@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: folio-showroom 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-27 17:34+0200\n"
-"PO-Revision-Date: 2023-10-27 17:35+0200\n"
+"PO-Revision-Date: 2023-11-02 11:12+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es_ES\n"
@@ -225,7 +225,7 @@ msgstr "Prefijo del título de la etiqueta"
 
 #: inc/customizer.php:546
 msgid "Posts/Pages Settings"
-msgstr "Configuración de entradas/páginas"
+msgstr "Configuración de publicaciones"
 
 #: inc/customizer.php:558
 msgid "Display Categories"
