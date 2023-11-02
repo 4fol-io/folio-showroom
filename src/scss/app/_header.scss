@@ -169,9 +169,9 @@
       }
     }
 
-    .current-menu-item > .nav-link,
-    .nav-link.show,
-    .nav-link.active {
+    .current-menu-item:not(.menu-btn) > .nav-link,
+    :not(.menu-btn) .nav-link.show,
+    :not(.menu-btn) .nav-link.active {
       color: inherit;
       font-weight: $font-weight-bold;
       background-color: var(--#{$prefix}main-menu-active-bg);

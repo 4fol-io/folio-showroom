@@ -57,6 +57,7 @@ function setup()
 			'primary-menu' => esc_html__('Primary menu', 'folio-showroom'),
 			'secondary-menu' => esc_html__('Secondary menu', 'folio-showroom'),
 			'offcanvas-menu' => esc_html__('Offcanvas menu', 'folio-showroom'),
+			'footer-links' => esc_html__('Footer links', 'folio-showroom'),
 		)
 	);
 
@@ -180,17 +181,17 @@ function content_width()
  */
 function widgets_init()
 {
-
 	register_sidebar([
 		'id'            => 'footer',
 		'name'          => 	__('Footer', 'folio-showroom'),
 		'description'   =>  __('Add widgets here to appear in your footer site.', 'folio-showroom'),
-		'before_widget' => '<section class="widget col %1$s %2$s">',
+		'before_widget' => '<section class="widget %1$s %2$s">',
 		'after_widget'  => '</section>',
 		'before_title'  => '<h2 class="widget-title">',
 		'after_title'   => '</h2>'
 	]);
 }
+
 add_action('widgets_init', __NAMESPACE__ . '\\widgets_init');
 
 

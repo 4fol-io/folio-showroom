@@ -8,6 +8,21 @@
       color: var(--#{$prefix}light);
     }
   }
+
+  .footer-links{
+    li{
+      position: relative;
+    }
+    li:not(:first-child):before{
+      content: '·';
+      position: absolute;
+      left: 0;
+      top: 50%;
+      line-height: 0;
+      display: inline-block;
+      color: var(--#{$prefix}gray-600);
+    }
+  }
 }
 
 /* Sticky scroll top */

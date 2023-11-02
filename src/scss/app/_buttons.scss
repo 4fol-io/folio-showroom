@@ -195,6 +195,12 @@
     }
   }
 
+  &.menu-btn-secondary {
+    > .nav-link {
+      @extend .btn-secondary;
+    }
+  }
+
   &.menu-btn-default {
     > .nav-link {
       @extend .btn-default;
@@ -246,6 +252,12 @@
   &.menu-btn-outline-primary {
     > .nav-link {
       @extend .btn-outline-primary;
+    }
+  }
+
+  &.menu-btn-outline-secondary {
+    > .nav-link {
+      @extend .btn-outline-secondary;
     }
   }
 

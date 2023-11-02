@@ -42,17 +42,19 @@ function customize_register($wp_customize)
 	if (isset($wp_customize->selective_refresh)) {
 		$wp_customize->selective_refresh->add_partial('blogname', array(
 			'selector'        => '.site-title a',
+			'settings'        => array( 'blogname' ),
 			'render_callback' => 'FolioShowroom\Customizer\customize_partial_blogname',
 		));
 		$wp_customize->selective_refresh->add_partial('blogdescription', array(
 			'selector'        => '.site-description',
 			'render_callback' => 'FolioShowroom\Customizer\customize_partial_blogdescription',
 		));
-		$wp_customize->selective_refresh->add_partial('siteheaderblur', array(
+		/*
+		$wp_customize->selective_refresh->add_partial('folio_showroom_header_blur_partial', array(
 			'selector'        => '.site-header',
-			'settings' 		  => array('folio_showroom_header_blur'),
+			'settings'        => array( 'folio_showroom_header_blur' ),
 			'render_callback' => 'FolioShowroom\Customizer\customize_partial_site_header_blur',
-		));
+		));*/
 	}
 
 	/* SECTION HOMEPAGE */
@@ -686,6 +688,18 @@ function customize_register($wp_customize)
 		'priority'		=> 1
 	));
 
+	$wp_customize->add_setting('folio_showroom_footer_width', array(
+		'default' 		=> Data\get_default_option('footer_width'),
+		'sanitize_callback' => 'FolioShowroom\Customizer\sanitize_select',
+	));
+
+	$wp_customize->add_control('folio_showroom_footer_width', array(
+		'label' => __('Footer width', 'folio-showroom'),
+		'section' => 'folio-showroom-footer',
+		'type' => 'select',
+		'choices' => Data\get_layout_width_choices(),
+	));
+
 	$wp_customize->add_setting('folio_showroom_footer_text', array(
 		'default' 			=> Data\get_default_option('footer_text'),
 		'sanitize_callback' => 'wp_kses_post',
@@ -698,6 +712,7 @@ function customize_register($wp_customize)
 		'description'  => __('Accepted placeholders:', 'folio-showroom') . '<br>[copyright] [current_year] [site_title]',
 	));
 
+
 	$wp_customize->add_setting('folio_showroom_gototop_show', array(
 		'default' 		=> Data\get_default_option('gototop_show'),
 		//'transport'         => 'postMessage',
@@ -709,6 +724,7 @@ function customize_register($wp_customize)
 		'section'     => 'folio-showroom-footer',
 		'type'        => 'toggle',
 	)));
+
 }
 add_action('customize_register', __NAMESPACE__ . '\\customize_register');
 
@@ -757,6 +773,7 @@ function customize_partial_blogdescription()
 	bloginfo('description');
 }
 
+
 /**
  * Render the site tagline for the selective refresh partial.
  *
@@ -764,7 +781,7 @@ function customize_partial_blogdescription()
  */
 function customize_partial_site_header_blur()
 {
-	return Data\get_theme_option('header_blur');
+	echo Data\get_theme_option('header_blur');
 }
 
 

@@ -136,9 +136,9 @@ $body_classes = $header_theme . ' ' . $header_overlay;
 							the_custom_logo();
 						else :
 						?>
-							<a href="<?php echo esc_url(home_url('/')); ?>" rel="home" class="custom-logo-link">
+							<span class="custom-logo-link">
 								<?php echo get_template_part('template-parts/svg/uoc', 'logo') ?>
-							</a>
+							</span>
 						<?php endif; ?>
 					</div>
 

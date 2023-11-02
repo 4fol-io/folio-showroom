@@ -112,6 +112,7 @@ function get_default_settings()
         'uoc_tools_show'         => false,
         'uoc_foot_show'          => false,
         'lang_show'              => false,
+        'footer_width'           => 'wide',
         'footer_text'            => __('[copyright] [current_year] - [site_title]<br>Made with ❤️ by <a href="https://tresipunt.com" target="_blank"><strong>tresipunt</strong></a>', 'folio-showroom'),
         'color_mode'             => '',
         'color_switcher'         => false,

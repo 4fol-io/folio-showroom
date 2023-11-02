@@ -9,7 +9,7 @@
 define('FOLIO_SHOWROOM_THEME_VERSION',  '1.0.0');
 define('FOLIO_SHOWROOM_PREFIX',         'folio_showroom_');
 define('FOLIO_SHOWROOM_NO_IMAGE',       get_stylesheet_directory_uri() . '/dist/images/no-image.jpg');
-define('FOLIO_SHOWROOM_NO_AVATAR',      get_stylesheet_directory_uri() . '/dist/images/defaut-avatar.png');
+define('FOLIO_SHOWROOM_NO_AVATAR',      get_stylesheet_directory_uri() . '/dist/images/default-avatar.png');
 
 $folio_showroom_includes = array(
     '/clean.php',                           // Clean head, inline styles,...

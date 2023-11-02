@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: folio-showroom 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-27 17:34+0200\n"
-"PO-Revision-Date: 2023-11-02 11:24+0100\n"
+"POT-Creation-Date: 2023-11-02 16:49+0100\n"
+"PO-Revision-Date: 2023-11-02 16:49+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es_ES\n"
@@ -61,221 +61,225 @@ msgstr[1] "%1$s comentarios en &ldquo;%2$s&rdquo;"
 msgid "Comments are closed."
 msgstr "Los comentarios están cerrados."
 
-#: footer.php:47
+#: footer.php:49
 msgid "Go to top"
 msgstr "Ir arriba"
 
-#: header.php:125
+#: header.php:124
 msgid "Skip to content"
 msgstr "Saltar al contenido"
 
-#: header.php:216 template-parts/menu-search.php:39
+#: header.php:215 template-parts/menu-search.php:39
 #: template-parts/searchform.php:9
 msgid "Search"
 msgstr "Buscar"
 
-#: header.php:233
+#: header.php:232
 msgid "Menu"
 msgstr "Menú"
 
-#: inc/customizer.php:67
+#: inc/customizer.php:69
 msgid "Home Slider"
 msgstr "Slider de inicio"
 
-#: inc/customizer.php:83
+#: inc/customizer.php:85
 msgid "Home title"
 msgstr "Título de inicio"
 
-#: inc/customizer.php:84 inc/customizer.php:694
+#: inc/customizer.php:86 inc/customizer.php:712
 msgid "Accepted placeholders:"
 msgstr "Marcadores aceptados:"
 
-#: inc/customizer.php:101
+#: inc/customizer.php:103
 msgid "UOC Settings"
 msgstr "Ajustes UOC"
 
-#: inc/customizer.php:112
+#: inc/customizer.php:114
 msgid "UOC Tools Settings"
 msgstr "Configuración herramientas UOC"
 
-#: inc/customizer.php:125
+#: inc/customizer.php:127
 msgid "Display UOC Footer"
 msgstr "Mostrar pie de página UOC"
 
-#: inc/customizer.php:140
+#: inc/customizer.php:142
 msgid "Display UOC Tools"
 msgstr "Mostrar herramientas UOC"
 
-#: inc/customizer.php:153
+#: inc/customizer.php:155
 msgid "Color Settings"
 msgstr "Configuración de color"
 
-#: inc/customizer.php:164
+#: inc/customizer.php:166
 msgid "Color mode"
 msgstr "Modo de color"
 
-#: inc/customizer.php:168 inc/data.php:60 src/js/editor.js:47
+#: inc/customizer.php:170 inc/data.php:60 src/js/editor.js:47
 msgid "Default"
 msgstr "Por defecto"
 
-#: inc/customizer.php:170 inc/data.php:61 src/js/editor.js:48
+#: inc/customizer.php:172 inc/data.php:61 src/js/editor.js:48
 msgid "Light"
 msgstr "Claro"
 
-#: inc/customizer.php:173 inc/data.php:62 src/js/editor.js:49
+#: inc/customizer.php:175 inc/data.php:62 src/js/editor.js:49
 msgid "Dark"
 msgstr "Oscuro"
 
-#: inc/customizer.php:215
+#: inc/customizer.php:217
 msgid "Light mode"
 msgstr "Modo claro"
 
-#: inc/customizer.php:221 inc/customizer.php:254
+#: inc/customizer.php:223 inc/customizer.php:256
 msgid "Primary Color"
 msgstr "Color primario"
 
-#: inc/customizer.php:228 inc/customizer.php:261
+#: inc/customizer.php:230 inc/customizer.php:263
 msgid "Secondary Color"
 msgstr "Color secundario"
 
-#: inc/customizer.php:234 inc/customizer.php:267
+#: inc/customizer.php:236 inc/customizer.php:269
 msgid "Links Color"
 msgstr "Color de enlaces"
 
-#: inc/customizer.php:246
+#: inc/customizer.php:248
 msgid "Dark mode"
 msgstr "Modo oscuro"
 
-#: inc/customizer.php:276
+#: inc/customizer.php:278
 msgid "Header Settings"
 msgstr "Configuración de cabecera"
 
-#: inc/customizer.php:287
+#: inc/customizer.php:289
 msgid "Default header style"
 msgstr "Estilo de encabezado predeterminado"
 
-#: inc/customizer.php:298 inc/customizer.php:337 inc/meta.php:295
+#: inc/customizer.php:300 inc/customizer.php:339 inc/meta.php:295
 #: inc/meta.php:332 src/js/editor.js:44
 msgid "Header style"
 msgstr "Estilo de encabezado"
 
-#: inc/customizer.php:315 inc/customizer.php:349
+#: inc/customizer.php:317 inc/customizer.php:351
 msgid "Header overlapping?"
 msgstr "¿Encabezado superpuesto?"
 
-#: inc/customizer.php:326
+#: inc/customizer.php:328
 msgid "Home header style (latest posts)"
 msgstr "Estilo de encabezado de inicio (últimas publicaciones)"
 
-#: inc/customizer.php:361
+#: inc/customizer.php:363
 msgid "Header global settings"
 msgstr "Configuración global del encabezado"
 
-#: inc/customizer.php:367
+#: inc/customizer.php:369
 msgid "Sticky header?"
 msgstr "¿Cabecera pegajosa?"
 
-#: inc/customizer.php:381
+#: inc/customizer.php:383
 msgid "Enable color mode Switcher?"
 msgstr "¿Habilitar conmutador de color?"
 
-#: inc/customizer.php:394
+#: inc/customizer.php:396
 msgid "Display search button?"
 msgstr "¿Mostrar botón de búsqueda?"
 
-#: inc/customizer.php:407
+#: inc/customizer.php:412
 msgid "Use theme WPML Lang Menu?"
 msgstr "¿Usar selector de idioma WPML del tema?"
 
-#: inc/customizer.php:426
+#: inc/customizer.php:432
 msgid "Header width"
 msgstr "Ancho de cabecera"
 
-#: inc/customizer.php:439
+#: inc/customizer.php:445
 msgid "Header menu font family"
 msgstr "Familia de fuentes del menú"
 
-#: inc/customizer.php:453
+#: inc/customizer.php:459
 msgid "Header menu font size"
 msgstr "Tamaño de fuente del menú"
 
-#: inc/customizer.php:470
+#: inc/customizer.php:476
 msgid "Header menu spacing"
 msgstr "Espaciado del menú"
 
-#: inc/customizer.php:488
+#: inc/customizer.php:494
 msgid "Transparent sticky header blur"
 msgstr "Desenfoque de encabezado transparente pegajosa"
 
-#: inc/customizer.php:503
+#: inc/customizer.php:509
 msgid "Archive Settings"
 msgstr "Configuración de archivo"
 
-#: inc/customizer.php:514
+#: inc/customizer.php:520
 msgid "Archive width"
 msgstr "Ancho del archivo"
 
-#: inc/customizer.php:528
+#: inc/customizer.php:534
 msgid "Categories title prefix"
 msgstr "Prefijo del título de la categoría"
 
-#: inc/customizer.php:539
+#: inc/customizer.php:545
 msgid "Tags title prefix"
 msgstr "Prefijo del título de la etiqueta"
 
-#: inc/customizer.php:546
+#: inc/customizer.php:552
 msgid "Posts/Pages Settings"
 msgstr "Configuración de publicaciones"
 
-#: inc/customizer.php:558
+#: inc/customizer.php:564
 msgid "Display Categories"
 msgstr "Mostrar categorías"
 
-#: inc/customizer.php:570
+#: inc/customizer.php:576
 msgid "Display Tags"
 msgstr "Mostrar etiquetas"
 
-#: inc/customizer.php:583
+#: inc/customizer.php:589
 msgid "Display Comments"
 msgstr "Mostrar comentarios"
 
-#: inc/customizer.php:596
+#: inc/customizer.php:602
 msgid "Display Breadcrumbs"
 msgstr "Mostrar migas de pan"
 
-#: inc/customizer.php:617
+#: inc/customizer.php:623
 msgid "Pagination previous label"
 msgstr "Etiqueta anterior de paginación"
 
-#: inc/customizer.php:619
+#: inc/customizer.php:625
 msgid "Previous post"
 msgstr "Publicación anterior"
 
-#: inc/customizer.php:632
+#: inc/customizer.php:638
 msgid "Pagination next label"
 msgstr "Etiqueta siguiente de paginación"
 
-#: inc/customizer.php:634 inc/templates.php:42
+#: inc/customizer.php:640 inc/templates.php:42
 msgid "Next post"
 msgstr "Siguiente publicación"
 
-#: inc/customizer.php:653
+#: inc/customizer.php:659
 msgid "Related Posts Title"
 msgstr "Título de publicaciones relacionadas"
 
-#: inc/customizer.php:665
+#: inc/customizer.php:671
 msgid "Limit of related posts"
 msgstr "Límite de publicaciones relacionadas"
 
-#: inc/customizer.php:680
+#: inc/customizer.php:686
 msgid "Footer Settings"
 msgstr "Configuración de pié de página"
 
-#: inc/customizer.php:693
+#: inc/customizer.php:697
+msgid "Footer width"
+msgstr "Ancho del pie de página"
+
+#: inc/customizer.php:711
 msgid "Footer Text"
 msgstr "Texto de pie de página"
 
-#: inc/customizer.php:704
+#: inc/customizer.php:723
 msgid "Display Go To Top"
 msgstr "Mostar ir arriba"
 
@@ -287,7 +291,7 @@ msgstr "UOC Jans"
 msgid "UOC Serif"
 msgstr "UOC Serif"
 
-#: inc/data.php:34 inc/data.php:158
+#: inc/data.php:34 inc/data.php:159
 msgid "&mdash; Select &mdash;"
 msgstr "&mdash; Seleccionar &mdash;"
 
@@ -307,7 +311,7 @@ msgstr "Derecha"
 msgid "Justify"
 msgstr "Justificar"
 
-#: inc/data.php:48 inc/setup.php:124
+#: inc/data.php:48 inc/setup.php:125
 msgid "Normal"
 msgstr "Normal"
 
@@ -347,7 +351,7 @@ msgstr "Anterior Folio"
 msgid "Next Folio"
 msgstr "Siguiente Folio"
 
-#: inc/data.php:115
+#: inc/data.php:116
 msgid ""
 "[copyright] [current_year] - [site_title]<br>Made with ❤️ by <a "
 "href=\"https://tresipunt.com\" target=\"_blank\"><strong>tresipunt</strong></"
@@ -356,7 +360,7 @@ msgstr ""
 "[copyright] [current_year] - [site_title]<br>Hecho con ❤️ por <a "
 "href=“https://tresipunt.com” target=“_blank”><strong>tresipunt</strong></a>"
 
-#: inc/images.php:33 inc/meta.php:174 inc/meta.php:207 inc/setup.php:315
+#: inc/images.php:33 inc/meta.php:174 inc/meta.php:207 inc/setup.php:316
 msgid "Featured"
 msgstr "Destacado"
 
@@ -432,23 +436,27 @@ msgstr "Menú secundario"
 msgid "Offcanvas menu"
 msgstr "Menú fuera del lienzo"
 
-#: inc/setup.php:119
+#: inc/setup.php:60
+msgid "Footer links"
+msgstr "Enlaces de pié de página"
+
+#: inc/setup.php:120
 msgid "Small"
 msgstr "Pequeño"
 
-#: inc/setup.php:129
+#: inc/setup.php:130
 msgid "Medium"
 msgstr "Mediano"
 
-#: inc/setup.php:134
+#: inc/setup.php:135
 msgid "Large"
 msgstr "Grande"
 
-#: inc/setup.php:139
+#: inc/setup.php:140
 msgid "XLarge"
 msgstr "Muy grande"
 
-#: inc/setup.php:144
+#: inc/setup.php:145
 msgid "Huge"
 msgstr "Extra grande"
 
@@ -460,27 +468,27 @@ msgstr "Pié de página"
 msgid "Add widgets here to appear in your footer site."
 msgstr "Añade aquí los widgets que aparecerán en el pie de página de tu sitio."
 
-#: inc/setup.php:252
+#: inc/setup.php:253
 msgid "(opens in new window)"
 msgstr "(se abre en nueva ventana)"
 
-#: inc/setup.php:253
+#: inc/setup.php:254
 msgid "Close menu"
 msgstr "Cerrar menú"
 
-#: inc/setup.php:254
+#: inc/setup.php:255
 msgid "Loading"
 msgstr "Cargando"
 
-#: inc/setup.php:255
+#: inc/setup.php:256
 msgid "expand / collapse"
 msgstr "expandir / contraer"
 
-#: inc/setup.php:256
+#: inc/setup.php:257
 msgid "Load more"
 msgstr "Cargar más"
 
-#: inc/setup.php:316
+#: inc/setup.php:317
 msgid "Not featured"
 msgstr "No destacado"
 
@@ -514,68 +522,68 @@ msgstr "Autoría"
 msgid "by"
 msgstr "por"
 
-#: inc/templates.php:227
+#: inc/templates.php:228
 msgid "Tags"
 msgstr "Etiquetas"
 
-#: inc/templates.php:244 inc/templates.php:261
+#: inc/templates.php:246 inc/templates.php:263
 msgid "Categories"
 msgstr "Categorías"
 
-#: inc/templates.php:368
+#: inc/templates.php:366
 msgid "Please enter the message"
 msgstr "Por favor, introduce el mensaje"
 
-#: inc/templates.php:374
+#: inc/templates.php:372
 #, php-format
 msgid "Logged in as %s. Edit your profile."
 msgstr "Conectado como %s. Edita tu perfil."
 
-#: inc/templates.php:377
+#: inc/templates.php:375
 msgid "Log out?"
 msgstr "¿Cerrar sesión?"
 
-#: inc/templates.php:382
+#: inc/templates.php:380
 msgid "Your comment"
 msgstr "Tu comentario"
 
-#: inc/templates.php:383
+#: inc/templates.php:381
 msgid "Your message"
 msgstr "Tu mensaje"
 
-#: inc/templates.php:386
+#: inc/templates.php:384
 msgid "Send comment"
 msgstr "Enviar comentario"
 
-#: inc/templates.php:387
+#: inc/templates.php:385
 msgid "Leave a comment"
 msgstr "Deja un comentario"
 
-#: inc/templates.php:388
+#: inc/templates.php:386
 msgid "Cancel Reply"
 msgstr "Cancelar respuesta"
 
-#: inc/templates.php:414
+#: inc/templates.php:412
 msgid "Please enter the name"
 msgstr "Por favor, introduce el nombre"
 
-#: inc/templates.php:415
+#: inc/templates.php:413
 msgid "Please enter a valid email"
 msgstr "Por favor, introduce un correo electrónico válido"
 
-#: inc/templates.php:418 inc/templates.php:419
+#: inc/templates.php:416 inc/templates.php:417
 msgid "Name"
 msgstr "Nombre"
 
-#: inc/templates.php:423 inc/templates.php:424
+#: inc/templates.php:421 inc/templates.php:422
 msgid "Your email"
 msgstr "Tu email"
 
-#: inc/templates.php:428 inc/templates.php:429
+#: inc/templates.php:426 inc/templates.php:427
 msgid "Website"
 msgstr "Sitio web"
 
-#: inc/templates.php:437
+#: inc/templates.php:435
 msgid ""
 "Save my name, email, and website in this browser for the next time I comment."
 msgstr ""
