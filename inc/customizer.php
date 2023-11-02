@@ -397,17 +397,21 @@ function customize_register($wp_customize)
 	)));
 
 
-	$wp_customize->add_setting('folio_showroom_lang_show', array(
-		'default' 		=> Data\get_default_option('lang_show'),
-		//'transport'         => 'postMessage',
-		'sanitize_callback' => 'FolioShowroom\Customizer\sanitize_checkbox',
-	));
+	$active_wpml = \is_plugin_active_for_network('sitepress-multilingual-cms/sitepress.php') || \is_plugin_active('sitepress-multilingual-cms/sitepress.php');
+	if ( $active_wpml ){
 
-	$wp_customize->add_control(new Toggle_Custom_Control($wp_customize, 'folio_showroom_lang_show', array(
-		'label'       => esc_html__('Use theme WPML Lang Menu?', 'folio-showroom'),
-		'section'     => 'folio-showroom-header',
-		'type'        => 'toggle',
-	)));
+		$wp_customize->add_setting('folio_showroom_lang_show', array(
+			'default' 		=> Data\get_default_option('lang_show'),
+			//'transport'         => 'postMessage',
+			'sanitize_callback' => 'FolioShowroom\Customizer\sanitize_checkbox',
+		));
+
+		$wp_customize->add_control(new Toggle_Custom_Control($wp_customize, 'folio_showroom_lang_show', array(
+			'label'       => esc_html__('Use theme WPML Lang Menu?', 'folio-showroom'),
+			'section'     => 'folio-showroom-header',
+			'type'        => 'toggle',
+		)));
+	} 
 
 
 	$wp_customize->add_setting('folio_showroom_separator_2');

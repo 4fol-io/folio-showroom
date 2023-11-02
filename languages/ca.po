@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: folio-showroom 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-27 17:35+0200\n"
-"PO-Revision-Date: 2023-11-02 11:12+0100\n"
+"PO-Revision-Date: 2023-11-02 11:24+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ca\n"
@@ -177,7 +177,7 @@ msgstr "Capçalera enganxosa?"
 
 #: inc/customizer.php:381
 msgid "Enable color mode Switcher?"
-msgstr "Habilita el commutador de mode de color?"
+msgstr "Habilita el commutador de color?"
 
 #: inc/customizer.php:394
 msgid "Display search button?"
