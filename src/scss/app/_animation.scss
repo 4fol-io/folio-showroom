@@ -37,7 +37,8 @@
     animation-delay: 0.35s;
   }
 
-  .page-title {
+  .page-title,
+  .archive-description {
     animation: start-title 1s ease;
     animation-fill-mode: forwards;
     opacity: 0;
