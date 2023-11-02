@@ -69,7 +69,8 @@
     .entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.wp-block-separator):not(.woocommerce):not(.revslider):not(.pdfemb-viewer),
     .entry-content > :not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.wp-block-separator):not(.woocommerce):not(.pdfemb-viewer),
     .entry-content .wp-block-separator.is-style-wide:not(.alignwide):not(.alignfull),
-    [class*=inner-container] > *:not(.entry-content):not(.alignwide):not(.alignfull):not(.wp-block-separator):not(.woocommerce):not(.is-layout-constrained) {
+    [class*=inner-container] > *:not(.entry-content):not(.alignwide):not(.alignfull):not(.wp-block-separator):not(.woocommerce):not(.is-layout-constrained),
+    .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
         margin-left: auto;
         margin-right: auto;
         float: none;
