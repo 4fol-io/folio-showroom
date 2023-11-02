@@ -45,6 +45,11 @@ $img-path: "/wp-content/themes/folio-showroom/dist/images/";
 	color: $body-color;
 	line-height: $line-height-base;
 
+    :where(.wp-block) {
+        margin-bottom: $paragraph-margin-bottom;
+        margin-top: $paragraph-margin-bottom;
+    }
+
     a:not(.btn):not(.button):not(.wp-block-button__link):not(.wp-element-button){
         color: var(--#{$prefix}link-color);
         text-decoration: underline;

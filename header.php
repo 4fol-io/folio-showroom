@@ -81,7 +81,6 @@ if (is_home() && is_front_page()) { // Is home and latest posts config
 }
 
 $body_classes = $header_theme . ' ' . $header_overlay;
-
 ?>
 <!doctype html>
 <html <?php language_attributes(); ?> data-bs-theme="<?php echo $color_mode ?>">

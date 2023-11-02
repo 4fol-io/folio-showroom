@@ -18,8 +18,13 @@
     }
 
     const getColorPreference = () => {
+
+        const $mode_settings = document.documentElement.getAttribute('data-bs-theme');
+
         if (localStorage.getItem(storageKey))
             return localStorage.getItem(storageKey)
+        else if ($mode_settings)
+            return $mode_settings
         else
             return window.matchMedia('(prefers-color-scheme: dark)').matches
                 ? 'dark'

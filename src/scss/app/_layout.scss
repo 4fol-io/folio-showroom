@@ -16,6 +16,19 @@
     }
 }
 
+/** Sets default blocks margins **/
+.entry-content > *, 
+[class*="inner-container"] > *, 
+.wp-block-template-part > *, 
+.wp-block-post-template :where(li > *){
+    margin-bottom: $paragraph-margin-bottom;
+}
+
+.entry-content > :last-child, 
+.entry-content > .alignfull.has-background{
+    margin-bottom: 0;
+}
+
 .site-container{
     //overflow:hidden;
     padding-left: $grid-gutter-width * .75;
