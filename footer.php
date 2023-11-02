@@ -75,7 +75,7 @@ switch ($footer_width) {
 			)
 		);
 		?>
-		</nav><!-- #site-navigation -->
+		</nav><!-- #footer-navigation -->
 
 	</div>
 
