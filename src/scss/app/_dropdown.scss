@@ -84,7 +84,7 @@
 }
 
 .dropdown-menu {
-  background-color:var(--#{$prefix}white);
+  background-color: var(--#{$prefix}dropdown-bg);
   color: inherit;
   .dropdown-item{
     color: inherit;
@@ -93,6 +93,6 @@
 
 @include color-mode(dark) {
   .dropdown-menu {
-    background-color:var(--#{$prefix}dark);
+    background-color: var(--#{$prefix}dropdown-bg);
   }
 }

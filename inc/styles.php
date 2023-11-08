@@ -26,6 +26,7 @@ function minimize($css)
  */
 function get_editor_blocks_generated_styles()
 {
+  ob_start();
 
   $adjust = new Color\ColorAdjust();
 
@@ -45,9 +46,7 @@ function get_editor_blocks_generated_styles()
   --bs-terciary-darkness: <?php echo $adjust->darken($terciary_color, 50); ?>;
   }
 <?php
-
   $styles = ob_get_clean();
-  //return $styles;
   return minimize($styles);
 }
 

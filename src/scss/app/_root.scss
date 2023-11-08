@@ -43,7 +43,6 @@
 
 }
 
-
 .site-menu .dropdown-menu{
   --#{$prefix}dropdown-color: inherit;
   --#{$prefix}dropdown-bg: #{$white};
@@ -53,6 +52,15 @@
   --#{$prefix}dropdown-link-hover-color: inherit;
   --#{$prefix}dropdown-link-active-color: inherit;
   --#{$prefix}dropdown-min-width: 100%;
+}
+
+.site-header.header-theme-dark .site-menu .dropdown-menu{
+  --#{$prefix}dropdown-bg: #{$dark};
+  --#{$prefix}dropdown-border-color: #{$dark};
+  --#{$prefix}dropdown-divider-bg: #{$dark};
+  --#{$prefix}dropdown-link-hover-bg: var(--#{$prefix}dark-darkest);
+  --#{$prefix}dropdown-link-active-bg: var(--#{$prefix}dark-darkest);
+  --#{$prefix}dropdown-link-disabled-color: #{$gray-600};
 }
 
 
@@ -88,6 +96,16 @@
       --#{$prefix}dropdown-link-active-bg: var(--#{$prefix}dark-darkest);
       --#{$prefix}dropdown-link-disabled-color: #{$gray-600};
     }
+
+    .site-header.header-theme-light .site-menu .dropdown-menu{
+      --#{$prefix}dropdown-bg: #{$white};
+      --#{$prefix}dropdown-border-color: #{$white};
+      --#{$prefix}dropdown-divider-bg: #{$white};
+      --#{$prefix}dropdown-link-hover-bg: #f8f9fa;
+      --#{$prefix}dropdown-link-active-bg: #e9ecef;
+      --#{$prefix}dropdown-link-disabled-color: #999999;
+    }
+    
 
   }
 }
